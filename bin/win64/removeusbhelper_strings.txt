@@ -116,7 +116,6 @@
 ??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
 ??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
 ??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
-??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAN@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??Bid@locale@std@@QEAA_KXZ
 ??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@
@@ -248,7 +247,7 @@ PID_8328
 Parsing of JSON file "%s" failed: %s\n
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
+RSDSQ
 RaiseException
 RegCloseKey
 RegCreateKeyExW
@@ -418,9 +417,9 @@ bad allocation
 bad array new length
 bad conversion
 bin/vrclient_x64.dll
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\app_containers.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\removeusbhelper\Retail\win64\2017\removeusbhelper.pdb
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\app_containers.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\removeusbhelper\Retail\win64\2017\removeusbhelper.pdb
 collectComments
 config
 deque<T> too long
@@ -486,6 +485,7 @@ strftime
 strictRoot
 string too long
 strncpy
+strtod
 terminate
 true
 vector<T> too long

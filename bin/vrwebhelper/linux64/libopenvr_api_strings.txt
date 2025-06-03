@@ -5173,6 +5173,7 @@ strncpy
 strnicmp(char const*, char const*, unsigned long)
 strpbrk
 strrchr
+strtod
 strtol
 strtold_l
 strtoul

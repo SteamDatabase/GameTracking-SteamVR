@@ -131,6 +131,7 @@ $3br
 %s/.steam/steam
 %s: Timed out waiting for gpu!
 %s: __pos (which is %zu) > this->size() (which is %zu)
+%s: failed to create image view for mip=%d(%d) layer=%d(%d)
 %s: failed to create lod%d image view
 %s: failed to submit texture set info %d error=%s
 %s: failed to tessellate %s
@@ -305,7 +306,6 @@ $3br
 -0123456789
 -1e+9999
 -Infinity
--N3IPC11ISyncObjectE
 -disablewatchdogs
 -ipccontrolfilepath
 -lang="
@@ -324,7 +324,7 @@ $3br
 .L10
 .L100
 .L1000
-.L1002
+.L1001
 .L1003
 .L1004
 .L1005
@@ -344,9 +344,9 @@ $3br
 .L1018
 .L1019
 .L102
-.L1022
-.L1027
-.L1029
+.L1020
+.L1023
+.L1028
 .L103
 .L1030
 .L10306
@@ -399,15 +399,16 @@ $3br
 .L10466
 .L1047
 .L10478
-.L1049
+.L1048
 .L105
-.L1052
+.L1050
 .L1053
-.L1055
+.L1054
 .L1056
 .L1057
-.L1059
+.L1058
 .L106
+.L1060
 .L10625
 .L10627
 .L10628
@@ -419,8 +420,7 @@ $3br
 .L10634
 .L10635
 .L107
-.L1071
-.L1073
+.L1072
 .L1074
 .L1075
 .L1076
@@ -437,8 +437,9 @@ $3br
 .L1086
 .L1087
 .L1088
+.L1089
 .L109
-.L1090
+.L1091
 .L1095
 .L11
 .L110
@@ -465,16 +466,8 @@ $3br
 .L11556
 .L11557
 .L116
-.L1160
-.L1162
-.L1163
-.L1166
-.L1167
-.L1168
-.L1169
 .L11699
 .L117
-.L1170
 .L11702
 .L11704
 .L11705
@@ -482,15 +475,11 @@ $3br
 .L11707
 .L11708
 .L11709
-.L1171
 .L11710
 .L11711
 .L11712
 .L11713
-.L1172
 .L1173
-.L1174
-.L1175
 .L1176
 .L1177
 .L1178
@@ -569,35 +558,36 @@ $3br
 .L1244
 .L125
 .L126
-.L1269
 .L127
-.L1271
-.L1272
-.L1273
-.L1274
-.L1275
-.L1276
-.L1277
 .L128
-.L1283
-.L1284
-.L1286
-.L1287
-.L1288
 .L1289
 .L129
-.L1290
 .L1291
 .L1292
 .L1293
 .L1294
-.L1295
+.L1296
+.L1297
 .L1298
+.L1299
 .L13
 .L130
+.L1300
 .L1301
+.L1302
+.L1308
+.L1309
 .L131
+.L1311
+.L1312
+.L1313
+.L1314
+.L1315
+.L1316
 .L132
+.L1320
+.L1323
+.L1326
 .L133
 .L134
 .L135
@@ -675,16 +665,10 @@ $3br
 .L1486
 .L1487
 .L149
-.L1492
-.L1493
-.L1495
-.L1496
-.L1497
 .L1498
 .L1499
 .L15
 .L150
-.L1500
 .L1501
 .L15013
 .L15014
@@ -692,18 +676,23 @@ $3br
 .L15017
 .L15018
 .L15019
+.L1502
 .L15020
 .L15021
 .L15023
 .L15024
 .L15025
+.L1503
+.L1504
+.L1505
+.L1506
 .L15060
 .L15061
+.L1507
 .L151
 .L15136
 .L15137
 .L15139
-.L1514
 .L15140
 .L15141
 .L15142
@@ -713,6 +702,7 @@ $3br
 .L15146
 .L15147
 .L152
+.L1520
 .L153
 .L154
 .L15475
@@ -814,6 +804,12 @@ $3br
 .L1729
 .L173
 .L1730
+.L1731
+.L1732
+.L1733
+.L1734
+.L1735
+.L1736
 .L17396
 .L17397
 .L17399
@@ -834,10 +830,6 @@ $3br
 .L1750
 .L1751
 .L1752
-.L1753
-.L1754
-.L1755
-.L1756
 .L176
 .L17608
 .L17609
@@ -964,18 +956,18 @@ $3br
 .L20
 .L200
 .L201
+.L2011
+.L2012
+.L2014
+.L2015
+.L2016
+.L2017
+.L2018
+.L2019
 .L202
+.L2020
 .L203
-.L2031
-.L2032
-.L2034
-.L2035
-.L2036
-.L2037
-.L2038
-.L2039
 .L204
-.L2040
 .L205
 .L206
 .L207
@@ -1074,18 +1066,18 @@ $3br
 .L247
 .L248
 .L249
+.L2495
+.L2499
 .L25
 .L250
+.L2501
+.L2502
+.L2503
+.L2504
+.L2505
+.L2506
 .L251
-.L2515
-.L2519
 .L252
-.L2521
-.L2522
-.L2523
-.L2524
-.L2525
-.L2526
 .L253
 .L254
 .L255
@@ -1114,22 +1106,22 @@ $3br
 .L276
 .L277
 .L278
+.L2781
+.L2782
+.L2784
+.L2785
+.L2786
+.L2787
+.L2788
+.L2789
 .L279
+.L2790
+.L2791
+.L2792
+.L2793
 .L28
 .L280
-.L2801
-.L2802
-.L2804
-.L2805
-.L2806
-.L2807
-.L2808
-.L2809
 .L281
-.L2810
-.L2811
-.L2812
-.L2813
 .L282
 .L283
 .L284
@@ -1968,6 +1960,7 @@ $3br
 .L835
 .L836
 .L837
+.L838
 .L84
 .L841
 .L843
@@ -2024,7 +2017,7 @@ $3br
 .L9236
 .L9237
 .L9238
-.L924
+.L925
 .L926
 .L927
 .L9270
@@ -2056,10 +2049,10 @@ $3br
 .L938
 .L939
 .L94
-.L941
-.L944
+.L940
+.L942
 .L945
-.L947
+.L946
 .L948
 .L949
 .L9499
@@ -2074,18 +2067,18 @@ $3br
 .L951
 .L9515
 .L952
-.L954
+.L953
+.L955
 .L9576
 .L9577
 .L9579
-.L958
 .L9580
 .L9581
 .L9582
 .L9583
+.L959
 .L9592
 .L96
-.L960
 .L9609
 .L961
 .L9610
@@ -2098,7 +2091,8 @@ $3br
 .L9625
 .L963
 .L964
-.L966
+.L965
+.L967
 .L97
 .L9718
 .L9719
@@ -2125,7 +2119,6 @@ $3br
 .L9856
 .L99
 .L9931
-.L999
 .[\()*+?{|^$
 .[\()*+?{|^$\n
 .backup
@@ -2446,6 +2439,7 @@ $3br
 15CVRSettings_001
 15CVRSettings_002
 15CVRSystemLatest
+16:27:19
 16CHmdSystemLatest
 16CInputFilterBase
 16CPathManagerBase
@@ -2606,7 +2600,6 @@ $3br
 22IVRDisplayComponent002
 22InMemoryStreamInputBuf
 22MaterialUtf8FileReader
-23:41:15
 23CAutoRestoreEnvironment
 23CInputFilter_Boolean_Or
 23CInputFilter_RadialMenu
@@ -3244,6 +3237,7 @@ BKeyboardIsOpen(VRSystemLayerState_t const*)
 BKillProcess(char const*, bool)
 BKillProcess(char const*, bool) (.cold)
 BKillProcess(unsigned int)
+BLineSegmentsIntersect(vr::HmdVector2_t const&, vr::HmdVector2_t const&, vr::HmdVector2_t const&, vr::HmdVector2_t const&, vr::HmdVector2_t*)
 BMP RLE
 BOSAssociateExtension(char const*, char const*, char const*, char const*)
 BOSAssociateExtension(char const*, char const*, char const*, char const*) (.cold)
@@ -3308,8 +3302,8 @@ BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) (.cold)
 BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C.1181.232812
-C.1899.373315
-C.1900.373326
+C.1899.373336
+C.1900.373347
 C.73.341431
 CActionBinding::CActionBinding(CActionBinding const&)
 CActionBinding::FromJson(Json::Value const&, std::string*)
@@ -3691,7 +3685,7 @@ CDriverManager::HasLoadableDriver(unsigned int) const
 CDriverManager::InitFromPathRegistry(CPropertyManager*)
 CDriverManager::InitFromPathRegistry(CPropertyManager*) (.cold)
 CDriverManager::InitFromPathRegistry(CPropertyManager*)::'lambda'()::operator()() const::encrypted
-CDriverManager::InitFromPathRegistry(CPropertyManager*)::'lambda1'()::operator()() const::encrypted
+CDriverManager::InitFromPathRegistry(CPropertyManager*)::'lambda0'()::operator()() const::encrypted
 CDriverManager::IsBlockedBySafemode(unsigned int) const
 CDriverManager::IsEnabled(unsigned int) const
 CDriverManager::IsEnabledByDefault(unsigned int) const
@@ -4455,7 +4449,7 @@ CPathManager_Client::CPathManager_Client(CPropertyManager*, CVRClient*, vr::IVRC
 CPathManager_Client::HandleToString(unsigned long long, char*, unsigned int, unsigned int*)
 CPathManager_Client::HandleToString(unsigned long long, char*, unsigned int, unsigned int*) (.cold)
 CPathManager_Client::Init()
-CPathManager_Client::PostPathEvent(vr::EVREventType_Internal, unsigned long long, unsigned long long)
+CPathManager_Client::PostPathEvent(vr::EVREventType, unsigned long long, unsigned long long)
 CPathManager_Client::StringToHandle(unsigned long long*, char const*)
 CPathManager_Client::StringToHandle(unsigned long long*, char const*) (.cold)
 CPathManager_Client::~CPathManager_Client()
@@ -4483,7 +4477,7 @@ CPathManager_Server::IsAlias(std::string const&, std::string*, std::string*, boo
 CPathManager_Server::IsValidHandle(unsigned long long)
 CPathManager_Server::IsWildcard(std::string const&, CPathManager_Server::WildcardInfo_t*)
 CPathManager_Server::IsWildcard(std::string const&, CPathManager_Server::WildcardInfo_t*) (.cold)
-CPathManager_Server::PostPathEvent(vr::EVREventType_Internal, unsigned long long, unsigned long long)
+CPathManager_Server::PostPathEvent(vr::EVREventType, unsigned long long, unsigned long long)
 CPathManager_Server::PropertyIDToPathHandle(unsigned int)
 CPathManager_Server::RecomputeWildcards()
 CPathManager_Server::RecomputeWildcards() (.cold)
@@ -4696,9 +4690,9 @@ CSDLDynamic::~CSDLDynamic()
 CSWTCH.111
 CSWTCH.214
 CSWTCH.28
-CSWTCH.413
-CSWTCH.797
-CSWTCH.843
+CSWTCH.412
+CSWTCH.802
+CSWTCH.848
 CS_MAIN
 CScopedEventDuration::CScopedEventDuration(char const*, ...)
 CScopedEventDuration::~CScopedEventDuration()
@@ -4885,6 +4879,8 @@ CSharedCountingSemaphoreLinux::Wait(unsigned long long, vr::VRNativeDevice_t con
 CSharedCountingSemaphoreLinux::~CSharedCountingSemaphoreLinux()
 CSharedImageLinux::CSharedImageLinux(vr::IVRIPCResourceManagerClient*)
 CSharedImageLinux::CreateVulkanImage(VkDevice_T*, VkFormat, unsigned int, unsigned int, bool, bool, bool, unsigned int, unsigned int)
+CSharedImageLinux::GetArraySize() const
+CSharedImageLinux::GetArraySize() const (.cold)
 CSharedImageLinux::GetDeviceSize() const
 CSharedImageLinux::GetDeviceSize() const (.cold)
 CSharedImageLinux::GetFormat() const
@@ -4913,7 +4909,7 @@ CSharedImageLinux::HasComputeAccess() const (.cold)
 CSharedImageLinux::HasDepthStencil() const
 CSharedImageLinux::ImportOGLImage(unsigned long long)
 CSharedImageLinux::ImportOGLImage(unsigned long long) (.cold)
-CSharedImageLinux::ImportVulkanImage Invalid texture, width: %d height: %d mipLevels: %d\n
+CSharedImageLinux::ImportVulkanImage Invalid texture, width: %d height: %d mipLevels: %d arraySize: %d
 CSharedImageLinux::ImportVulkanImage(VkDevice_T*, unsigned long long)
 CSharedImageLinux::ImportVulkanImage(VkDevice_T*, unsigned long long) (.cold)
 CSharedImageLinux::IsDedicated() const
@@ -4923,9 +4919,9 @@ CSharedImageLinux::IsMappable() const (.cold)
 CSharedImageLinux::IsRenderable() const
 CSharedImageLinux::IsRenderable() const (.cold)
 CSharedImageLinux::PrepareForInterop()
-CSharedImageLinux::PrepareVulkanImageForExport Invalid texture, width: %d height: %d mipLevels: %d\n
-CSharedImageLinux::PrepareVulkanImageForExport(VkDevice_T*, unsigned long long, unsigned long long, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, bool, bool, unsigned int, unsigned int const*)
-CSharedImageLinux::PrepareVulkanImageForExport(VkDevice_T*, unsigned long long, unsigned long long, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, bool, bool, unsigned int, unsigned int const*) (.cold)
+CSharedImageLinux::PrepareVulkanImageForExport Invalid texture, width: %d height: %d mipLevels: %d arraySize: %d
+CSharedImageLinux::PrepareVulkanImageForExport(VkDevice_T*, unsigned long long, unsigned long long, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, bool, bool, unsigned int, unsigned int const*)
+CSharedImageLinux::PrepareVulkanImageForExport(VkDevice_T*, unsigned long long, unsigned long long, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, bool, bool, unsigned int, unsigned int const*) (.cold)
 CSharedImageLinux::RequestSharedVulkanImage(VkFormat, unsigned int, unsigned int, bool, bool, bool, unsigned int, unsigned int)
 CSharedImageLinux::SetVulkanLayout(VkImageLayout)
 CSharedImageLinux::SetVulkanLayout(VkImageLayout) (.cold)
@@ -5477,10 +5473,10 @@ CVRChaperoneClient::AreBoundsVisible()
 CVRChaperoneClient::BInit(CVRClient*)
 CVRChaperoneClient::BInit(CVRClient*) (.cold)
 CVRChaperoneClient::ClearRoomSetup()
-CVRChaperoneClient::CommitDynamicFloorHeight(bool)
-CVRChaperoneClient::CommitDynamicFloorHeight(bool) (.cold)
-CVRChaperoneClient::CommitDynamicFloorRadius()
-CVRChaperoneClient::CommitDynamicFloorRadius() (.cold)
+CVRChaperoneClient::CommitFloorHeight(float)
+CVRChaperoneClient::CommitPlayspaceCircleBoundary(float, vr::HmdMatrix34_t const&)
+CVRChaperoneClient::CommitPlayspacePerimeter(std::vector<vr::HmdVector2_t, std::allocator<vr::HmdVector2_t>>&, vr::HmdMatrix34_t const&)
+CVRChaperoneClient::CommitPlayspacePerimeter(std::vector<vr::HmdVector2_t, std::allocator<vr::HmdVector2_t>>&, vr::HmdMatrix34_t const&) (.cold)
 CVRChaperoneClient::CommitWorkingCopy(vr::EChaperoneConfigFile)
 CVRChaperoneClient::CommitWorkingCopy(vr::EChaperoneConfigFile) (.cold)
 CVRChaperoneClient::ComputeChaperoneBoundsAlphas(BoundsVisiblityConfig_t const&)
@@ -5493,8 +5489,6 @@ CVRChaperoneClient::ForceBoundsVisible(bool) (.cold)
 CVRChaperoneClient::GetBoundsColor(vr::HmdColor_t*, int, float, vr::HmdColor_t*)
 CVRChaperoneClient::GetBoundsColor(vr::HmdColor_t*, int, float, vr::HmdColor_t*) (.cold)
 CVRChaperoneClient::GetCalibrationState()
-CVRChaperoneClient::GetDynamicFloorInfo(vr::FloorInfo_t*)
-CVRChaperoneClient::GetDynamicFloorInfo(vr::FloorInfo_t*) (.cold)
 CVRChaperoneClient::GetLiveCollisionBoundsInfo(vr::HmdQuad_t*, unsigned int*)
 CVRChaperoneClient::GetLiveCollisionBoundsInfo(vr::HmdQuad_t*, unsigned int*) (.cold)
 CVRChaperoneClient::GetLiveSeatedZeroPoseToRawTrackingPose(vr::HmdMatrix34_t*)
@@ -5516,11 +5510,11 @@ CVRChaperoneClient::ImportFromBufferToWorking(char const*, unsigned int)
 CVRChaperoneClient::ImportFromBufferToWorking(char const*, unsigned int) (.cold)
 CVRChaperoneClient::IsHMDOutOfBoundsStrict()
 CVRChaperoneClient::IsOriginCalibrated(vr::ETrackingUniverseOrigin)
+CVRChaperoneClient::NotifyRoomSetupStep(vr::ERoomSetupStep, bool)
+CVRChaperoneClient::QuickCalibratePlayspace(vr::EQuickCalibrateType)
 CVRChaperoneClient::ReloadFromDisk(vr::EChaperoneConfigFile)
 CVRChaperoneClient::ReloadInfo()
 CVRChaperoneClient::ReloadInfo() (.cold)
-CVRChaperoneClient::ResetDynamicFloorHeight(vr::EVRDyanamicFloorMode, bool)
-CVRChaperoneClient::ResetDynamicFloorHeight(vr::EVRDyanamicFloorMode, bool) (.cold)
 CVRChaperoneClient::ResetZeroPose()
 CVRChaperoneClient::ResetZeroPose(vr::ETrackingUniverseOrigin)
 CVRChaperoneClient::ResetZeroPose(vr::ETrackingUniverseOrigin) (.cold)
@@ -5529,9 +5523,6 @@ CVRChaperoneClient::ResetZeroPose(vr::ETrackingUniverseOrigin) (.part.0) (.cold)
 CVRChaperoneClient::RevertWorkingCopy()
 CVRChaperoneClient::RoomSetupStarting()
 CVRChaperoneClient::SetBehaviorByTrackingUniverse(vr::ETrackingUniverseOrigin)
-CVRChaperoneClient::SetDynamicFloorRadius(float)
-CVRChaperoneClient::SetDynamicFloorRadius(float) (.cold)
-CVRChaperoneClient::SetFloorDetectEnabled(bool)
 CVRChaperoneClient::SetSceneColor(vr::HmdColor_t)
 CVRChaperoneClient::SetWorkingCollisionBoundsInfo(vr::HmdQuad_t*, unsigned int)
 CVRChaperoneClient::SetWorkingCollisionBoundsInfo(vr::HmdQuad_t*, unsigned int) (.cold)
@@ -5541,8 +5532,6 @@ CVRChaperoneClient::SetWorkingPlayAreaSize(float, float)
 CVRChaperoneClient::SetWorkingSeatedZeroPoseToRawTrackingPose(vr::HmdMatrix34_t const*)
 CVRChaperoneClient::SetWorkingStandingZeroPoseToRawTrackingPose(vr::HmdMatrix34_t const*)
 CVRChaperoneClient::ShowWorkingSetPreview()
-CVRChaperoneClient::UpdateDynamicFloorHeight(vr::HmdMatrix34_t const*, unsigned char const*, DynamicFloorUpdateInfo_t const&)
-CVRChaperoneClient::UpdateDynamicFloorHeight(vr::HmdMatrix34_t const*, unsigned char const*, DynamicFloorUpdateInfo_t const&) (.cold)
 CVRChaperoneClient::UpdateWorkingSet()
 CVRChaperoneClient::UpdateWorkingSet() (.cold)
 CVRChaperoneClient::~CVRChaperoneClient()
@@ -5689,6 +5678,7 @@ CVRCompositorClient::BStartVRCompositor() (.cold)
 CVRCompositorClient::CanRenderScene()
 CVRCompositorClient::CheckError(CVRCompositorSharedTextures::Error, vr::EVRCompositorError*) const
 CVRCompositorClient::CheckError(CVRCompositorSharedTextures::Error, vr::EVRCompositorError*) const::s_bFirstTime
+CVRCompositorClient::CheckForFdmInjectionLayer()
 CVRCompositorClient::Cleanup()
 CVRCompositorClient::Cleanup() (.cold)
 CVRCompositorClient::ClearLastSubmittedFrame()
@@ -5928,7 +5918,13 @@ CVRCompositorSharedTextures::CompositorToClientSyncWait(unsigned long long)
 CVRCompositorSharedTextures::CopyFrameInfo(CVRCompositorSharedTextures::CommandBuffer_t const*, unsigned long long)
 CVRCompositorSharedTextures::CopyVulkanTexture(CVRCompositorSharedTextures::CommandBuffer_t*, CVRCompositorSharedTextures::VulkanBackingImage_t*, vr::VRVulkanTextureData_t*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, vr::VRTextureBounds_t*, unsigned long long, CVRCompositorSharedTextures::VulkanBackingImage_t*, vr::VRVulkanTextureData_t*)
 CVRCompositorSharedTextures::CopyVulkanTexture(CVRCompositorSharedTextures::CommandBuffer_t*, CVRCompositorSharedTextures::VulkanBackingImage_t*, vr::VRVulkanTextureData_t*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, vr::VRTextureBounds_t*, unsigned long long, CVRCompositorSharedTextures::VulkanBackingImage_t*, vr::VRVulkanTextureData_t*) (.cold)
+CVRCompositorSharedTextures::CreateSharedTextureSetVulkan(IVRRenderer*, CVRCompositorSharedTextures::SharedTextureSetVulkanCreateInfo_t const*, VRCompositorState_TextureSet_t*)
 CVRCompositorSharedTextures::CreateSyncTexture11(void*)
+CVRCompositorSharedTextures::CreateVulkanCompositorSyncObjects(VkDevice_T*)
+CVRCompositorSharedTextures::CreateVulkanCompositorSyncObjects(VkDevice_T*) (.cold)
+CVRCompositorSharedTextures::CreateVulkanSceneTextureIndexCB(vr::VRVulkanTextureData_t const*)
+CVRCompositorSharedTextures::CreateVulkanSceneTextureIndexCB(vr::VRVulkanTextureData_t const*) (.cold)
+CVRCompositorSharedTextures::DestroySharedTextureSetVulkan(void*)
 CVRCompositorSharedTextures::EndCommandBuffer(CVRCompositorSharedTextures::CommandBuffer_t**, bool)
 CVRCompositorSharedTextures::EndCommandBuffer(CVRCompositorSharedTextures::CommandBuffer_t**, bool) (.cold)
 CVRCompositorSharedTextures::EndFrameTiming()
@@ -15864,7 +15860,7 @@ CVRSharedStatePtrBase::CVRSharedStatePtrBase(CVRSharedState*)
 CVRSharedStatePtrBase::DoLock()
 CVRSharedStatePtrBase::GetSharedStatePointer()
 CVRSharedStatePtrBase::~CVRSharedStatePtrBase()
-CVRSharedVulkanTexture::CVRSharedVulkanTexture(CVRCompositorSharedTextures*, CVRCompositorSharedTextures::VulkanDeviceData_t*, IVRRenderer*, unsigned int, unsigned int, VkFormat, bool, unsigned long long)
+CVRSharedVulkanTexture::CVRSharedVulkanTexture(CVRCompositorSharedTextures::SharedTextureDataVulkan_t::CreateStruct_t const*, unsigned long long)
 CVRSharedVulkanTexture::GetHandle()
 CVRSharedVulkanTexture::GetSize(unsigned int&, unsigned int&)
 CVRSharedVulkanTexture::Init - failed to create shared Vulkan image.\n
@@ -17541,6 +17537,7 @@ CVulkanVRRenderer::CreateVertexBuffer(unsigned int, unsigned long long*) (.cold)
 CVulkanVRRenderer::Dispatch(VRRenderer::DispatchInfo*, char const*)
 CVulkanVRRenderer::Draw(VRRenderer::DrawInfo*, char const*)
 CVulkanVRRenderer::EmitTextureBarrier(VRRenderer::TextureBase*, VkImageLayout, VRRenderer::QueueMode, bool)
+CVulkanVRRenderer::EmitTextureBarrier(VRRenderer::TextureBase*, unsigned int, VkImageLayout, VRRenderer::QueueMode, bool)
 CVulkanVRRenderer::EndCmdDebugMarker(VkCommandBuffer_T*)
 CVulkanVRRenderer::EndCommandBuffer()
 CVulkanVRRenderer::EndCommandBuffer() (.cold)
@@ -17568,6 +17565,8 @@ CVulkanVRRenderer::GetNativeDevice(VRRenderer::QueueMode)
 CVulkanVRRenderer::GetRendererAPI()
 CVulkanVRRenderer::GetTextureLOD(VRRenderer::TextureBase*, unsigned int)
 CVulkanVRRenderer::GetTextureLOD(VRRenderer::TextureBase*, unsigned int) (.cold)
+CVulkanVRRenderer::GetTextureLODLayer(VRRenderer::TextureBase*, unsigned int, unsigned int)
+CVulkanVRRenderer::GetTextureLODLayer(VRRenderer::TextureBase*, unsigned int, unsigned int) (.cold)
 CVulkanVRRenderer::GetTextureNativePointer(VRRenderer::TextureBase*)
 CVulkanVRRenderer::GetTextureSharedHandle(VRRenderer::TextureBase*)
 CVulkanVRRenderer::GetTextureSharedResource(VRRenderer::TextureBase*)
@@ -17642,7 +17641,7 @@ CVulkanVRRenderer::SetImageDebugName(unsigned long long, char const*)
 CVulkanVRRenderer::SetImageLayout - invalid transition to new layout: %d\n
 CVulkanVRRenderer::SetImageLayout - unsupported new image layout: %d\n
 CVulkanVRRenderer::SetImageLayout - unsupported old image layout: %d\n
-CVulkanVRRenderer::SetImageLayout(VkCommandBuffer_T*, unsigned long long, unsigned int, VkImageLayout, VkImageLayout, unsigned int, unsigned int)
+CVulkanVRRenderer::SetImageLayout(VkCommandBuffer_T*, unsigned long long, unsigned int, unsigned int, VkImageLayout, VkImageLayout, unsigned int, unsigned int)
 CVulkanVRRenderer::SetImageViewDebugName(unsigned long long, char const*)
 CVulkanVRRenderer::SetObjectDebugName(unsigned long long, VkDebugReportObjectTypeEXT, char const*)
 CVulkanVRRenderer::SetObjectDebugName(unsigned long long, VkDebugReportObjectTypeEXT, char const*) (.part.0)
@@ -17662,8 +17661,8 @@ CVulkanVRRenderer::UpdateBufferHelper(unsigned long long, unsigned int, unsigned
 CVulkanVRRenderer::UpdateConstantBuffer(VRRenderer::ConstantBufferBase*, void const*)
 CVulkanVRRenderer::UpdateConstantBufferVulkan(VRRenderer::ConstantBufferBase*, void const*, unsigned int, unsigned int)
 CVulkanVRRenderer::UpdateGPUTimingCurrentCommandBuffer()
-CVulkanVRRenderer::UpdateIndexBuffer(VRRenderer::IndexBufferBase*, void const*)
-CVulkanVRRenderer::UpdateTexture(VRRenderer::TextureBase*, void const*, bool)
+CVulkanVRRenderer::UpdateIndexBuffer(VRRenderer::IndexBufferBase*, void const*, unsigned int)
+CVulkanVRRenderer::UpdateTexture(VRRenderer::TextureBase*, void const*, unsigned int, bool)
 CVulkanVRRenderer::UpdateVertexBuffer(VRRenderer::VertexBufferBase*, void const*, unsigned int)
 CVulkanVRRenderer::Wait(VRRenderer::GPUCountingSemaphoreBase*, unsigned long long, VRRenderer::QueueMode)
 CVulkanVRRenderer::WaitForPresent()
@@ -17739,9 +17738,11 @@ CollapseInputValues(std::vector<VRInputValue_t, std::allocator<VRInputValue_t>> 
 Collision Bounds distances: flMinAxis=%f, Hmd=%f->%f, Controllers=%f->%f\n
 Command failed with %d: %s
 CommandBuffer[%u]
-CommitDynamicFloorHeight failed. Cannot query GetRawZeroPoseToStandingAbsoluteTrackingPose
-CommitDynamicFloorHeight failed. Not going to commit a floor with unset value.
-CommitDynamicFloorHeight is commiting an intial guess. Suspicious...
+CommitFloorHeight failed. Cannot query GetRawZeroPoseToStandingAbsoluteTrackingPose
+CommitPlayspaceCircleBoundary failed. Cannot query GetRawZeroPoseToStandingAbsoluteTrackingPose
+CommitPlayspaceCircleBoundary failed. Cannot query GetSetupStandingFromStanding
+CommitPlayspaceCircleBoundary failed. Invalid radius
+CommitPlayspacePerimeter failed. Too few perimeter points
 CommitWorkingCopy
 Committed chaperone working copy\n
 Completed
@@ -18017,9 +18018,9 @@ FS Callbacks must be completely defined. At least one callback is null.
 FS callback[s] not set\n
 FSsRKSsPvE
 Factory Function Not Found (104)
-Failed GetDeltas(%s): vkerror=%d\n
-Failed WaitEvent(%s)! event=%u vkerror=%d\n
-Failed WaitEvent(%s): bad event=%u\n
+Failed GetDeltas(%s): vkerror=%d
+Failed WaitEvent(%s)! event=%u vkerror=%d
+Failed WaitEvent(%s): bad event=%u
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.\n
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.\n
 Failed Watchdog timeout in thread %s after %f seconds. Skipping assert because we're in the debugger.\n
@@ -18378,7 +18379,7 @@ Four_Threes
 Four_TwoThirds
 Four_Twos
 Four_Zeros
-Frame hasn't started in CGpuTiming::MarkEvent!\n
+Frame hasn't started in CGpuTiming::MarkEvent!
 FreeRenderModel called with %p which has a zero refcount.\n
 FreeRenderModel called with %p which is not in the model list\n
 FreeTexture called with %p (id %zu) which is not in the model list\n
@@ -18493,6 +18494,7 @@ GetResourceBaseDir() (.cold)
 GetRuntimeLibraryPath()
 GetRuntimeLibraryPath() (.cold)
 GetSceneApplicationState(VRApplicationsState_t const*)
+GetSetupStandingFromStanding(vr::HmdMatrix34_t*)
 GetSharedResourceNamespace()
 GetSharedResourceNamespace() (.cold)
 GetSteamLanguage(ISteamUtils*)
@@ -18562,6 +18564,7 @@ GetSystemTimeFromTicks(unsigned long long)
 GetSystemTimeInTicks()
 GetTextureBoundsFromTextureDetails(float const (&) [4][4])
 GetTextureLOD
+GetTextureLODLayer
 GetTraceMarkerFd()::__executeCount
 GetTraceMarkerFd()::s_TraceMarkerMutex
 GetTraceMarkerFd()::s_flLastAttemptTime
@@ -18692,7 +18695,6 @@ HmdMatrix_GetRotationEuler(vr::HmdMatrix34_t const&)
 HmdMatrix_Invert(vr::HmdMatrix34_t const&, bool*)
 HmdMatrix_Invert(vr::HmdMatrix44_t const&, vr::HmdMatrix44_t*)
 HmdMatrix_InvertTR(vr::HmdMatrix34_t const&)
-HmdMatrix_LookAt(vr::HmdVector3_t const&, vr::HmdVector3_t const&)
 HmdMatrix_Multiply(vr::HmdMatrix34_t const&, vr::HmdMatrix34_t const&)
 HmdMatrix_Multiply(vr::HmdMatrix44_t const&, vr::HmdMatrix44_t const&)
 HmdSystemFactory
@@ -22040,6 +22042,7 @@ Ignoring user setting "forcedDriver": "%s" because %s\n
 Image data is empty for image[
 Image height mismatch. for image[
 Image width mismatch for image[
+ImageView%d[%d]
 ImageViewLOD%d
 InMemoryInputStream::~InMemoryInputStream()
 InMemoryStreamInputBuf::~InMemoryStreamInputBuf()
@@ -22811,7 +22814,7 @@ MaterialUtf8FileReader::~MaterialUtf8FileReader()
 Matrix44Aligned::ToQuaternion() const
 Matrix44Aligned::ToTransform() const
 Matrix44Aligned::mIdentity
-May  7 2025
+May 13 2025
 Member "action_sets" exists, but is not an array
 MergeJsonValues(Json::Value&, Json::Value&)
 MergeJsonValues(Json::Value&, Json::Value&) (.cold)
@@ -22992,6 +22995,7 @@ N2vr8IXrProtoE
 N2vr9ILiquidVRE
 N2vr9IVRSystemE
 N3IPC10ISharedMemE
+N3IPC11ISyncObjectE
 N3IPC17PosixSharedMemoryE
 N3IPC17SharedObjectEventE
 N3IPC17SharedObjectMutexE
@@ -23107,7 +23111,7 @@ No Error (0)
 No GPU timing Vulkan device in CVRCompositorSharedTextures::BeginGPUTimingCommandBuffer!\n
 No LoadImageData callback specified.\n
 No VRSettings(), allowing Steam overlays by default.
-No Vulkan command buffer open in CGpuTiming::MarkEvent!\n
+No Vulkan command buffer open in CGpuTiming::MarkEvent!
 No active action set
 No command buffer open in EndCommandBuffer!\n
 No drivers were capable of being watchdogs. Failing init.\n
@@ -23362,6 +23366,7 @@ Plat_IsInDebugSession
 Plat_IsInDebugSession::fp
 PointInPolygon(int, float const*, float const*, float, float, unsigned int, unsigned int)
 PointMaskIntersectionTest(float, float, vr::VROverlayIntersectionMaskPrimitive_t const*, unsigned int)
+PolygonCentroid(int, float const*, float const*, unsigned int, unsigned int)
 Pose
 Positional emitter description not found.
 PredictRawPose(double, vr::HmdMatrix34_t const&, VRTrackingState_DeviceInfo_t const&, VRTrackingState_Pose_t const&, vr::TrackedDevicePose_t*, double, double)
@@ -23450,6 +23455,7 @@ Prop_DisplayMCOffset_Float
 Prop_DisplayMCScale_Float
 Prop_DisplayMCType_Int32
 Prop_DisplayMinAnalogGain_Float
+Prop_DisplayMinUIAnalogGain_Float
 Prop_DisplaySupportsAnalogGain_Bool
 Prop_DisplaySupportsMultipleFramerates_Bool
 Prop_DisplaySupportsRuntimeFramerateChange_Bool
@@ -23586,6 +23592,9 @@ QkkXa
 Qkkbal
 QuaternionAligned::ToMatrix(VectorAligned const&) const
 QuaternionAligned::qIdentity
+QuickCalibratePlayspace %d\n
+QuickCalibratePlayspace %f %f %f
+QuickCalibratePlayspace couldn't get a pose from the HMD\n
 RADV
 RadialMenu missing X axis input.\n
 RadialMenu missing Y axis input.\n
@@ -24149,6 +24158,7 @@ TRUE
 TRUE 
 Telling vrstartup that the system was already running.\n
 Tessellate
+Tessellation took %f.2ms\n
 TextureDownsampleResolve
 TextureDownsampleTemp
 TextureInfo
@@ -24419,7 +24429,7 @@ Unexpected end of regex when in bracket expression.
 Unexpected end of regex when reading control code.
 Unexpected escape character.
 Unexpected token in brace expression.
-Unflushed events requested in CGpuTiming::GetDeltas!\n
+Unflushed events requested in CGpuTiming::GetDeltas!
 Unhandled sampler filter type!
 Uninitialized
 UnixTimeToDateAndTimeString(unsigned long long)
@@ -24484,6 +24494,7 @@ VKDebugMessageCallback(unsigned int, VkDebugReportObjectTypeEXT, unsigned long l
 VK_EXT_debug_marker
 VK_EXT_debug_report
 VK_KHR_dedicated_allocation
+VK_KHR_external_fence_capabilities
 VK_KHR_external_memory
 VK_KHR_external_memory_capabilities
 VK_KHR_external_memory_fd
@@ -24492,6 +24503,8 @@ VK_KHR_external_semaphore_capabilities
 VK_KHR_external_semaphore_fd
 VK_KHR_get_memory_requirements2
 VK_KHR_get_physical_device_properties2
+VK_KHR_image_format_list
+VK_KHR_surface
 VK_LAYER_GOOGLE_threading
 VK_LAYER_KHRONOS_validation
 VK_LAYER_LUNARG_core_validation
@@ -25904,7 +25917,8 @@ VulkanVRRenderer::iedGeomWithTangents
 VulkanVRRenderer::iedLatLong
 VulkanVRRenderer::iedNoDistort
 VulkanVRRenderer::iedNoDistortLayered
-VulkanVRRenderer::iedPositionColor
+VulkanVRRenderer::iedPositionFloatColor
+VulkanVRRenderer::iedPositionTexcoord4
 VulkanVRRenderer::iedQuad
 VulkanVRRenderer::pixelShaderDefs
 VulkanVRRenderer::vertexShaderDefs
@@ -26736,6 +26750,7 @@ alphaMode
 alphasort
 alse
 alwaysActivate
+alwaysEnableSteamInput
 amdgpu
 amdgpu_bo*& std::vector<amdgpu_bo*, std::allocator<amdgpu_bo*>>::emplace_back<amdgpu_bo*>(amdgpu_bo*&&)
 amdgpu_bo_alloc
@@ -28309,6 +28324,7 @@ hmd_presence
 hmd_profile
 holographic_controller
 hpmotioncontroller
+hsv_to_rgb(vr::HmdVector3_t const&)
 http://
 https://
 hu_hu
@@ -28591,6 +28607,7 @@ long
 long double
 long long
 long_press_delay
+long_press_expiry
 loop
 lower
 lseek64
@@ -28910,12 +28927,12 @@ non-virtual thunk to CVRCameraComponent_Latest::StopVideoStream()
 non-virtual thunk to CVRCameraComponent_Latest::~CVRCameraComponent_Latest()
 non-virtual thunk to CVRChaperoneClient::ApplyZeroPose(vr::ETrackingUniverseOrigin, vr::HmdMatrix34_t)
 non-virtual thunk to CVRChaperoneClient::ClearRoomSetup()
-non-virtual thunk to CVRChaperoneClient::CommitDynamicFloorHeight(bool)
-non-virtual thunk to CVRChaperoneClient::CommitDynamicFloorRadius()
+non-virtual thunk to CVRChaperoneClient::CommitFloorHeight(float)
+non-virtual thunk to CVRChaperoneClient::CommitPlayspaceCircleBoundary(float, vr::HmdMatrix34_t const&)
+non-virtual thunk to CVRChaperoneClient::CommitPlayspacePerimeter(std::vector<vr::HmdVector2_t, std::allocator<vr::HmdVector2_t>>&, vr::HmdMatrix34_t const&)
 non-virtual thunk to CVRChaperoneClient::CommitWorkingCopy(vr::EChaperoneConfigFile)
 non-virtual thunk to CVRChaperoneClient::ComputeChaperoneBoundsAlphas(BoundsVisiblityConfig_t const&)
 non-virtual thunk to CVRChaperoneClient::ExportLiveToBuffer(char*, unsigned int*)
-non-virtual thunk to CVRChaperoneClient::GetDynamicFloorInfo(vr::FloorInfo_t*)
 non-virtual thunk to CVRChaperoneClient::GetLiveCollisionBoundsInfo(vr::HmdQuad_t*, unsigned int*)
 non-virtual thunk to CVRChaperoneClient::GetLiveSeatedZeroPoseToRawTrackingPose(vr::HmdMatrix34_t*)
 non-virtual thunk to CVRChaperoneClient::GetOriginFromTrackingMatrix(vr::ETrackingUniverseOrigin, vr::HmdMatrix34_t*)
@@ -28933,21 +28950,19 @@ non-virtual thunk to CVRChaperoneClient::HideWorkingSetPreview()
 non-virtual thunk to CVRChaperoneClient::ImportFromBufferToWorking(char const*, unsigned int)
 non-virtual thunk to CVRChaperoneClient::IsHMDOutOfBoundsStrict()
 non-virtual thunk to CVRChaperoneClient::IsOriginCalibrated(vr::ETrackingUniverseOrigin)
+non-virtual thunk to CVRChaperoneClient::NotifyRoomSetupStep(vr::ERoomSetupStep, bool)
+non-virtual thunk to CVRChaperoneClient::QuickCalibratePlayspace(vr::EQuickCalibrateType)
 non-virtual thunk to CVRChaperoneClient::ReloadFromDisk(vr::EChaperoneConfigFile)
-non-virtual thunk to CVRChaperoneClient::ResetDynamicFloorHeight(vr::EVRDyanamicFloorMode, bool)
 non-virtual thunk to CVRChaperoneClient::ResetZeroPose()
 non-virtual thunk to CVRChaperoneClient::RevertWorkingCopy()
 non-virtual thunk to CVRChaperoneClient::RoomSetupStarting()
 non-virtual thunk to CVRChaperoneClient::SetBehaviorByTrackingUniverse(vr::ETrackingUniverseOrigin)
-non-virtual thunk to CVRChaperoneClient::SetDynamicFloorRadius(float)
-non-virtual thunk to CVRChaperoneClient::SetFloorDetectEnabled(bool)
 non-virtual thunk to CVRChaperoneClient::SetWorkingCollisionBoundsInfo(vr::HmdQuad_t*, unsigned int)
 non-virtual thunk to CVRChaperoneClient::SetWorkingPerimeter(vr::HmdVector2_t*, unsigned int)
 non-virtual thunk to CVRChaperoneClient::SetWorkingPlayAreaSize(float, float)
 non-virtual thunk to CVRChaperoneClient::SetWorkingSeatedZeroPoseToRawTrackingPose(vr::HmdMatrix34_t const*)
 non-virtual thunk to CVRChaperoneClient::SetWorkingStandingZeroPoseToRawTrackingPose(vr::HmdMatrix34_t const*)
 non-virtual thunk to CVRChaperoneClient::ShowWorkingSetPreview()
-non-virtual thunk to CVRChaperoneClient::UpdateDynamicFloorHeight(vr::HmdMatrix34_t const*, unsigned char const*, DynamicFloorUpdateInfo_t const&)
 non-virtual thunk to CVRCompositorClient::PredictPoses(unsigned int, vr::TrackedDevicePose_t*, unsigned int)
 non-virtual thunk to CVRCompositorClient::PredictRenderedFrame(int, float, float, vr::PredictedFrameInfo_t*)
 non-virtual thunk to CVRCompositorClient::RenderStart()
@@ -29248,6 +29263,7 @@ pFovScale
 pHandle
 pHeader->resourceInfo.image.uHeight
 pHeader->resourceInfo.image.uWidth
+pHeader->resourceInfo.image.unArraySize
 pHeader->resourceInfo.image.unMipLevels
 pInput != nullptr
 pNewResource
@@ -29425,6 +29441,7 @@ returnBindingsWithHead
 returnBindingsWithLeftHand
 returnBindingsWithRightHand
 rewind
+rgb_to_hsv(vr::HmdVector3_t const&)
 rift
 right
 right-curly-bracket
@@ -29525,6 +29542,7 @@ setvbuf
 seven
 sg_bAcquireSyncInPresent
 sg_bAcquireSyncInSubmit
+shaders/vulkan/distort_bounds_color_ps.spv
 shaders/vulkan/distort_cs.spv
 shaders/vulkan/distort_cs_mc.spv
 shaders/vulkan/distort_geom_aa_circles_ps.spv
@@ -29618,6 +29636,7 @@ shaders/vulkan/downsample_srgb_ps.spv
 shaders/vulkan/downsample_vs.spv
 shaders/vulkan/frame_hallucination_ps.spv
 shaders/vulkan/frame_hallucination_vs.spv
+shaders/vulkan/geom_bounds_color_vs.spv
 shaders/vulkan/geom_curved_uvs_embedded_vs.spv
 shaders/vulkan/geom_curved_vs.spv
 shaders/vulkan/geom_drawregion_curved_uvs_embedded_vs.spv
@@ -36632,6 +36651,7 @@ unCallingProcessID
 unMessageID
 unMyPID == data
 unProcessID
+unSizeInBytes <= pIndexBuffer->unSize
 unSizeInBytes <= pVertexBuffer->unSize
 unable to allocate vkBuffer-associated memory\n
 unaligned height\n
@@ -36731,6 +36751,7 @@ virtual thunk to CSharedCountingSemaphoreLinux::ImportVulkanCountingSemaphore(Vk
 virtual thunk to CSharedCountingSemaphoreLinux::Signal(unsigned long long, vr::VRNativeDevice_t const*)
 virtual thunk to CSharedCountingSemaphoreLinux::Wait(unsigned long long, vr::VRNativeDevice_t const*)
 virtual thunk to CSharedCountingSemaphoreLinux::~CSharedCountingSemaphoreLinux()
+virtual thunk to CSharedImageLinux::GetArraySize() const
 virtual thunk to CSharedImageLinux::GetDeviceSize() const
 virtual thunk to CSharedImageLinux::GetFormat() const
 virtual thunk to CSharedImageLinux::GetHeight() const
@@ -36753,7 +36774,7 @@ virtual thunk to CSharedImageLinux::IsDedicated() const
 virtual thunk to CSharedImageLinux::IsMappable() const
 virtual thunk to CSharedImageLinux::IsRenderable() const
 virtual thunk to CSharedImageLinux::PrepareForInterop()
-virtual thunk to CSharedImageLinux::PrepareVulkanImageForExport(VkDevice_T*, unsigned long long, unsigned long long, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, bool, bool, unsigned int, unsigned int const*)
+virtual thunk to CSharedImageLinux::PrepareVulkanImageForExport(VkDevice_T*, unsigned long long, unsigned long long, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, bool, bool, unsigned int, unsigned int const*)
 virtual thunk to CSharedImageLinux::SetVulkanLayout(VkImageLayout)
 virtual thunk to CSharedImageLinux::SetVulkanQueueIndex(unsigned int)
 virtual thunk to CSharedImageLinux::~CSharedImageLinux()
@@ -38142,7 +38163,7 @@ vr::IVRSharedImage::GetVulkanImageMemory() const
 vr::IVRSharedImage::GetVulkanMemoryHandleType() const
 vr::IVRSharedImage::ImportOGLImage(unsigned long long)
 vr::IVRSharedImage::ImportVulkanImage(VkDevice_T*, unsigned long long)
-vr::IVRSharedImage::PrepareVulkanImageForExport(VkDevice_T*, unsigned long long, unsigned long long, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, bool, bool, unsigned int, unsigned int const*)
+vr::IVRSharedImage::PrepareVulkanImageForExport(VkDevice_T*, unsigned long long, unsigned long long, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, bool, bool, unsigned int, unsigned int const*)
 vr::IVRSharedResource::CreateFD()
 vr::IVRSharedSemaphore::GetOGLSemaphore()
 vr::IVRSharedSemaphore::GetVulkanSemaphore() const

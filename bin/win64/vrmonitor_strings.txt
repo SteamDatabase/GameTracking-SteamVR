@@ -6,9 +6,6 @@
  - %dx%d format=%d refresh=%d/%d scan=%d scale=%d dsc: mode=%d version=%d slice=%d out16=%d
  /name 
  /page 
- <font color=#eeeeee>%1%</font><br><br>
- <font color=#eeeeee>%1x%2</font><br>
- <font color=#ff0000>%1</font><br>
  ?type@QGraphicsEllipseItem@@UEBAHXZ
  ?type@QGraphicsSimpleTextItem@@UEBAHXZ
  ?validate@QDoubleSpinBox@@UEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
@@ -86,7 +83,6 @@
 #ff38ff
 $P?pos@QCursor@@SA?AVQPoint@@XZ
 $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
-%%VRCOMPOSITORPATH%%
 %02X
 %02x
 %1 (%2, %3 bytes)\n
@@ -283,13 +279,10 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRStatsTracker@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
 .?AV?$_Iosb@H@std@@
-.?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
-.?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_iostream@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
-.?AV?$basic_ofstream@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
 .?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
@@ -309,7 +302,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 .?AVCMMNotificationClient@@
 .?AVCNonCopyable@@
 .?AVCQAboutWindow@@
-.?AVCQAbstractNativeEventFilter@@
 .?AVCQAspectFillImageWidget@@
 .?AVCQAudioController@@
 .?AVCQAudioControllerWorker@@
@@ -326,7 +318,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 .?AVCQChannelWidget@@
 .?AVCQClickableIcon@@
 .?AVCQConfigureChannelWindow@@
-.?AVCQDiagnosticsAdvanced@@
 .?AVCQDiagnosticsBaseStation@@
 .?AVCQDiagnosticsBluetooth@@
 .?AVCQDiagnosticsExplanationLabel@@
@@ -336,9 +327,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 .?AVCQDiagnosticsInfo@@
 .?AVCQDiagnosticsLinkLabel@@
 .?AVCQDiagnosticsPushButton@@
-.?AVCQDiagnosticsUSB@@
-.?AVCQDiagnosticsUSBDevices@@
-.?AVCQDiagnosticsUSBScrollArea@@
 .?AVCQDiagnosticsWindow@@
 .?AVCQDismissableWarningButtonRow@@
 .?AVCQDismissableWarningPushButton@@
@@ -395,7 +383,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 .?AVCQSystemReportWorker@@
 .?AVCQSystemStatusButton@@
 .?AVCQTrackedItemGroup@@
-.?AVCQUSBNode@@
 .?AVCQVRBaseStatusEntry@@
 .?AVCQVRBaseStatusFrame@@
 .?AVCQVRBugReporter@@
@@ -585,7 +572,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 .?AV_com_error@@
 .?AVbad_alloc@std@@
 .?AVbad_array_new_length@std@@
-.?AVbad_cast@std@@
 .?AVcodecvt_base@std@@
 .?AVexception@std@@
 .?AVfacet@locale@std@@
@@ -675,17 +661,16 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 /bigscreenbeyond
 /device_path
 /disable
+/disable-noui
 /enable
+/enable-noui
 /firmware/
 /frametiming
-/gigantic
 /gotofirst
 /install
 /knockknock
-/large
 /logdirectory
 /makedefault
-/medium
 /needswireless
 /next
 /observed_basestations
@@ -697,6 +682,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 /restart/working_directory
 /root,
 /safe_mode/enabled
+/saveframestodisk
 /serial
 /setappcontainerpermissions
 /settings
@@ -704,9 +690,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 /settings/basestation/configurechannels
 /settings/basestation/recovery
 /settings/bluetooth
-/settings/developer
-/small
-/standing
 /start
 /status
 /stop
@@ -739,6 +722,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 /vivepro2
 /wmr
 0123456789ABCDEF
+09:26:59
 0:00
 0x%016llx
 0x%08llx
@@ -746,7 +730,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1!?widget@QTabWidget@@QEBAPEAVQWidget@@H@Z
 100%
 1000
-16:45:12
 1DoAcquireData()
 1DoInit()
 1DoParseString( const QString & )
@@ -776,7 +759,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1OnApplicationStateHasChanged()
 1OnApplicationStateTimerTimeout()
 1OnApply()
-1OnArcadeModeChanged( int )
 1OnAutomaticConfiguration()
 1OnBaseStationCheckBoxClicked( bool )
 1OnBaseStationDiscovered( int )
@@ -824,12 +806,9 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1OnChaperoneUniverseHasChanged()
 1OnCheckBoxValueChanged()
 1OnCheckForSharedMemoryChanged()
-1OnCheckForSteamStateChanged( int )
 1OnCheckRoomSetupIsStillRunning()
 1OnCheckStatusNow()
-1OnCheckStatusSelectionChanged( int )
 1OnCheckStatusTimeout()
-1OnCheckSupersamplingFiltering( int )
 1OnClearPlacecard()
 1OnClearRecentPlaylistPlayerAction()
 1OnClicked( bool )
@@ -861,22 +840,18 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1OnCurrentProcessFinished( int, QProcess::ExitStatus )
 1OnCurrentProcessStateChanged( QProcess::ProcessState )
 1OnCurrentTabIndexChanged( int )
-1OnDebugInputBindingsChanged( int )
 1OnDeletePlaylistEntry()
 1OnDeleteProcess()
 1OnDescriptionChanged()
 1OnDesktopMightBeHidden()
 1OnDesktopMightBeVisible()
 1OnDesktopStylesheetHasChanged()
-1OnDeveloperSettingsAction()
 1OnDeviceChanged()
 1OnDeviceOverviewDoneClicked()
-1OnDisableDirectMode( bool )
 1OnDismissButtonClicked()
 1OnDisplayFrameTimingAction()
 1OnDoConnectToSteam()
 1OnDoDisconnectFromSteam()
-1OnDoNotFadeToGridChanged( int )
 1OnDone()
 1OnDoneClicked()
 1OnDongleFirmwareRecovery()
@@ -885,9 +860,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1OnDriverInstallDone( bool )
 1OnDriverInstallStarted()
 1OnDriverRequestedQuit()
-1OnEnableDashboardChanged( int )
-1OnEnableDirectMode( bool )
-1OnEnhancedStatusClicked()
 1OnEnterStandbyMode( vr::TrackedDeviceIndex_t )
 1OnEntriesItemChanged( QTreeWidgetItem *, int )
 1OnEntryDoubleClicked(QTreeWidgetItem *, int)
@@ -929,7 +901,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1OnIndexControllerActivityTimeout()
 1OnIntervalTimeout()
 1OnKnockKnockClicked()
-1OnLaunchSteamVROnAppLaunchChanged( int )
 1OnLeaveStandbyMode( vr::TrackedDeviceIndex_t )
 1OnLeftButtonClicked()
 1OnLinkActivated( const QString & )
@@ -939,8 +910,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1OnManualSwitchCheckboxStateChanged( int )
 1OnMasterPowerManagementCheckBoxClicked( bool )
 1OnMinimizeButtonClicked()
-1OnMirrorPlayDevicesComboBoxChanged( int )
-1OnMirrorPlaybackEnableCheckBoxChanged( bool )
 1OnNewPlaylistDescription()
 1OnNewStatusObjectCreated( int )
 1OnNewsLoaded( QNetworkReply * )
@@ -960,22 +929,14 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1OnPairController()
 1OnPairingWizardAction()
 1OnParsingDone()
-1OnPauseOnStandbyChanged( int )
 1OnPausePlaylistAction()
 1OnPausePlaylistEntry()
-1OnPerfAllowTimingStoreStateChange( int )
 1OnPerfGraphTimer()
-1OnPerfLinuxGPUProfilingStateChanged( int )
-1OnPerfSaveNowClicked( bool )
-1OnPerfSaveTimingsOnExitStateChange( int )
 1OnPlay()
 1OnPlaySoundAction()
 1OnPlaySoundBeforeSwitchingEntryCheckboxStateChanged( int )
-1OnPlaybackDevicesComboBoxChanged( int )
-1OnPlaybackSourceChanged( bool )
 1OnPlaylistDescriptionHasChanged()
 1OnPlaylistEditorAction()
-1OnPlaylistMenuStateChanged( int )
 1OnPlaylistNameEdited( const QString & )
 1OnPlaylistRemoteControllerTimeout()
 1OnPowerManagementClicked()
@@ -1000,7 +961,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1OnPropertyChanged( vr::TrackedDeviceIndex_t, vr::ETrackedDeviceProperty )
 1OnPumpVREvents()
 1OnQtApplicationStateChanged( Qt::ApplicationState )
-1OnQuickCalibrate( bool )
 1OnQuitAction()
 1OnRawTextSearchForward()
 1OnReadPropertiesDone( uintptr_t, const QString &, uint32_t, bool, QString )
@@ -1011,11 +971,8 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1OnRebootHMDUserCanCancel()
 1OnRecentPlaylistPlayerAction()
 1OnRecenterAction()
-1OnRecordingDevicesComboBoxChanged( int )
-1OnRecordingSourceChanged( bool )
 1OnRefresh()
 1OnRefreshAllClicked()
-1OnRefreshButtonClicked()
 1OnRefreshLinkActivated( const QString & )
 1OnRemoteControlCheckboxStateChanged( int )
 1OnRenderOverlay()
@@ -1072,7 +1029,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1OnShowManageTrackers()
 1OnShowManageTrackersAction()
 1OnShowPerfGraph()
-1OnShowPerfGraphInHMDStateChange( int )
 1OnShowRuntimeDirectoryAction()
 1OnShowUploadWorkshopItemDialogAction()
 1OnShutdownVRAppsCancelClicked()
@@ -1114,7 +1070,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1OnStartHeadsetWatchmanUpdate()
 1OnStartHeadsetWatchmanV3Recovery()
 1OnStartRecordingAction()
-1OnStartRefresh()
 1OnStartUpdateBaseStationWithDriveTarget()
 1OnStartUpdateControllerWithSerialNumberTarget()
 1OnStartUpdateGenericTrackerWithSerialNumberTarget()
@@ -1144,7 +1099,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1OnTimeoutRunSteamCallbacksTimer()
 1OnTimeoutSecondsTimer()
 1OnToggleDashboardAction()
-1OnTrackDataClicked( bool )
 1OnTrackedDeviceActivated( vr::TrackedDeviceIndex_t )
 1OnTreeEntriesItemChanged( QTreeWidgetItem *, int )
 1OnTreeHeaderResized( int, int, int )
@@ -1156,7 +1110,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1OnUpdateIdentify()
 1OnUpdateMoreFirmware()
 1OnUpdateProgressLabel( const QString &)
-1OnUpdateState()
 1OnUpdateStateTimeout()
 1OnUpdateStatusAlertAndDismissableWarning()
 1OnUpdateTimerTimeout()
@@ -1170,7 +1123,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1OnVREvent_Lighthouse_ResetEvents()
 1OnVRInitSuccess()
 1OnViewWorkshopWikiAction()
-1OnViveHdmiGainCheckBoxChanged( bool )
 1OnVolumeSliderMoved( int )
 1OnWaitForFinalInteractions()
 1OnWatchmanFirmwareRecovery()
@@ -1425,6 +1377,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 <Logs>\n
 <Report>\n
 <a style ='color: rgb(%3,%4,%5);' href='%2'>%1</a>
+<fff?UUUUUU
 <font color=#0024f1>- 
 <font color=#007acc>- 
 <font color=#46c8f5>
@@ -1625,7 +1578,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ??0QVariant@@QEAA@_N@Z
 ??0QWaitCondition@@QEAA@XZ
 ??0QWidget@@QEAA@PEAV0@V?$QFlags@W4WindowType@Qt@@@@@Z
-??0_Lockit@std@@QEAA@H@Z
 ??1?$QVector@VQPointF@@@@QEAA@XZ
 ??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
 ??1?$basic_istream@DU?$char_traits@D@std@@@std@@UEAA@XZ
@@ -1733,7 +1685,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ??1QVariant@@QEAA@XZ
 ??1QWaitCondition@@QEAA@XZ
 ??1QWidget@@UEAA@XZ
-??1_Lockit@std@@QEAA@XZ
 ??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
 ??4QBrush@@QEAAAEAV0@$$QEAV0@@Z
 ??4QBrush@@QEAAAEAV0@AEBV0@@Z
@@ -1760,11 +1711,9 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ??4QString@@QEAAAEAV0@VQLatin1String@@@Z
 ??4QVariant@@QEAAAEAV0@$$QEAV0@@Z
 ??4QVariant@@QEAAAEAV0@AEBV0@@Z
-??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAN@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@G@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@J@Z
-??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAVios_base@1@AEAV21@@Z@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??6QDebug@@QEAAAEAV0@AEBVQString@@@Z
@@ -1812,12 +1761,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?\n?drawBranches@QTreeView@@MEBAXPEAVQPainter@@AEBVQRect@@AEBVQModelIndex@@@Z
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
-?_Fiopen@std@@YAPEAU_iobuf@@PEBDHH@Z
-?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
-?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ
-?_Gninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
 ?_Incref@facet@locale@std@@UEAAXXZ
-?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXXZ
 ?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z
 ?_Ios_base_dtor@ios_base@std@@CAXPEAV12@@Z
 ?_Ipfx@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA_N_N@Z
@@ -1880,7 +1824,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?allocate@QArrayData@@SAPEAU1@_K00V?$QFlags@W4AllocationOption@QArrayData@@@@@Z
 ?allocateNode@QHashData@@QEAAPEAXH@Z
 ?alpha@QColor@@QEBAHXZ
-?always_noconv@codecvt_base@std@@QEBA_NXZ
 ?append@?$QVector@VQPointF@@@@QEAAXAEBVQPointF@@@Z
 ?append@QByteArray@@QEAAAEAV1@AEBV1@@Z
 ?append@QByteArray@@QEAAAEAV1@D@Z
@@ -1964,7 +1907,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?cleanPath@QDir@@SA?AVQString@@AEBV2@@Z
 ?clear@QAbstractSpinBox@@UEAAXXZ
 ?clear@QByteArray@@QEAAXXZ
-?clear@QComboBox@@QEAAXXZ
 ?clear@QLabel@@QEAAXXZ
 ?clear@QLineEdit@@QEAAXXZ
 ?clear@QListWidget@@QEAAXXZ
@@ -2045,7 +1987,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?currentWidget@QTabWidget@@QEBAPEAVQWidget@@XZ
 ?devType@QGLFramebufferObject@@MEBAHXZ
 ?error@QNetworkReply@@QEBA?AW4NetworkError@1@XZ
-?fff?UUUUUU
 ?ffffff
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
 ?font@QPainter@@QEBAAEBVQFont@@XZ
@@ -2054,11 +1995,8 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?fromImageInPlace@QPixmap@@KA?AV1@AEAVQImage@@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
 ?fromWinId@QWindow@@SAPEAV1@_K@Z
 ?get@QNetworkAccessManager@@QEAAPEAVQNetworkReply@@AEBVQNetworkRequest@@@Z
-?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ
-?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
-?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
 ?isActiveWindow@QWidget@@QEBA_NXZ
 ?isChecked@QAbstractButton@@QEBA_NXZ
@@ -2089,7 +2027,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?itemAt@QGridLayout@@UEBAPEAVQLayoutItem@@H@Z
 ?itemChange@QGraphicsItem@@MEAA?AVQVariant@@W4GraphicsItemChange@1@AEBV2@@Z
 ?itemData@QComboBox@@QEBA?AVQVariant@@HH@Z
-?itemText@QComboBox@@QEBA?AVQString@@H@Z
 ?keyPressEvent@QAbstractButton@@MEAAXPEAVQKeyEvent@@@Z
 ?keyPressEvent@QAbstractItemView@@MEAAXPEAVQKeyEvent@@@Z
 ?keyPressEvent@QAbstractScrollArea@@MEAAXPEAVQKeyEvent@@@Z
@@ -2174,7 +2111,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?metaObject@QSlider@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QSpinBox@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QSplitter@@UEBAPEBUQMetaObject@@XZ
-?metaObject@QStyledItemDelegate@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QSystemTrayIcon@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QTabWidget@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QTableWidget@@UEBAPEBUQMetaObject@@XZ
@@ -2312,7 +2248,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?open@QDialog@@UEAAXXZ
 ?open@QFile@@UEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
 ?open@QProcess@@UEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
-?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
 ?paint@QGraphicsEllipseItem@@UEAAXPEAVQPainter@@PEBVQStyleOptionGraphicsItem@@PEAVQWidget@@@Z
 ?paint@QGraphicsItemGroup@@UEAAXPEAVQPainter@@PEBVQStyleOptionGraphicsItem@@PEAVQWidget@@@Z
@@ -2359,7 +2294,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?processEvents@QCoreApplication@@SAXV?$QFlags@W4ProcessEventsFlag@QEventLoop@@@@H@Z
 ?processId@QProcess@@QEBA_JXZ
 ?property@QObject@@QEBA?AVQVariant@@PEBD@Z
-?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z
 ?qBadAlloc@@YAXXZ
 ?qHash@@YAIAEBVQString@@I@Z
 ?qIsNaN@@YA_NN@Z
@@ -2583,7 +2517,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?setButtons@QGraphicsSceneMouseEvent@@QEAAXV?$QFlags@W4MouseButton@Qt@@@@@Z
 ?setCancelButton@QProgressDialog@@QEAAXPEAVQPushButton@@@Z
 ?setCellWidget@QTableWidget@@QEAAXHHPEAVQWidget@@@Z
-?setCheckState@QCheckBox@@QEAAXW4CheckState@Qt@@@Z
 ?setCheckState@QTreeWidgetItem@@QEAAXHW4CheckState@Qt@@@Z
 ?setCheckable@QAction@@QEAAX_N@Z
 ?setChecked@QAbstractButton@@QEAAX_N@Z
@@ -2653,7 +2586,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?setHorizontalScrollBarPolicy@QAbstractScrollArea@@QEAAXW4ScrollBarPolicy@Qt@@@Z
 ?setIcon@QSystemTrayIcon@@QEAAXAEBVQIcon@@@Z
 ?setInterval@QTimer@@QEAAXH@Z
-?setItemData@QComboBox@@QEAAXHAEBVQVariant@@H@Z
 ?setItemDelegate@QComboBox@@QEAAXPEAVQAbstractItemDelegate@@@Z
 ?setItemSelected@QTreeWidget@@QEAAXPEBVQTreeWidgetItem@@_N@Z
 ?setItemsExpandable@QTreeView@@QEAAX_N@Z
@@ -2746,7 +2678,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?setStartAngle@QGraphicsEllipseItem@@QEAAXH@Z
 ?setStartValue@QVariantAnimation@@QEAAXAEBVQVariant@@@Z
 ?setStretch@QBoxLayout@@QEAAXHH@Z
-?setStretchFactor@QBoxLayout@@QEAA_NPEAVQWidget@@H@Z
 ?setStretchFactor@QSplitter@@QEAAXHH@Z
 ?setStretchLastSection@QHeaderView@@QEAAX_N@Z
 ?setStyleSheet@QApplication@@QEAAXAEBVQString@@@Z
@@ -2996,7 +2927,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?unlock@QMutexLocker@@QEAAXXZ
 ?unlock@QSharedMemory@@QEAA_NXZ
 ?unregisterConverterFunction@QMetaType@@SAXHH@Z
-?unshift@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEAD1AEAPEAD@Z
 ?updateCurrentTime@QVariantAnimation@@MEAAXH@Z
 ?updateCurrentValue@QPropertyAnimation@@MEAAXAEBVQVariant@@@Z
 ?updateDirection@QAbstractAnimation@@MEAAXW4Direction@1@@Z
@@ -3048,10 +2978,8 @@ Adjusting overridden render scale from %d%% to %d%% to compensate.\n
 Admin:
 Admin:\t%1\n
 Admin:\t(?<VALUE>.*)
-Advanced_AllowSavingOfTimingInfo
 Advanced_AppRequestedThrottling
 Advanced_AsyncNotActive
-Advanced_AutoSaveTimingInfoOnExit
 Advanced_Base
 Advanced_BaseStation
 Advanced_Bluetooth
@@ -3060,7 +2988,6 @@ Advanced_BoundsNotDrawing
 Advanced_Controller
 Advanced_DashboardDown
 Advanced_DashboardUp
-Advanced_Developer
 Advanced_DirectModeDisabled
 Advanced_DroppedFrame
 Advanced_Generic_Tracker
@@ -3072,12 +2999,9 @@ Advanced_MotionSmoothedFrame
 Advanced_NetworkLatency
 Advanced_NormalFrame
 Advanced_OneThirdFramerate
-Advanced_PerfGraphInHMD
 Advanced_ReprojectedFrame
 Advanced_ReprojectionOff
 Advanced_ReprojectionOn
-Advanced_SaveFrameDataNow
-Advanced_USB
 Advertising Hits: %1\n
 Alert
 Alias
@@ -3098,8 +3022,6 @@ AppUnpluggedIndexControllerActiveSeconds
 Application GPU (post)
 Application GPU (pre)
 Application Interval
-ApplicationsCustomData_t
-ArcadeModeCheckBoxCheckBox
 Area
 Args
 Arial
@@ -3340,7 +3262,6 @@ CPULabel6
 CPULabel7
 CPULabel8
 CQAboutWindow
-CQAbstractNativeEventFilter
 CQAspectFillImageWidget
 CQAudioController
 CQAudioControllerWorker
@@ -3358,24 +3279,15 @@ CQCalibrateControllerWizard
 CQChannelWidget
 CQClickableIcon
 CQConfigureChannelWindow
-CQDiagnosticsAdvanced
-CQDiagnosticsAdvancedLabel
-CQDiagnosticsApplications
-CQDiagnosticsAudio
 CQDiagnosticsBaseStation
 CQDiagnosticsBluetooth
 CQDiagnosticsExplanationLabel
 CQDiagnosticsFrame
-CQDiagnosticsGeneral
 CQDiagnosticsHeaderLabel
 CQDiagnosticsHorizontalDivider
 CQDiagnosticsInfo
 CQDiagnosticsLinkLabel
-CQDiagnosticsPerformance
 CQDiagnosticsPushButton
-CQDiagnosticsUSB
-CQDiagnosticsUSBDevices
-CQDiagnosticsUSBScrollArea
 CQDiagnosticsWindow
 CQDismissableWarningButtonRow
 CQDismissableWarningPushButton
@@ -3445,7 +3357,6 @@ CQSupportToolDropArea
 CQSupportToolDropArea::OnShowContextMenu
 CQSystemReportWorker
 CQSystemStatusButton
-CQUSBNode
 CQVRBaseStatusEntry
 CQVRBaseStatusFrame
 CQVRBugReporter
@@ -3517,10 +3428,8 @@ CQVRMonitorController::OnAboutToShowDeveloperMenu
 CQVRMonitorController::OnAboutToShowDevicesMenu
 CQVRMonitorController::OnAboutToShowWebDevToolsMenu
 CQVRMonitorController::OnAboutToShowWorkshopMenu
-CQVRMonitorController::OnDisableDirectMode
 CQVRMonitorController::OnDisableSafeMode
 CQVRMonitorController::OnDoKnockKnockAction
-CQVRMonitorController::OnEnableDirectMode
 CQVRMonitorController::OnEnableSafeMode
 CQVRMonitorController::OnHideHeadsetView
 CQVRMonitorController::OnHidePerfGraph
@@ -3669,8 +3578,6 @@ ChaperoneFile
 ChartStyle
 CheckDismissableWarningsAtInit
 CheckDismissableWarningsAtStartup
-CheckForSteamCheckBox
-CheckStatusComboBox
 CheckTokenMembership
 Checking for Vive wireless receivers. %d detected.\n
 City
@@ -3685,6 +3592,7 @@ CoCreateInstance
 CoCreateInstance CPolicyConfigVistaClient failed: hr = 0x%08x\n
 CoCreateInstance failed: 0x%08lx\n
 CoCreateInstance for INetFwPolicy2 failed: 0x%08lx\n
+CoCreateInstance(CLSID_CResamplerMediaObject) failed hr = 0x%08x\n
 CoInitializeEx
 CoInitializeEx, hr = 0x%08x\n
 CoTaskMemFree
@@ -3809,7 +3717,6 @@ D\n?dataChanged@QAbstractItemModel@@QEAAXAEBVQModelIndex@@0AEBV?$QVector@H@@@Z
 D\t?boundingRect@QRegion@@QEBA?AVQRect@@XZ
 D\v?endsWith@QByteArray@@QEBA_ND@Z
 DashboardVisibleTime
-DebugInputBindings
 DebuggerEnabled
 Default Playback Audio Devices: %s, %s (Comm)\n
 Default Record Audio Device: %s, %s (Comm)\n
@@ -3945,8 +3852,6 @@ Displays
 Divider
 DoAcquireData
 DoInit
-DoNotDisturb
-DoNotFadeToGrid
 DoParseString
 DoRequestPlaybackVolumeGainStatus
 DoSetPlaybackVolumeGainStatus
@@ -3987,8 +3892,6 @@ Element not in this layout, couldn't take
 EmitResetLighthouseEvents
 Empty escape sequence in string
 Enable
-EnableDashboardCheckBox
-EnableLinuxGPUProfilingCheckBox
 Enabled
 Encountered error 
 EndState
@@ -4038,13 +3941,6 @@ Exit Status:
 ExitBootloader
 Exiting Firmware Update\n
 ExpectWirelessHeadset: %d
-Explanation_DisableEnhancedPowerManagement
-Explanation_QuickCalibrate
-Explanation_RebootVive
-Explanation_RemoveAllSteamVRUSBDevices
-Explanation_ResetDismissableWarnings
-Explanation_RestartSteamVR
-Explanation_Supersampling
 Extended Display
 Extra non-whitespace after JSON value.
 FATAL: Failed to open log file %s\n
@@ -4091,7 +3987,6 @@ Failed to get config path for persistent statistics.\n
 Failed to get property container for headset!\n
 Failed to import client event handle from pipe %s after connecting\n
 Failed to import server event handle from pipe %s after connecting\n
-Failed to initialize GPU profiling\n
 Failed to initialize mailbox!
 Failed to initialize mailbox!\n
 Failed to initialize settings.
@@ -4394,7 +4289,6 @@ GPULabel4
 GPULabel5
 GPULabel6
 GPULabel7
-GPUProfiling
 Game
 GamepadButtonPresses
 GamepadsFound
@@ -4447,7 +4341,6 @@ GetSystemInfo
 GetSystemPowerStatus
 GetSystemTime
 GetSystemTimeAsFileTime
-GetTempPathW
 GetTickCount64
 GetTokenInformation
 GetTokenInformation failed. GetLastError returned: %d\n
@@ -4795,7 +4688,6 @@ L\f?freeData@QMapDataBase@@SAXPEAU1@@Z
 LabelSide
 LabelType
 Language
-Large number of events this frame caused the poll loop to exit without draining\n
 LastDismissedTime
 LastIndexControllerWarningDismissTime
 LastIndexControllerWarningShowTime
@@ -4887,7 +4779,7 @@ Manufacturer:
 Manufacturer: 
 Manufacturer: %1\n
 MapViewOfFile
-May  7 2025
+May 13 2025
 MbP?
 MenuAction_AboutQt
 MenuAction_About_vrmonitor
@@ -4900,18 +4792,14 @@ MenuAction_CreateSystemReport
 MenuAction_DebugCommands
 MenuAction_Developer
 MenuAction_Devices
-MenuAction_DisableDirectMode
-MenuAction_DisableEnhancedPowerManagement
 MenuAction_DisplayFrameTiming
 MenuAction_DisplayMirror
-MenuAction_EnableDirectMode
 MenuAction_FirmwareUpdate
 MenuAction_Help
 MenuAction_IdentifyBaseStation
 MenuAction_IdentifyController
 MenuAction_IdentifyTracker
 MenuAction_KnockKnock
-MenuAction_LegacySettings
 MenuAction_MainPlaylistMenu
 MenuAction_OverlayViewer
 MenuAction_PairController
@@ -4922,24 +4810,17 @@ MenuAction_PlaylistEditor
 MenuAction_PlaylistPlayer
 MenuAction_PowerOffController
 MenuAction_PowerOffTracker
-MenuAction_QuickCalibrate
 MenuAction_Quit
 MenuAction_RebootVive
 MenuAction_RecentPlaylist
 MenuAction_RecentPlaylists
 MenuAction_Recenter
 MenuAction_RecordTrackingData
-MenuAction_RefreshStatusNow
-MenuAction_RemoveAllSteamVRUSBDevices
 MenuAction_ReportABug
-MenuAction_ResetDismissableWarnings
-MenuAction_RestartSteamVR
 MenuAction_RunMediaPlayer
 MenuAction_RunPlaylist
 MenuAction_RunRoomSetup
 MenuAction_RunTutorial
-MenuAction_SetConfigDirectory
-MenuAction_SetLogDirectory
 MenuAction_Settings
 MenuAction_ShowConfigDirectory
 MenuAction_ShowControllerBinding
@@ -5170,15 +5051,9 @@ OnAddPlaylistEntry
 OnAdvanceState
 OnAdvanceToState
 OnAllCheckboxStateChanged
-OnApplicationReprojectionChanged
-OnApplicationResolutionSliderDragging
-OnApplicationResolutionSliderReleased
 OnApplicationStateHasChanged
 OnApplicationStateTimerTimeout
-OnApplicationsComboBoxChanged
 OnApply
-OnArcadeModeChanged
-OnAudioDeviceChanged
 OnAutomaticConfiguration
 OnBaseStationCheckBoxClicked
 OnBaseStationDiscovered
@@ -5227,14 +5102,9 @@ OnChaperoneDataHasChanged
 OnChaperoneUniverseHasChanged
 OnCheckBoxValueChanged
 OnCheckForSharedMemoryChanged
-OnCheckForSteamStateChanged
-OnCheckMotionSmoothing
 OnCheckRoomSetupIsStillRunning
 OnCheckStatusNow
-OnCheckStatusSelectionChanged
 OnCheckStatusTimeout
-OnCheckSupersamplingFiltering
-OnCheckSupersamplingManualOverride
 OnClearPlacecard
 OnClearRecentPlaylistPlayerAction
 OnClicked
@@ -5269,9 +5139,7 @@ OnCurrentProcessFinished
 OnCurrentProcessStateChanged
 OnCurrentTabIndexChanged
 OnDebugCommands
-OnDebugInputBindingsChanged
 OnDefaultDeviceChanged: flow = %s, role = %s, device = %s\n
-OnDefaultScreenshotTypeComboBoxChanged
 OnDeleteControlPointAction
 OnDeletePlaylistEntry
 OnDeleteProcess
@@ -5279,26 +5147,21 @@ OnDescriptionChanged
 OnDesktopMightBeHidden
 OnDesktopMightBeVisible
 OnDesktopStylesheetHasChanged
-OnDeveloperSettingsAction
 OnDeviceAdded: device = %s\n
 OnDeviceChanged
 OnDeviceOverviewDoneClicked
 OnDeviceRemoved: device = %s\n
 OnDeviceStateChanged: DEVICE_STATE_%s (0x%8.8x), device = %s\n
 OnDirectMode
-OnDisableDirectMode
 OnDisableEnhancedPowerManagement
 OnDisableSafeMode
 OnDismissButtonClicked
 OnDisplayFrameTimingAction
-OnDisplayModeNotSupported
 OnDoCalibration
 OnDoCalibration()
 OnDoConnectToSteam
 OnDoDisconnectFromSteam
 OnDoKnockKnockAction
-OnDoNotDisturbCheckBoxStateChanged
-OnDoNotFadeToGridChanged
 OnDone
 OnDone()
 OnDoneClicked
@@ -5309,11 +5172,7 @@ OnDriverInstallDone
 OnDriverInstallStarted
 OnDriverInstalled
 OnDriverRequestedQuit
-OnEnableDashboardChanged
-OnEnableDirectMode
 OnEnableSafeMode
-OnEnableScreenshotsCheckBoxStateChanged
-OnEnhancedStatusClicked
 OnEnterStandbyMode
 OnEntriesItemChanged
 OnEntryDoubleClicked
@@ -5349,7 +5208,6 @@ OnHeadsetViewShowRequested
 OnHideDisplayMirror
 OnHideHeadsetView
 OnHidePerfGraph
-OnHomeAppCheckBoxStateChanged
 OnIconActivated
 OnIdentifyBaseStation
 OnIdentifyClicked
@@ -5365,7 +5223,6 @@ OnInstallDriver
 OnIntervalTimeout
 OnKnockKnock
 OnKnockKnockClicked
-OnLaunchSteamVROnAppLaunchChanged
 OnLeaveStandbyMode
 OnLeftButtonClicked
 OnLegacySettingsAction
@@ -5373,20 +5230,16 @@ OnLinkActivated
 OnLoadFile
 OnLoadPlacecard
 OnLoadPlaylistDescription
-OnLockedModeCheckBoxStateChanged
 OnMakeCompositorFullscreen
 OnManualSwitchCheckboxStateChanged
 OnMasterPowerManagementCheckBoxClicked
 OnMinimizeButtonClicked
-OnMirrorPlayDevicesComboBoxChanged
-OnMirrorPlaybackEnableCheckBoxChanged
 OnNewPlaylistDescription
 OnNewStatusObjectCreated
 OnNewsLoaded
 OnNextAction
 OnNextBaseStationWirelessUpdate
 OnNextPlaylistEntry
-OnNightModeCheckBoxStateChanged
 OnOpacityChanged
 OnOpen
 OnOpenDebugCommands
@@ -5400,28 +5253,19 @@ OnOpenWebConsole
 OnOpenWebDevTools
 OnOpenXr
 OnOutOfVideoMemory
-OnOverlayVisibleCheckBoxStateChanged
 OnPairController
 OnPairingWizard
 OnPairingWizardAction
 OnParsingDone
-OnPauseOnStandbyChanged
 OnPausePlaylistAction
 OnPausePlaylistEntry
-OnPerfAllowTimingStoreStateChange
 OnPerfGraphTimer
-OnPerfLinuxGPUProfilingStateChanged
-OnPerfSaveNowClicked
-OnPerfSaveTimingsOnExitStateChange
 OnPlay
 OnPlaySoundAction
 OnPlaySoundBeforeSwitchingEntryCheckboxStateChanged
-OnPlaybackDevicesComboBoxChanged
-OnPlaybackSourceChanged
 OnPlaylist
 OnPlaylistDescriptionHasChanged
 OnPlaylistEditorAction
-OnPlaylistMenuStateChanged
 OnPlaylistNameEdited
 OnPlaylistPlayerGotoFirst
 OnPlaylistPlayerNext
@@ -5449,7 +5293,6 @@ OnPromotePowerManagementDialogClosed
 OnPropertyChanged
 OnPumpVREvents
 OnQtApplicationStateChanged
-OnQuickCalibrate
 OnQuit
 OnQuitAction
 OnRawTextSearchBackward
@@ -5463,11 +5306,8 @@ OnRebootHMDUserCanCancel
 OnRecentPlaylistPlayerAction
 OnRecenterAction
 OnReconnectVRServer
-OnRecordingDevicesComboBoxChanged
-OnRecordingSourceChanged
 OnRefresh
 OnRefreshAllClicked
-OnRefreshButtonClicked
 OnRefreshLinkActivated
 OnRefreshRate
 OnRefreshStatus
@@ -5478,7 +5318,6 @@ OnRenderOverlay
 OnReportABugAction
 OnRequestDisconnectReconnect
 OnResetCameraSettings
-OnResetChaperone
 OnResetCollisionBounds
 OnResetCollisionBoundsSettings
 OnResetCompleteSetupAndRestart
@@ -5557,7 +5396,6 @@ OnShowLogDirectoryAction
 OnShowManageTrackers
 OnShowManageTrackersAction
 OnShowPerfGraph
-OnShowPerfGraphInHMDStateChange
 OnShowProgressUI
 OnShowRuntimeDirectoryAction
 OnShowUploadWorkshopItemDialogAction
@@ -5599,7 +5437,6 @@ OnStartHeadsetWatchmanRecovery
 OnStartHeadsetWatchmanUpdate
 OnStartHeadsetWatchmanV3Recovery
 OnStartRecordingAction
-OnStartRefresh
 OnStartSteam
 OnStartSteamVRAction
 OnStartUpdateBaseStationWithDriveTarget
@@ -5608,12 +5445,9 @@ OnStartUpdateGenericTrackerWithSerialNumberTarget
 OnStartUpdateHeadsetWithSerialNumberTarget
 OnStateTimerTimeout
 OnStatusAction
-OnStatusAlwaysOnTopCheckBoxStateChanged
 OnStatusChecked
 OnStatusHidePopupsChanged
-OnStatusHidePopupsCheckBoxStateChanged
 OnStatusMinimizeToTrayChanged
-OnStatusMinimizeToTrayCheckBoxStateChanged
 OnStatusUpdateTimerTimeout
 OnSteamConnectFinished
 OnSteamDisconnectFinished
@@ -5627,8 +5461,6 @@ OnStopRecordingAction
 OnStopSteamVRAction
 OnSubjectChanged
 OnSubmit
-OnSupersamplingSliderDragging
-OnSupersamplingSliderReleased
 OnSupportTool
 OnSurpressWarnings
 OnSwitchRefreshRate
@@ -5644,10 +5476,10 @@ OnTestPlacecard
 OnTimeoutPumpEvents
 OnTimeoutRunSteamCallbacksTimer
 OnTimeoutSecondsTimer
+OnTiming
 OnToggleDashboardAction
 OnToggleHDCPCompatibility
 OnToggleHeadsetView
-OnTrackDataClicked
 OnTrackedDeviceActivated
 OnTrackingData
 OnTreeEntriesItemChanged
@@ -5661,7 +5493,6 @@ OnUpdateFirmware
 OnUpdateIdentify
 OnUpdateMoreFirmware
 OnUpdateProgressLabel
-OnUpdateState
 OnUpdateStateTimeout
 OnUpdateStatusAlertAndDismissableWarning
 OnUpdateTimerTimeout
@@ -5679,7 +5510,6 @@ OnVRMonitorURL
 OnVRMonitorURLFromExternalSource
 OnVRService
 OnViewWorkshopWikiAction
-OnViveHdmiGainCheckBoxChanged
 OnVolumeSliderMoved
 OnWaitForFinalInteractions
 OnWatchmanFirmwareRecovery
@@ -5742,7 +5572,6 @@ Passed vector sizes aren't equal:
 Path Registry(.|\n)*?Config Directory:.*
 PathCchAppend
 PathRemoveFileSpecW
-PauseOnStandbyCheckBox
 PauseRequested
 Paused
 Paused_FirmwareUpdate
@@ -5825,7 +5654,6 @@ PlaylistEditor_SelectWorkingDirectory_FileSelector
 PlaylistEditor_WindowTitle
 PlaylistEntryDefaultName
 PlaylistListDefaultName
-PlaylistMenuCheckBox
 PlaylistOverlay_GotoFirstEntry
 PlaylistOverlay_NextEntry
 PlaylistOverlay_PauseTimer
@@ -6024,7 +5852,6 @@ QO?openUrl@QDesktopServices@@SA_NAEBVQUrl@@@Z
 QProcess::ExitStatus
 QProcess::ProcessError
 QProcess::ProcessState
-QRefreshRateRadioButton
 QString
 QSystemTrayIcon::ActivationReason
 QT?setFlags@QWindow@@QEAAXV?$QFlags@W4WindowType@Qt@@@@@Z
@@ -6060,11 +5887,6 @@ QueryDosDeviceA
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryServiceConfigW
-QuickCalibrate_GiganticSpace
-QuickCalibrate_LargeSpace
-QuickCalibrate_MediumSpace
-QuickCalibrate_SmallSpace
-QuickCalibrate_StandingSpace
 Quitting SteamVR at the request of a driver\n
 R?restore@QPainter@@QEAAXXZ
 R?restoreOverrideCursor@QGuiApplication@@SAXXZ
@@ -6078,7 +5900,7 @@ R?scaledSize@QMovie@@QEAA?AVQSize@@XZ
 R?screens@QGuiApplication@@SA?AV?$QList@PEAVQScreen@@@@XZ
 REFRESH
 RPCRT4.dll
-RSDSc2
+RSDS
 RSSI: %1\n
 R\v?find@QPlainTextEdit@@QEAA_NAEBVQString@@V?$QFlags@W4FindFlag@QTextDocument@@@@@Z
 R\vpt
@@ -6150,9 +5972,6 @@ RequestPlaybackVolumeGainStatus
 RequestSystemShutdown
 RequestSystemShutdown_UserCanCancel
 Reset Runtime based on Executable: %s\n
-ResetChaperoneToHeadsetOnFloorWithSize %d\n
-ResetChaperoneToHeadsetOnFloorWithSize %f %f %f
-ResetChaperoneToHeadsetOnFloorWithSize couldn't get a pose from the HMD\n
 ResetEvent
 Restart
 RestartSelf
@@ -6204,7 +6023,6 @@ SIG_AdvanceState
 SIG_AdvanceToState
 SIG_ApplicationStateHasChanged
 SIG_ApplyChannel
-SIG_AudioDeviceChanged
 SIG_AutoGenerationCompleted
 SIG_BS2_SetPowerState
 SIG_BS2_SetPowerStateDone
@@ -6268,8 +6086,6 @@ SIG_ShouldStopWindowDrag
 SIG_ShouldUpdateWindowDrag
 SIG_StatusChanged
 SIG_StatusChecked
-SIG_StatusHidePopupsChanged
-SIG_StatusMinimizeToTrayChanged
 SIG_StatusWindowMinimized
 SIG_StatusWindowRestored
 SIG_SteamConnectFinished
@@ -6354,7 +6170,6 @@ STEAMVR_GPUVIS_ON_ASSERT
 SYSTEM\CurrentControlSet\Enum\USB\VID_%s&PID_%s
 SYSTEM\CurrentControlSet\Enum\USB\VID_%s&PID_%s\%s
 SafeMode
-SaveNowButton
 ScaleType
 ScanForBaseStation_FoundStations
 ScanForBaseStation_Incomplete
@@ -6399,23 +6214,6 @@ SetWindowPos
 Setting firmware manifest beta override: %d\n
 Setting thumbnail json automatically\n
 Settings manager init failed (118)
-SettingsAdvancedDirectModeHeader
-SettingsAdvancedPathsHeader
-SettingsAdvancedResetHeader
-SettingsAdvancedRoomAndTrackingHeader
-SettingsAdvancedStatusHeader
-SettingsAdvancedSupersamplingFiltering
-SettingsDeveloperGeneralHeader
-Settings_Advanced_AllowSupersampleFiltering
-Settings_Advanced_DirectMode_Header
-Settings_Advanced_MotionSmoothing_Disabled
-Settings_Advanced_MotionSmoothing_Disabled_Win7
-Settings_Advanced_Paths_Header
-Settings_Advanced_Reset_Header
-Settings_Advanced_RoomAndTracking_Header
-Settings_Advanced_Status_Header
-Settings_ArcadeMode
-Settings_Audio_Default
 Settings_BaseStation_BaseStation10
 Settings_BaseStation_BaseStation20
 Settings_BaseStation_BluetoothBusy
@@ -6437,26 +6235,11 @@ Settings_Bluetooth_Driver_Update_Description
 Settings_Bluetooth_RetryConnection
 Settings_Bluetooth_ServicesNotAvailable
 Settings_Bluetooth_Title
-Settings_CheckForSteam
-Settings_DebugInputBindings
-Settings_Developer_General_Header
 Settings_Developer_Title
 Settings_DisableEnhancedPowerManagement_Crash
 Settings_DisableEnhancedPowerManagement_FailToStart
 Settings_DisableEnhancedPowerManagement_Success
-Settings_DoNotFadeToGrid
-Settings_EnableDashboard
-Settings_EnableLinuxGPUProfiling
-Settings_GpuInfo_Current
-Settings_GpuInfo_NoHeadset
-Settings_GpuInfo_Recommended
 Settings_Information_Title
-Settings_PauseOnStandby
-Settings_PerApplication_AppResFooter
-Settings_PerApplication_DashboardSuffix
-Settings_PerApplication_MotionSmoothing_Checkbox_Default
-Settings_PerApplication_MotionSmoothing_Off
-Settings_PerApplication_MotionSmoothing_On
 Settings_RemoveAllRelevantUSBDevices_Crash
 Settings_RemoveAllRelevantUSBDevices_FailToStart
 Settings_RemoveAllRelevantUSBDevices_PartialSuccess
@@ -6465,25 +6248,6 @@ Settings_RemoveAllRelevantUSBDevices_Text
 Settings_ResetRuntimeBasedOnVRMonitorAndQuit_Text
 Settings_SelectConfigPath
 Settings_SelectLogPath
-Settings_ShowPlaylistMenu
-Settings_StartSteamVROnAppLaunch
-Settings_USB_Component_Audio
-Settings_USB_Component_Camera
-Settings_USB_Component_Dongle1
-Settings_USB_Component_Dongle2
-Settings_USB_Component_HTCBoard
-Settings_USB_Component_Hub
-Settings_USB_Component_HubBluetooth
-Settings_USB_Component_HubController
-Settings_USB_Component_WatchmanBoard
-Settings_USB_EnhancedStatus
-Settings_USB_LookingForConnections
-Settings_USB_NoDevicesFound
-Settings_USB_PressRefresh
-Settings_USB_Refresh
-Settings_USB_ViveDevices
-Settings_USB_ViveHeadsetHeader
-Settings_USB_ViveLinkBoxHeader
 Settings_UseBluetoothLink_Info
 Settings_UseBluetoothLink_Text
 Setup Mode
@@ -6526,7 +6290,6 @@ Show %L1 frames
 ShowBaseStationPowerManagementTip
 ShowFileBrowserMainFile
 ShowFileBrowserThumbnail
-ShowSettingsOnAppLaunchCheckBox
 Shutdown
 ShutdownRequested
 ShutdownVRApps
@@ -6564,10 +6327,6 @@ StatsAccumStart
 StatsAccumUnluggedIndexControllerActiveSeconds
 Status
 StatusAlwaysOnTop
-StatusCheckInterval_Never
-StatusCheckInterval_Normal
-StatusCheckInterval_Often
-StatusCheckInterval_Seldom
 StatusWarning_System_Chaperone_Warning
 StatusWarning_System_ConnectionRefusedBySteam
 StatusWarning_System_NeedDirectModeGraphicsDriverUpdate
@@ -6653,7 +6412,6 @@ SteamVR Version:\t(?<VALUE>.*)
 SteamVR-%Y-%m-%d-%p_%I_%M_%S.txt
 SteamVR-Jira-%Y-%m-%d-%p_%I_%M_%S.txt
 SteamVR-Jira-system-report.txt
-SteamVRETWProvider.man
 SteamVRPerformanceStats
 SteamVRServiceNeedsInstallation
 SteamVRSessionDetails
@@ -7343,8 +7101,6 @@ Y?transform@QPainter@@QEBAAEBVQTransform@@XZ
 Y\v?entryList@QDir@@QEBA?AVQStringList@@V?$QFlags@W4Filter@QDir@@@@V?$QFlags@W4SortFlag@QDir@@@@@Z
 Y\v?findData@QComboBox@@QEBAHAEBVQVariant@@HV?$QFlags@W4MatchFlag@Qt@@@@@Z
 YesButton
-You might experience an increased amount of UAC prompts when GPU Profiling is enabled.\n
-Your OS does not support TdhEnumerateManifestProviderEvents.\n
 Z!?windowState@QWidget@@QEBA?AV?$QFlags@W4WindowState@Qt@@@@XZ
 Z?transformed@QPixmap@@QEBA?AV1@AEBVQMatrix@@W4TransformationMode@Qt@@@Z
 Z?translate@QPainter@@QEAAXAEBVQPointF@@@Z
@@ -7859,7 +7615,6 @@ Zjz\v
 \v?geometry@QLayout@@UEBA?AVQRect@@XZ
 \v?geometry@QSystemTrayIcon@@QEBA?AVQRect@@XZ
 \v\n?dragEnterEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneDragDropEvent@@@Z
-\vrcompositor.exe
 ^%1( \t|\t)(?<VALUE>.*)
 ^M?light@QColor@@QEBA?AV1@H@Z
 ^V?setTransform@QPainter@@QEAAXAEBVQTransform@@_N@Z
@@ -7925,9 +7680,7 @@ _debug.json
 _dtest
 _errno
 _exit
-_fseeki64
 _get_narrow_winmain_command_line
-_get_stream_buffer_pointers
 _initialize_narrow_environment
 _initialize_onexit_table
 _initterm
@@ -7935,7 +7688,6 @@ _initterm_e
 _invalid_parameter_noinfo
 _invalid_parameter_noinfo_noreturn
 _localtime64
-_lock_file
 _mbsstr
 _mktime64
 _purecall
@@ -7951,7 +7703,6 @@ _strnicmp
 _strupr_s
 _time64
 _tzset
-_unlock_file
 _wcsdup
 _wcsicmp
 _wcsnicmp
@@ -7962,7 +7713,6 @@ _wstat64i32
 ` ?updateEditorGeometries@QAbstractItemView@@MEAAXXZ
 `\f?hasHeightForWidth@QTabWidget@@UEBA_NXZ
 `\v?findText@QComboBox@@QEBAHAEBVQString@@V?$QFlags@W4MatchFlag@Qt@@@@@Z
-aAMCoCreateInstance(CLSID_CResamplerMediaObject) failed hr = 0x%08x\n
 a\f?hasHeightForWidth@QWidget@@UEBA_NXZ
 a\n?dropEvent@QLineEdit@@MEAAXPEAVQDropEvent@@@Z
 abort
@@ -7976,7 +7726,6 @@ addressList
 afterReplot
 allow
 allowComments
-allowDisplayLockedMode
 allowDroppedNullPlaceholders
 allowNumericKeys
 allowSingleQuotes
@@ -8005,12 +7754,10 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 api-ms-win-crt-time-l1-1-0.dll
 api-ms-win-crt-utility-l1-1-0.dll
-appName
 applaunch_steam
 applaunch_unknown
 application/x-qt-windows-mime;value="FileContents"
 approximateCount must be greater than zero:
-arcadeMode
 arguments
 aspectRatioMode
 assert json failed
@@ -8055,7 +7802,6 @@ bSuccess
 bWakingBaseStations
 bX?surfaceHandle@QOffscreenSurface@@EEBAPEAVQPlatformSurface@@XZ
 background
-background-color: transparent;
 backgroundCameraHeight
 backgroundDomeRadius
 backgroundScaled
@@ -8063,7 +7809,6 @@ backgroundScaledMode
 backgroundUseDomeProjection
 bad allocation
 bad array new length
-bad cast
 bad compressed size
 bad conversion
 bad d_code
@@ -8121,13 +7866,13 @@ bugreport.zip
 bugsub
 bulgarian
 c ?updateEditorGeometry@QStyledItemDelegate@@UEBAXPEAVQWidget@@AEBVQStyleOptionViewItem@@AEBVQModelIndex@@@Z
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrmonitor\Retail\win64\2017\vrmonitor.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrmonitor\imagetool.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrmonitor\Retail\win64\2017\vrmonitor.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrmonitor\imagetool.cpp
 cR?reset@QTransform@@QEAAXXZ
 c\n?dropEvent@QListWidget@@UEAAXPEAVQDropEvent@@@Z
 c\v?finished@QDialog@@QEAAXH@Z
@@ -8168,7 +7913,6 @@ code %d bits %d->%d\n
 collectComments
 collisionBounds
 color
-color : #808080;
 colorScale
 columnCount
 columnSpacing
@@ -8214,7 +7958,6 @@ dateTimeFormat
 dateTimeSpec
 de_de
 deactivateStandbyOverride
-debugInputBinding
 debugcommands
 default
 default.vrsettings
@@ -8233,7 +7976,6 @@ diagnosticsLegacy/currentFrameId
 diagnosticsLegacy/visible
 direct_mode
 directmode
-disableAsync
 disableAsyncCompositor
 disableenhancedpowermanagement
 dismissedWarnings
@@ -8283,12 +8025,8 @@ enable
 enableBluetooth
 enableCamera
 enableCameraSurfaces
-enableDashboard
 enableDriverBoundsImport
 enableHomeApp
-enablePlaybackDeviceOverride
-enablePlaybackMirror
-enableRecordingDeviceOverride
 enableSafeMode
 enableYAMLCompatibility
 enableappcontainers
@@ -8346,8 +8084,6 @@ false
 fclose
 ffffff
 fflush
-fgetc
-fgetpos
 fi_fi
 fields
 file://
@@ -8370,7 +8106,6 @@ fov1_color
 fov2_color
 fov3_color
 fpga
-fputc
 fputs
 fr_fr
 frametiming
@@ -8382,7 +8117,6 @@ fread
 free
 french
 fseek
-fsetpos
 ftell
 fullFilename
 fwrite
@@ -8517,7 +8251,6 @@ icons:icon_loading.gif
 icons:icon_steamvrstatus_header.png
 icons:icon_steamvrstatus_header16.png
 icons:icon_warning.png
-icons:icon_working.png
 icons:knockknock.png
 icons:messagebox_information.png
 icons:messagebox_warning.png
@@ -8540,8 +8273,6 @@ icons:update_controller.png
 icons:update_generictracker.png
 icons:update_headset.png
 icons:update_shutdown.png
-icons:usb_not_present.png
-icons:usb_present.png
 icons:vrview_idle.png
 identifybasestation
 identifycontroller
@@ -8700,7 +8431,6 @@ modelskins
 modf
 more < 2
 motionSmoothing
-motionSmoothingOverride
 mouseDoubleClick
 mouseMove
 mousePress
@@ -8722,7 +8452,6 @@ nLevel
 nLogicalIndex
 nNew
 nNewChannel
-nNewVal
 nNextState
 nNonce
 nOld
@@ -8777,7 +8506,6 @@ oldRange
 oldSize
 ole32.dll
 onClicked
-onPlaybackMirrorDevice
 onlyVisiblePlottables
 opacity
 open
@@ -8836,10 +8564,6 @@ playSoundBeforeEnd
 playSoundBeforeEndSeconds
 play_area_color
 play_area_outline_color
-playbackDeviceOverride
-playbackDeviceOverrideName
-playbackMirrorDevice
-playbackMirrorDeviceName
 playlist
 playlist/lastSavedPath
 playlist/recent
@@ -8900,8 +8624,6 @@ reboot
 reboothmd
 reconnectvrserver
 record
-recordingDeviceOverride
-recordingDeviceOverrideName
 rect
 red_color
 refreshPriority
@@ -8920,7 +8642,6 @@ request_handlers_response
 requested point distance on graph
 rescaleAxes
 resetcamerasettings
-resetchaperone
 resetcollisionbounds
 resetcompositorbackground
 resetdismissedwarnings
@@ -8928,7 +8649,6 @@ resetqtsettings
 resetruntimebasedonvrmonitor
 resetsetup
 resetsurpressedwarnings
-resolutionScale
 resources
 resources/webinterface/dashboard/systemreportviewer.html
 response
@@ -8964,8 +8684,6 @@ scanFulfillment
 scanResults
 scatterStyle
 schinese
-screenshotType
-screenshots
 selectable
 selectableChanged
 selectableParts
@@ -9011,8 +8729,6 @@ setopenxrruntime
 setting QCPlayerable initial layer to
 settings
 settings/bluetoothlink2
-settings/checkForSteam
-settings/checkStatusInterval
 settings/showPlaylistMenu
 settingstab_openxr
 setup
@@ -9021,7 +8737,6 @@ setup-end
 setup-runroomsetup
 setup-showui
 setupwindow
-setvbuf
 shaders/d3d11/overlay_viewer_ps.fxo
 shaders/d3d11/overlay_viewer_vs.fxo
 shell32.dll,Control_RunDLL mmsys.cpl,,0
@@ -9065,7 +8780,6 @@ stLogarithmic
 stackLimit
 standaloneSystemLayer
 start
-startMonitorFromAppLaunch
 startsteam
 startup
 startup_reason
@@ -9147,6 +8861,7 @@ strpbrk
 strrchr
 strspn
 strstr
+strtod
 strtok_s
 strtok_s(%s) is failed!!\n
 strtol
@@ -9211,6 +8926,7 @@ tickVectorLabels
 ticks
 ticksRequest
 tightBoundary
+timing
 title
 titleClick
 titleDoubleClick
@@ -9255,7 +8971,6 @@ ukrainian
 unBaseStationSerialNumber
 unBasestationSerialNumber
 unDevice
-ungetc
 unknown
 unknown zip result code
 upLayout
@@ -9372,13 +9087,13 @@ vrcompositor_systemlayer
 vrdashboard.exe
 vrdashboard.txt
 vrlink
+vrmCheckForSteam
+vrmStatusCheckInterval
 vrmonitor
 vrmonitor.exe
 vrmonitor.txt
 vrmonitor://
-vrmonitor://RemoveAllRelevantUSBDevices
 vrmonitor://calibratetrackpad/?index=%1
-vrmonitor://disableenhancedpowermanagement
 vrmonitor://firmwareupdate/?index=%1
 vrmonitor://firmwareupdate/needswireless
 vrmonitor://identifycontroller
@@ -9391,14 +9106,6 @@ vrmonitor://play/gotofirst
 vrmonitor://play/next
 vrmonitor://play/pause
 vrmonitor://poweroff/?index=%1
-vrmonitor://reboothmd
-vrmonitor://refreshstatus
-vrmonitor://resetdismissedwarnings
-vrmonitor://restartsystem
-vrmonitor://setconfig
-vrmonitor://setlog
-vrmonitor://trackingdata/start
-vrmonitor://trackingdata/stop
 vrmonitor_common.qss
 vrmonitor_controller
 vrmonitor_desktop.qss
@@ -9433,7 +9140,6 @@ wcsstr
 wcstombs_s
 webhelperoverlays.json
 welcome
-wevtutil.exe
 whiskerBarPen
 whiskerPen
 whiskerWidth

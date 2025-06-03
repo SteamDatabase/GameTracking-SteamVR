@@ -600,7 +600,6 @@
 							"output": "/actions/system/in/SystemButtonChord"
 						},
 						"long": {
-							"long_press_delay": 1.5,
 							"output": "/actions/system/in/ShowPowerMenu"
 						},
 						"click": {
@@ -619,7 +618,6 @@
 							"output": "/actions/system/in/SystemButtonChord"
 						},
 						"long": {
-							"long_press_delay": 1.5,
 							"output": "/actions/system/in/ShowPowerMenu"
 						},
 						"click": {

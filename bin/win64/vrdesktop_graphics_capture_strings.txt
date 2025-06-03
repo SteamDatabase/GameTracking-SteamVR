@@ -141,7 +141,6 @@
 ??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
 ??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
 ??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
-??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAN@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAVios_base@1@AEAV21@@Z@Z
 ??Bid@locale@std@@QEAA_KXZ
@@ -421,7 +420,7 @@ Parsing of JSON string "%s" failed: %s\n
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSc,
+RSDS;
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.\n
@@ -595,11 +594,11 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdesktop\Retail_gc\win64\2017\vrdesktop_graphics_capture.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdesktop\vrdesktop.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail_gc\win64\2017\vrdesktop_graphics_capture.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
 cs_cz
 czech
 d3d11.dll
@@ -703,6 +702,7 @@ stoull argument out of range
 string too long
 strncpy
 strpbrk
+strtod
 strtoull
 sv_se
 swedish

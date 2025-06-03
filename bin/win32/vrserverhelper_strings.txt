@@ -154,7 +154,7 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\vrserverhelper\Retail\win32\2017\vrserverhelper.pdb
+c:\buildslave\steamvr_rel_win32\build\src\vrserverhelper\Retail\win32\2017\vrserverhelper.pdb
 exit
 free
 get_CurrentProfile failed: 0x%08lx\n

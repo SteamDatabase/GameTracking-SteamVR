@@ -6222,6 +6222,7 @@ strncpy
 strnicmp(char const*, char const*, unsigned long)
 strpbrk
 strstr
+strtod
 strtol
 strtold_l
 strtoul

@@ -687,8 +687,11 @@ body.SGApp .SettingsSidebarButton .Label {
   font-size: var(--settings-font-size);
 }
 
-.SettingsItem.Label {
-  display: block;
+.SettingsItem .Label.Title,
+.SettingsItem.Label.Title {
+  font-size: var(--settings-font-size-title);
+  font-weight: var(--settings-font-weight-title);
+  opacity: 0.8;
 }
 
 .SettingsItem .Label:first-child {
@@ -724,6 +727,10 @@ body.SGApp .SettingsSidebarButton .Label {
   text-align: right;
   opacity: 0.65;
   font-style: italic;
+}
+
+.SettingsItemValueInfo.Left {
+  text-align: left;
 }
 
 .SettingsItem.SegmentedControl .SegmentedControlGroup {

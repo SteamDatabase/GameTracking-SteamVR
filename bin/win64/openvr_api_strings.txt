@@ -339,6 +339,7 @@ AreFileApisANSI
 August
 BC?>6t9^\tc:>
 BF>^G
+BW\fi\f
 Bad dynamic_cast!
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
@@ -580,6 +581,7 @@ LocaleNameToLCID
 Lock already taken
 Log path could not be located (112)
 Low Power Watchdog Not Supported (129)
+M%YH
 MM/dd/yy
 March
 MaxConcurrency
@@ -612,7 +614,7 @@ QAf?
 QueryDepthSList
 QueryPerformanceCounter
 QueryUmsThreadInformation
-RSDS
+RSDSM
 RaiseException
 ReadConsoleW
 ReadFile
@@ -1076,7 +1078,7 @@ bad file descriptor
 bad locale name
 bad message
 broken pipe
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\openvr_api\Retailopenvr_api\win64\2017\openvr_api.pdb
+c:\buildslave\steamvr_rel_win64\build\src\openvr_api\Retailopenvr_api\win64\2017\openvr_api.pdb
 c?FA@s}
 ceil
 collectComments

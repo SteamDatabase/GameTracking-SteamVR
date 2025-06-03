@@ -191,6 +191,7 @@
 	--settings-subsection-stem-padding: 0.5em;
 	--settings-subsection-stem-bottom-padding: 0.3em;
 	--settings-font-weight: 400;
+	--settings-font-weight-title: 600;
 	--settings-right-column-left-margin: 1.6rem;
 	--settings-left-outer-margin: 0px;
 	--settings-background-gradient-alpha: 1;
@@ -203,6 +204,7 @@
 	--settings-right-column-width: 220px;
 	--settings-control-default-height: 2rem;
 	--settings-font-size: 14px;
+	--settings-font-size-title: 16px;
 	--settings-control-box-hover-shadow: 0px 6px 9px #00000021;
 	--settings-control-box-active-shadow: 0px 3px 9px #00000021;
 
@@ -243,6 +245,7 @@ html.VROverlay
 	--settings-right-column-width: 500px;
 	--settings-control-default-height: 2rem;
 	--settings-font-size: 1rem;
+	--settings-font-size-title: 1.2rem;
 	--settings-control-box-hover-shadow: 0px 10px 25px #00000024;
 	--settings-control-box-active-shadow: 0px 5px 10px #00000024;
 	--settings-subsection-padding-v: 1.4em;
@@ -274,6 +277,7 @@ body
 body.SGApp {
 	--settings-border-radius: 10px;
 	--settings-font-size: 0.8rem;
+	--settings-font-size-title: 0.96rem;
 
 	/* If we're a scene graph app, make the background transparent. */
 	background: #00000000;
@@ -416,16 +420,6 @@ vsg-app:not(.ShowDebugPointer) .DebugPointer {
 
 [vsg-type=panel][overlay-key] {
 	display: none;
-}
-
-/* Fidelity utils */
-
-.NoAnimations *,
-.NoAnimations *::before,
-.NoAnimations *::after
-{
-	transition: none !important;
-	animation-duration: 0s !important;
 }
 
 /* Base text */

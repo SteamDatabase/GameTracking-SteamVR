@@ -3,6 +3,47 @@
   "layouts" : [
     {
       "priority" : 100,
+      "from_controller_type" : "khr_generic_controller",
+      "simulate_controller_type" : false,
+      "simulate_render_model" : false,
+      "simulate_HMD" : false,
+      "autoremappings" : [
+        {
+          "from" : "/user/hand/right/input/grip",
+          "to" : "/user/hand/right/input/grip"
+        },
+        {
+          "from" : "/user/hand/right/input/trigger",
+          "to" : "/user/hand/right/input/trigger"
+        },
+        {
+          "from" : "/user/hand/right/input/thumbstick",
+          "to" : "/user/hand/right/input/joystick"
+        },
+        {
+          "from" : "/user/hand/left/input/primary",
+          "to" : "/user/hand/left/input/x",
+          "mirror" : false
+        },
+        {
+          "from" : "/user/hand/left/input/secondary",
+          "to" : "/user/hand/left/input/y",
+          "mirror" : false
+        },
+        {
+          "from" : "/user/hand/right/input/primary",
+          "to" : "/user/hand/right/input/a",
+          "mirror" : false
+        },
+        {
+          "from" : "/user/hand/right/input/secondary",
+          "to" : "/user/hand/right/input/b",
+          "mirror" : false
+        }
+      ]
+    },
+    {
+      "priority" : 95,
       "from_controller_type" : "oculus_touch",
       "simulate_controller_type" : true,
       "simulate_render_model" : true,

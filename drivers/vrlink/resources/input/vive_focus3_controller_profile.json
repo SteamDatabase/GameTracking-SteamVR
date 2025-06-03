@@ -8,10 +8,10 @@
   "should_show_binding_errors": true,
   "remapping" : "{vrlink}/input/vive_focus3_controller_remapping.json",
   "input_bindingui_left": {
-    "image": "{vrlink}/icons/vive_focus3_controller_left.svg"
+    "image": "{vrlink}/icons/left_vivefocusvisioncontroller.svg"
   },
   "input_bindingui_right": {
-    "image": "{vrlink}/icons/vive_focus3_controller_right.svg"
+    "image": "{vrlink}/icons/right_vivefocusvisioncontroller.svg"
   },
   "input_source": {
     "/input/joystick": {

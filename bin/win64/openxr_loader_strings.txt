@@ -55,15 +55,17 @@
 .?AVApiLayerInterface@@
 .?AVCharReader@Json@@
 .?AVCharReaderBuilder@Json@@
-.?AVDebugUtilsLogRecorder@?A0xaa0cabaa@@
-.?AVDebuggerLoaderLogRecorder@?A0xaa0cabaa@@
+.?AVDebugUtilsLogRecorder@?A0x5a548dd3@@
+.?AVDebuggerLoaderLogRecorder@?A0x5a548dd3@@
 .?AVException@Json@@
 .?AVFactory@CharReader@Json@@
+.?AVImpl@CharReader@Json@@
 .?AVLoaderInstance@@
 .?AVLoaderLogRecorder@@
 .?AVLogicError@Json@@
-.?AVOstreamLoaderLogRecorder@?A0xaa0cabaa@@
+.?AVOstreamLoaderLogRecorder@?A0x5a548dd3@@
 .?AVOurCharReader@Json@@
+.?AVOurImpl@OurCharReader@Json@@
 .?AVRuntimeError@Json@@
 .?AVRuntimeInterface@@
 .?AVbad_alloc@std@@
@@ -277,7 +279,7 @@ OpenXR-Loader
 OutputDebugStringA
 PERF
 QueryPerformanceCounter
-RSDSQ
+RSDS1Z
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -419,7 +421,7 @@ atoi
 bad allocation
 bad array new length
 bad cast
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\thirdparty\openxr\loader\Retail\win64\2017\openxr_loader.pdb
+c:\buildslave\steamvr_rel_win64\build\src\thirdparty\openxr\loader\Retail\win64\2017\openxr_loader.pdb
 collectComments
 deque<T> too long
 description

@@ -483,7 +483,7 @@ $tI<unknown>
 .?AVCBoneMaskResource@@
 .?AVCDisambiguatorFramer@vortex@@
 .?AVCDisambiguatorSyncOnBeam@vortex@@
-.?AVCDisambiguatorTDM@?A0xd780313c@vortex@@
+.?AVCDisambiguatorTDM@?A0xf9547aae@vortex@@
 .?AVCDynamicState@pb@lighthouse@@
 .?AVCFirmwareManifest@@
 .?AVCHandPoseLogic_IndexController@vortex@@
@@ -868,7 +868,6 @@ $tI<unknown>
 ??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ
 ??1_Lockit@std@@QAE@XZ
 ??4?$_Yarn@D@std@@QAEAAV01@PBD@Z
-??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAN@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@G@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@I@Z
@@ -2057,7 +2056,7 @@ QueryServiceConfigW
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS
+RSDSMA_
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -3083,16 +3082,16 @@ byteLength
 byteOffset
 byteStride
 bytes
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\openvrtools.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\lighthouse\Retail_lighthouse\win32\2017\driver_lighthouse.pdb
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\lighthouse\lighthousehmddriver.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\lighthouse\lighthouseserverdriverprovider.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\vortexlib\distortion.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\vortexlib\generated_proto\lighthouse_debug.pb.cc
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\vortexlib\stereo_setup.cpp
+c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\openvrtools.cpp
+c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win32\build\src\drivers\lighthouse\Retail_lighthouse\win32\2017\driver_lighthouse.pdb
+c:\buildslave\steamvr_rel_win32\build\src\drivers\lighthouse\lighthousehmddriver.cpp
+c:\buildslave\steamvr_rel_win32\build\src\drivers\lighthouse\lighthouseserverdriverprovider.cpp
+c:\buildslave\steamvr_rel_win32\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
+c:\buildslave\steamvr_rel_win32\build\src\vortexlib\distortion.cpp
+c:\buildslave\steamvr_rel_win32\build\src\vortexlib\generated_proto\lighthouse_debug.pb.cc
+c:\buildslave\steamvr_rel_win32\build\src\vortexlib\stereo_setup.cpp
 cal_method
 calloc
 camera
@@ -3767,7 +3766,6 @@ proximity
 pt_br
 pt_pt
 public_dependency
-pxE8
 py_generic_services
 qMFCreateMediaType failed hr = 0x%08x\n
 r2max

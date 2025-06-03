@@ -180,7 +180,6 @@
 ??1_Locinfo@std@@QEAA@XZ
 ??1_Lockit@std@@QEAA@XZ
 ??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
-??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAN@Z
 ??Bid@locale@std@@QEAA_KXZ
 ??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@
 ??_7?$codecvt@_WDU_Mbstatet@@@std@@6B@
@@ -450,7 +449,7 @@ RANDOM
 RAW:
 READ -H %4.4X
 RESET
-RSDS?
+RSDSs8:K\
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -709,7 +708,7 @@ bin_file
 blank
 bootloader
 buffer error
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vivelinklib\Retail\win64\2017\vivelinklib.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vivelinklib\Retail\win64\2017\vivelinklib.pdb
 calloc
 cntrl
 dat_file
@@ -787,6 +786,7 @@ strncat
 strncpy
 strrchr
 strstr
+strtod
 strtol
 strtoul
 strtoull

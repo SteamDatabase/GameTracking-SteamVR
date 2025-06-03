@@ -489,6 +489,7 @@ HeapFree
 HeapReAlloc
 HeapSize
 IND)ind)
+IND)ind).
 INITY
 IVRSystem_022
 Il?333333c?
@@ -562,7 +563,7 @@ QAf?
 QueryDepthSList
 QueryPerformanceCounter
 QueryUmsThreadInformation
-RSDSBR6]
+RSDS
 RaiseException
 ReadConsoleW
 ReadFile
@@ -774,7 +775,7 @@ bad function call
 bad locale name
 bad message
 broken pipe
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrpathreg\Retail\win64\2017\vrpathreg.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrpathreg\Retail\win64\2017\vrpathreg.pdb
 c?FA@s}
 ceil
 collectComments

@@ -154,6 +154,7 @@
 000015251212EFDE1523785FEABCD124
 000084211212EFDE1523785FEABCD124
 1e+9999
+6a-p0V
 8EC90001F3154F609FB8838830DAEA50
 8EC90002F3154F609FB8838830DAEA50
 8EC90003F3154F609FB8838830DAEA50
@@ -177,7 +178,6 @@
 ??1_Locinfo@std@@QAE@XZ
 ??1_Lockit@std@@QAE@XZ
 ??4?$_Yarn@D@std@@QAEAAV01@PBD@Z
-??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAN@Z
 ??Bid@locale@std@@QAEIXZ
 ??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@
 ??_7?$codecvt@_WDU_Mbstatet@@@std@@6B@
@@ -446,7 +446,7 @@ RANDOM
 RAW:
 READ -H %4.4X
 RESET
-RSDS
+RSDSb
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -703,7 +703,7 @@ bin_file
 blank
 bootloader
 buffer error
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\vivelinklib\Retail\win32\2017\vivelinklib.pdb
+c:\buildslave\steamvr_rel_win32\build\src\vivelinklib\Retail\win32\2017\vivelinklib.pdb
 calloc
 ceil
 cntrl
@@ -782,6 +782,7 @@ strncat
 strncpy
 strrchr
 strstr
+strtod
 strtol
 strtoul
 strtoull

@@ -205,7 +205,7 @@ api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\restarthelper\Retail\win64\2017\restarthelper.pdb
+c:\buildslave\steamvr_rel_win64\build\src\restarthelper\Retail\win64\2017\restarthelper.pdb
 exit
 failed.
 free

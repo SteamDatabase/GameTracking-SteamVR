@@ -331,30 +331,6 @@
 					"path": "/user/hand/right/input/system"
 				}
 			]
-		},
-		"/actions/quickrecenter": {
-			"sources": [
-				{
-					"inputs": {
-						"long": {
-							"long_press_delay": 1.5,
-							"output": "/actions/quickrecenter/in/Recenter"
-						}
-					},
-					"mode": "button",
-					"path": "/user/hand/left/input/system"
-				},
-				{
-					"inputs": {
-						"long": {
-							"long_press_delay": 1.5,
-							"output": "/actions/quickrecenter/in/Recenter"
-						}
-					},
-					"mode": "button",
-					"path": "/user/hand/right/input/system"
-				}
-			]
 		}
 	},
 	"category": "steamvr_input",

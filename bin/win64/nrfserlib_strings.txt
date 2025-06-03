@@ -567,7 +567,6 @@
 ??1_Locinfo@std@@QEAA@XZ
 ??1_Lockit@std@@QEAA@XZ
 ??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
-??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAN@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@I@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z
@@ -1056,7 +1055,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDSo5z
+RSDS
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)\n
@@ -1321,7 +1320,7 @@ bin_file
 blank
 bootloader
 buffer error
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\nrfserlib\Retail\win64\2017\nrfserlib.pdb
+c:\buildslave\steamvr_rel_win64\build\src\nrfserlib\Retail\win64\2017\nrfserlib.pdb
 calloc
 ceil
 close
@@ -1510,6 +1509,7 @@ string too long
 strncpy
 strncpy_s
 strstr
+strtod
 strtok_s
 strtoul
 system

@@ -7,7 +7,6 @@
  at line 
  exceeds maximum allowed file size 
  in Buffer\n
-!(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 " not found in the scene.
 "%/28;=#$019:>?
 ". Must be "perspective" or "orthographic"
@@ -307,6 +306,7 @@ $3br
 11eU%
 1e+9999
 2.5.4.3
+7!(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
@@ -332,7 +332,6 @@ $3br
 ??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ
 ??1_Lockit@std@@QAE@XZ
 ??4?$_Yarn@D@std@@QAEAAV01@PBD@Z
-??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAN@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@I@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
@@ -697,7 +696,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDSxj
+RSDS
 RaiseException
 ResetEvent
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
@@ -988,13 +987,13 @@ bulgarian
 byteLength
 byteOffset
 byteStride
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\oculus\Retail\win32\2017\driver_oculus.pdb
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\oculus\driver_oculus.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\oculus\oculusdirect.cpp
+c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
+c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
+c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\Retail\win32\2017\driver_oculus.pdb
+c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\driver_oculus.cpp
+c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp
 camera
 cameras
 can't merge dc and ac
@@ -1418,8 +1417,9 @@ scale
 scene
 scenes
 schinese
-seated_position_reset
+seated_and_standing_position_reset
 setvbuf
+shaders/d3d11/distort_bounds_color_ps.fxo
 shaders/d3d11/distort_cs.fxo
 shaders/d3d11/distort_cs_mc.fxo
 shaders/d3d11/distort_geom_aa_circles_ps.fxo
@@ -1513,6 +1513,7 @@ shaders/d3d11/downsample_srgb_ps.fxo
 shaders/d3d11/downsample_vs.fxo
 shaders/d3d11/frame_hallucination_ps.fxo
 shaders/d3d11/frame_hallucination_vs.fxo
+shaders/d3d11/geom_bounds_color_vs.fxo
 shaders/d3d11/geom_curved_uvs_embedded_vs.fxo
 shaders/d3d11/geom_curved_vs.fxo
 shaders/d3d11/geom_drawregion_curved_uvs_embedded_vs.fxo
@@ -1642,6 +1643,7 @@ turkish
 type
 uk_ua
 ukrainian
+unSizeInBytes <= pIndexBuffer->AsD3D11()->unSize
 unSizeInBytes <= pVertexBuffer->AsD3D11()->unSize
 unexpected 
 ungetc

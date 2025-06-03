@@ -112,7 +112,9 @@
         "HidePopupsWhenStatusMinimized": false,
         "screenshots": true,
         "screenshotType": 2,
-        "laserMouseDebugging": false
+        "laserMouseDebugging": false,
+        "vrmStatusCheckInterval": 1000,
+        "vrmCheckForSteam": true
     },
     "notifications": {
         "DoNotDisturb": false
@@ -216,7 +218,6 @@
         "showEscapeHatch": false,
         "lastAccessedExternalOverlayKey": "",
         "verticalOffsetCm_2": 0,
-        "disableAnimations": false,
         "standaloneSystemLayer": false,
         "desktopIndex": 1,
         "autoShowGameTheater": true,

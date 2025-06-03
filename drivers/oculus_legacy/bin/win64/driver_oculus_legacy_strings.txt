@@ -140,7 +140,7 @@ Oculus
 Out of thread local storage!\n
 QueryPerformanceCounter
 RPCRT4.dll
-RSDS\2c
+RSDS
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -223,12 +223,13 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus_legacy\Retail\win64\2017\driver_oculus_legacy.pdb
+c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus_legacy\Retail\win64\2017\driver_oculus_legacy.pdb
 camera
 d3d11.dll
 dk2_camera
 driver_oculus_legacy.dll
 free
+fs#h
 getenv
 headset
 malloc

@@ -305,7 +305,6 @@ $3br
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
-00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899@2\f
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 11eU%
@@ -336,7 +335,6 @@ $3br
 ??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
 ??1_Lockit@std@@QEAA@XZ
 ??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
-??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAN@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAVios_base@1@AEAV21@@Z@Z
@@ -985,6 +983,7 @@ bonemask_middle.txt
 bonemask_middlenocarpal.txt
 bonemask_thumb.txt
 brazilian
+bs#h
 buffer
 bufferView
 bufferViews
@@ -993,13 +992,13 @@ bulgarian
 byteLength
 byteOffset
 byteStride
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus\Retail\win64\2017\driver_oculus.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus\driver_oculus.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus\oculusdirect.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
+c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\Retail\win64\2017\driver_oculus.pdb
+c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\driver_oculus.cpp
+c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\oculusdirect.cpp
 camera
 cameras
 can't merge dc and ac
@@ -1427,8 +1426,9 @@ scale
 scene
 scenes
 schinese
-seated_position_reset
+seated_and_standing_position_reset
 setvbuf
+shaders/d3d11/distort_bounds_color_ps.fxo
 shaders/d3d11/distort_cs.fxo
 shaders/d3d11/distort_cs_mc.fxo
 shaders/d3d11/distort_geom_aa_circles_ps.fxo
@@ -1522,6 +1522,7 @@ shaders/d3d11/downsample_srgb_ps.fxo
 shaders/d3d11/downsample_vs.fxo
 shaders/d3d11/frame_hallucination_ps.fxo
 shaders/d3d11/frame_hallucination_vs.fxo
+shaders/d3d11/geom_bounds_color_vs.fxo
 shaders/d3d11/geom_curved_uvs_embedded_vs.fxo
 shaders/d3d11/geom_curved_vs.fxo
 shaders/d3d11/geom_drawregion_curved_uvs_embedded_vs.fxo
@@ -1653,6 +1654,7 @@ turkish
 type
 uk_ua
 ukrainian
+unSizeInBytes <= pIndexBuffer->AsD3D11()->unSize
 unSizeInBytes <= pVertexBuffer->AsD3D11()->unSize
 unexpected 
 ungetc

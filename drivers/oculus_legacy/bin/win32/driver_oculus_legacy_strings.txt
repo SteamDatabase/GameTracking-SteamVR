@@ -62,7 +62,6 @@
 .tls$
 .tls$ZZZ
 .xdata$x
-593&ZL
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
@@ -221,7 +220,7 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\oculus_legacy\Retail\win32\2017\driver_oculus_legacy.pdb
+c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus_legacy\Retail\win32\2017\driver_oculus_legacy.pdb
 camera
 ceil
 d3d11.dll

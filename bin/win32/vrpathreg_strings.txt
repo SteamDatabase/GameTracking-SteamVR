@@ -435,7 +435,7 @@ HeapReAlloc
 HeapSize
 Ht=c
 IND)ind)
-IND)ind)pow
+IND)ind).
 INITY
 IVRSystem_022
 Infinity
@@ -676,6 +676,7 @@ asin
 assert json failed
 atan
 atan2
+b<log10
 bad address
 bad allocation
 bad array new length
@@ -687,7 +688,7 @@ bad function call
 bad locale name
 bad message
 broken pipe
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\vrpathreg\Retail\win32\2017\vrpathreg.pdb
+c:\buildslave\steamvr_rel_win32\build\src\vrpathreg\Retail\win32\2017\vrpathreg.pdb
 c?e2
 ceil
 collectComments
@@ -840,7 +841,7 @@ protocol error
 protocol not supported
 r7Yr7=
 rLp>B
-raB3GH
+raB3G8jH
 read only file system
 redirectsDisplay
 rejectDupKeys

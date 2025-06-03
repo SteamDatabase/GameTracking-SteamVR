@@ -494,6 +494,7 @@ $d`D-laM
 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz./
 0123456789abcdef
 08bX
+09:26:59
 0Z@q
 0\r0#0)070;0U0Y0[0g0q0y0}0
 0\tzc
@@ -502,7 +503,6 @@ $d`D-laM
 1!1'1-191C1E1K1]1a1g1m1s1
 11M|
 14 (default)
-16:45:12
 1H@H
 1\v5#d
 1bS1
@@ -1999,7 +1999,7 @@ MakeStartableForAllUsers
 Management
 MapViewOfFile
 Mask Algorithm: 
-May  7 2025
+May 13 2025
 MessageBoxW
 Microsoft CSP Name
 Microsoft Commercial Code Signing
@@ -3585,14 +3585,14 @@ c2tnb239v2
 c2tnb239v3
 c2tnb359v1
 c2tnb431r1
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\generated_proto_x64\vr_messages.pb.cc
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\valvepesignature.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrservice\Retail\win64\2017\vrservice.pdb
+c:\buildslave\steamvr_rel_win64\build\src\common\generated_proto_x64\vr_messages.pb.cc
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\valvepesignature.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
+c:\buildslave\steamvr_rel_win64\build\src\vrservice\Retail\win64\2017\vrservice.pdb
 cACertificate
 cNAMERecord
 cRLSign

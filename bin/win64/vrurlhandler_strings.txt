@@ -126,7 +126,6 @@
 ??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
 ??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
 ??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
-??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAN@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??Bid@locale@std@@QEAA_KXZ
 ??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@
@@ -294,7 +293,7 @@ Out of thread local storage!\n
 Parsing of JSON file "%s" failed: %s\n
 PeekNamedPipe
 QueryPerformanceCounter
-RSDS
+RSDSC
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -481,9 +480,9 @@ backgroundUseDomeProjection
 bad allocation
 bad array new length
 bad conversion
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrurlhandler\Retail\win64\2017\vrurlhandler.pdb
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrurlhandler\Retail\win64\2017\vrurlhandler.pdb
 camera
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime
@@ -507,7 +506,6 @@ driver_defaults.vrsettings
 driver_holographic
 driver_lighthouse
 driver_null
-eG,v
 enable
 enableCameraSurfaces
 enableHomeApp
@@ -576,6 +574,7 @@ strictRoot
 string too long
 strncat
 strncpy
+strtod
 terminate
 trackedCamera
 trackers

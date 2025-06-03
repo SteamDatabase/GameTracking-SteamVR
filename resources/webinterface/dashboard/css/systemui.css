@@ -2623,12 +2623,46 @@ div.BindingCalloutModifierIcon
 
 .ProgressContainer
 {
-	height: 508px;
-	width: 508px;
-	color: "white";
+	--outer-size: 256px;
+	--icon-size: 72px;
+	--default-scale: 0.60;
+	--throb-max-scale: 0.65;
+	height: calc(var(--outer-size));
+	width: calc(var(--outer-size));
+	color: white;
 	opacity: 0.8;
 	display: flex;
 	position: relative;
+}
+
+@keyframes halothrob
+{
+	0% {
+		transform: scale(0.8);
+	}
+	50% {
+		transform: scale(1.0);
+	}
+	100% {
+		transform: scale(0.8);
+	}
+}
+
+.ProgressContainer.Throb::before {
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	right: 10px;
+	bottom: 10px;
+	border-radius: 50%;
+	background: radial-gradient(circle, 
+	rgb(255, 255, 255, 1.0) 30%, 
+	rgb(255, 255, 255, 0.0) 75%);
+
+	z-index: 0;
+	animation: halothrob 0.5s infinite ease-in-out;
+	pointer-events: none;
 }
 
 .ProgressContainer .CircularProgressbar
@@ -2638,24 +2672,44 @@ div.BindingCalloutModifierIcon
 	bottom: 0;
 	left: 0;
 	right: 0;
+	transform: scale(var(--default-scale));
 }
 
 .ProgressContainer .ProgressIcon
 {
-	width: 255px;
-	height: 255px;
+	width: var(--icon-size);
+	height: var(--icon-size);
 	margin: auto;
 	z-index: 10;
 }
 
 .ProgressContainer .SVGIcon_Button
 {
-	width: 255px;
-	height: 255px;
+	width: var(--icon-size);
+	height: var(--icon-size);
 	margin: auto;
 	z-index: 10;
 }
 
+@keyframes progressthrob
+{
+	0% {
+		transform: scale(var(--default-scale));
+	}
+	50% {
+		transform: scale(var(--throb-max-scale));
+	}
+	100% {
+		transform: scale(var(--default-scale));
+	}
+}
+
+.Throb .CircularProgressbar
+{
+	animation: progressthrob 0.5s infinite ease-in-out;
+	transform-box: fill-box;
+	transform-origin: center;
+}
 
 .Construct .GroupName
 {
@@ -2696,6 +2750,11 @@ div.BindingCalloutModifierIcon
 	padding: 20px;
 	border: solid 1px rgba(255, 255, 255, 0.1);
 	color: var(--gamepadui-lightest-grey);
+}
+
+.RoomSetupUI.Slim
+{
+	width: 20em;
 }
 
 .RoomSetupUI .Title
@@ -2748,13 +2807,13 @@ div.BindingCalloutModifierIcon
 	flex-shrink: 0;
 }
 
-.FloorRadiusRoot
+.AdjustPlayspaceRoot
 {
 	width: 32px;
 	height: 32px;
 }
 
-.FloorRadiusRoot .Geo
+.AdjustPlayspaceRoot .Invalid
 {
 	position: absolute;
 	top: 0;
@@ -2762,42 +2821,6 @@ div.BindingCalloutModifierIcon
 	width: 100%;
 	height: 100%;
 	box-sizing: border-box;
-	background: rgba(255,0,0,0.75);
-}
-
-.RoomSetupFloorGeoRoot
-{
-	width: 1024px;
-	height: 1024px;
-}
-
-.RoomSetupFloorGeoRoot .FloorGeo
-{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	border-radius: 1024px;
-	box-sizing: border-box;
-}
-
-.RoomSetupFloorGeoRoot .FloorGeo.Center
-{
-	border: 10px solid var(--room-setup-floor-circle); /* Thickness of the circle border */
-
-	background: radial-gradient(
-        circle,
-        var(--room-setup-floor-gradient-start) 50%,
-        var(--room-setup-floor-gradient-end) 100%
-      );
-}
-
-.RoomSetupFloorGeoRoot .FloorGeo.NoCenter
-{
-	background: radial-gradient(
-        circle,
-        var(--room-setup-floor-gradient-end) 0%,
-        var(--room-setup-floor-gradient-start) 70%
-      );
+	background: rgba(50,0,0,0.75);
+	border: 1px solid red;
 }

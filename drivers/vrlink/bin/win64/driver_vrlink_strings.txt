@@ -148,6 +148,7 @@ $3br
 .?AV<lambda_18f8685e9d6d6c41b711788ea2efc59f>@@
 .?AV<lambda_1b183cf92bfcc7a986ca41b48af450da>@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
+.?AV<lambda_38ac9e254a07ad2581f62c41ba465aa9>@@
 .?AV<lambda_38ef07f3fefd4e69df6b0f4cad3fcd58>@@
 .?AV<lambda_3a0e9dd34797aa579b142ade480c735b>@@
 .?AV<lambda_3fd6e5ca82e0518e289160675f532929>@@
@@ -170,13 +171,12 @@ $3br
 .?AV<lambda_abf0ff52a8b27deb7c253749fd46b9f9>@@
 .?AV<lambda_b05e443f3b21806c8efcecd322b95173>@@
 .?AV<lambda_b4bac2e61013943b1b76ac148112d79c>@@
+.?AV<lambda_b6062681e27775d12ffe8db432a3c104>@@
 .?AV<lambda_c6544703987fd9d279e84d520bb2c068>@@
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV<lambda_d1112e822f5ee38cbf54224532a6fefc>@@
-.?AV<lambda_d9087ec1b066ca1e3572bac849fab0c2>@@
 .?AV<lambda_d9fb5ad2b4779161ce72962e3eef40a0>@@
 .?AV<lambda_e6c6d718dd3dc6eee0580ada32c627ff>@@
-.?AV<lambda_edae242ce60d9d34539dda1d28baf3bf>@@
 .?AV<lambda_ef8cd50b187808a213c6f694a155665f>@@
 .?AV<lambda_f0f7b39aef57b4d2c468cd45f5e39eea>@@
 .?AV<lambda_fe5a3e36cf6802c43b319cc6bb962384>@@
@@ -217,6 +217,7 @@ $3br
 .?AV?$_Func_impl_no_alloc@V<lambda_18f8685e9d6d6c41b711788ea2efc59f>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1b183cf92bfcc7a986ca41b48af450da>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_38ac9e254a07ad2581f62c41ba465aa9>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_38ef07f3fefd4e69df6b0f4cad3fcd58>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3a0e9dd34797aa579b142ade480c735b>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3fd6e5ca82e0518e289160675f532929>@@_NPEAXPEAU_SP_DEVINFO_DATA@@@std@@
@@ -239,13 +240,12 @@ $3br
 .?AV?$_Func_impl_no_alloc@V<lambda_abf0ff52a8b27deb7c253749fd46b9f9>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b05e443f3b21806c8efcecd322b95173>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b4bac2e61013943b1b76ac148112d79c>@@XPEBX_K@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_b6062681e27775d12ffe8db432a3c104>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_c6544703987fd9d279e84d520bb2c068>@@XPEBX_K@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d1112e822f5ee38cbf54224532a6fefc>@@XW4ELogLevel@@PEBDPEAX@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_d9087ec1b066ca1e3572bac849fab0c2>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d9fb5ad2b4779161ce72962e3eef40a0>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e6c6d718dd3dc6eee0580ada32c627ff>@@XW4ValueTransportID@@_N@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_edae242ce60d9d34539dda1d28baf3bf>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_ef8cd50b187808a213c6f694a155665f>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_f0f7b39aef57b4d2c468cd45f5e39eea>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_fe5a3e36cf6802c43b319cc6bb962384>@@XW4ValueTransportID@@_N@std@@
@@ -713,7 +713,6 @@ $3br
 ??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
 ??1_Lockit@std@@QEAA@XZ
 ??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
-??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAN@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@G@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z
@@ -1235,7 +1234,7 @@ FAILED: Could not create constant buffer.\n
 FALSE
 FATAL: Failed to open log file %s\n
 FAULT: Packet too big!!! Can't send!!! Dropping\n
-FEC decode failure %d %d %d\n
+FEC decode fail %d %d %d\n
 FJQ>Wb
 FORMAT=32-bit_rle_rgbe
 FPR: %5.0f%%
@@ -1741,7 +1740,7 @@ R##Fe
 R;vM;
 RPCRT4.dll
 RRvM;;
-RSDS,
+RSDS
 RX Fail:%d
 RaiseException
 Rate Remark: %d %d\n
@@ -2555,12 +2554,12 @@ byteLength
 byteOffset
 byteStride
 c!!B0
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\Retail\win64\2017\driver_vrlink.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\steamvrlink.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\Retail\win64\2017\driver_vrlink.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\steamvrlink.cpp
 c=qx
 cAudBufAvg
 cAudBufMax
@@ -2956,6 +2955,7 @@ not GIF
 not HDR
 not PSD
 not enough pixels
+ns#h
 ntdll.dll
 null
 null literal
@@ -3167,6 +3167,7 @@ strtoull
 sv_se
 svl/driver
 svl/linkbwmon
+svlTs
 svl_hand_interaction_augmented
 svlserver:
 swedish

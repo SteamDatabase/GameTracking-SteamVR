@@ -49,7 +49,7 @@
 .?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
 .?AVCNonCopyable@@
 .?AVCPrismHost@@
-.?AVCPrismPoseProvider@?A0xbb7f8539@@
+.?AVCPrismPoseProvider@?A0x6c9f2405@@
 .?AVCVRMailbox@@
 .?AVCVRMailboxBase@@
 .?AVCharReader@Json@@
@@ -148,7 +148,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-16:45:12
+09:26:59
 1e+9999
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -166,7 +166,6 @@
 ??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
 ??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
 ??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
-??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAN@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAVios_base@1@AEAV21@@Z@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
@@ -396,7 +395,7 @@ MSVCP140.dll
 Mailbox %s received message %s, which it didn't have a handler for\n
 MainThrd
 MapViewOfFile
-May  7 2025
+May 13 2025
 MessageBoxA
 Minidump comment truncated
 Missing ',' or ']' in array declaration
@@ -455,7 +454,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDSG
+RSDS
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -898,15 +897,15 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrprismhost\Retail\win64\2017\vrprismhost.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrprismhost\prismhost.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrprismhost\vrprismhost.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrprismhost\Retail\win64\2017\vrprismhost.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrprismhost\prismhost.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrprismhost\vrprismhost.cpp
 client
 collectComments
 command
@@ -1033,6 +1032,7 @@ strncat
 strncpy
 strncpy_s
 strpbrk
+strtod
 strtoull
 sv_se
 swedish

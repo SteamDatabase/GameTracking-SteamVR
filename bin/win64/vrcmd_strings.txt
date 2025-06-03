@@ -87,6 +87,7 @@
 --universe
 --util
 --waitforpose
+--waitforquit
 --watchdog
 -1e+9999
 -IPCWrapper
@@ -117,6 +118,7 @@
 .?AV<lambda_5bb49cc7e122936b34195f22a654d27b>@@
 .?AV<lambda_6010c80f147b9df2ed84dd2933f5472f>@@
 .?AV<lambda_61a40b0f56387bf547ce7c42ad09251b>@@
+.?AV<lambda_655794d6c24d03a4eb901fceee36ee3c>@@
 .?AV<lambda_655ab12a61fb059c0c4cdfd3d1a25a39>@@
 .?AV<lambda_662d8de06dabd83193f2cb18a12f4766>@@
 .?AV<lambda_6c2755de9fb7d8850408403750a840df>@@
@@ -182,6 +184,7 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_5bb49cc7e122936b34195f22a654d27b>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6010c80f147b9df2ed84dd2933f5472f>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_61a40b0f56387bf547ce7c42ad09251b>@@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_655794d6c24d03a4eb901fceee36ee3c>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_655ab12a61fb059c0c4cdfd3d1a25a39>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_662d8de06dabd83193f2cb18a12f4766>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6c2755de9fb7d8850408403750a840df>@@X$$V@std@@
@@ -476,6 +479,7 @@ Error: Driver ID %s for %d is %d characters, which breaks the promise in the int
 Error: Model Number %s for %s:%s is %d characters, which breaks the promise in the interface documentation.\n
 Error: Serial Number %s for %s:%s is %d characters, which breaks the promise in the interface documentation.\n
 Errors
+Event: %s %s\n
 Event: %s data %16llx %16llx\n
 Event: %s for %s: %s %s\n
 Event: %s from %u data %16llx %16llx\n
@@ -621,6 +625,8 @@ Options are:
 Out of thread local storage!\n
 PC_%08llx
 PLAY-
+PathAliasChanged
+PathValueChanged
 Payload
 PeekNamedPipe
 PerformApplicationPrelaunchCheck( %s ) return %s\n
@@ -704,6 +710,7 @@ Prop_DisplayMCOffset_Float
 Prop_DisplayMCScale_Float
 Prop_DisplayMCType_Int32
 Prop_DisplayMinAnalogGain_Float
+Prop_DisplayMinUIAnalogGain_Float
 Prop_DisplaySupportsAnalogGain_Bool
 Prop_DisplaySupportsMultipleFramerates_Bool
 Prop_DisplaySupportsRuntimeFramerateChange_Bool
@@ -836,7 +843,7 @@ PropertyContainer: High lock acquisition counters: sp:%u yd:%u re:%u\n
 PropertyContainerCreation
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
+RSDSr
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -1238,6 +1245,7 @@ WaitNamedPipe %s failed because %s\n
 WaitNamedPipe %s failed because no one is listening at that name.\n
 WaitNamedPipeA
 Waiting for 5 seconds for vrdashboard to startup.\n
+Waiting for VREvent_Quit...\n
 Waiting for message overlay to be dismissed.\n
 Waiting for pose...\n
 WakeAllConditionVariable
@@ -1245,6 +1253,7 @@ Warning: Watchdog %s not properly cleaned up%s%s\n
 WideCharToMultiByte
 Worst (ms)
 WriteFile
+Xt#h
 [IPC] AddAccessAllowedAce failed for administrator. GetLastError returned: %d\n
 [IPC] AddAccessAllowedAce failed for chrome 1. GetLastError returned: %d\n
 [IPC] AddAccessAllowedAce failed for steam. GetLastError returned: %d\n
@@ -1399,10 +1408,10 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\propertymanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\ipcpipe.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcmd\Retail\win64\2017\vrcmd.pdb
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\propertymanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\ipcpipe.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrcmd\Retail\win64\2017\vrcmd.pdb
 client
 collectComments
 compositor_stats

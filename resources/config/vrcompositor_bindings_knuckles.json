@@ -469,9 +469,12 @@
 				{
 					"inputs": {
 						"long": {
-							"long_press_delay": 1.5,
 							"output": "/actions/quickrecenter/in/Recenter"
 						}
+					},
+					"parameters": {
+						"long_press_delay": 1.0,
+						"long_press_expiry": 3.0
 					},
 					"mode": "button",
 					"path": "/user/hand/left/input/system"
@@ -479,9 +482,12 @@
 				{
 					"inputs": {
 						"long": {
-							"long_press_delay": 1.5,
 							"output": "/actions/quickrecenter/in/Recenter"
 						}
+					},
+					"parameters": {
+						"long_press_delay": 1.0,
+						"long_press_expiry": 3.0
 					},
 					"mode": "button",
 					"path": "/user/hand/right/input/system"

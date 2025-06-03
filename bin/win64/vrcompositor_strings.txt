@@ -39,6 +39,7 @@
 #PRESENT%8didx:%d/%d id:%5d   %5dvsync:  %8d%8dpredict:%8d%8d
 #bML"
 $4DTdt
+%%VRCOMPOSITORPATH%%
 %5EUeu
 %F-%H-%M-%S
 %Y-%m-%d-%p_%I_%M_%S
@@ -239,6 +240,7 @@ $4DTdt
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_04be740f024804fb868cffe8d6a1b559>@@
 .?AV<lambda_06f7f03917f813d4acaea219b2a15de1>@@
+.?AV<lambda_0870fc504d47f5b280eab8c30f8eab23>@@
 .?AV<lambda_0bf5a7df96a4fb61efd027f9ca188239>@@
 .?AV<lambda_0e9c682e6668453b3ee5636a438a502c>@@
 .?AV<lambda_0edd1c727e57e3e264339f5f1157a7be>@@
@@ -250,6 +252,7 @@ $4DTdt
 .?AV<lambda_30d0f29d2aa872ae28db230989e45d5d>@@
 .?AV<lambda_34f2e444be6b87859e7d70c75d276085>@@
 .?AV<lambda_389c8fe41f46b7f8c4c8989530d782e7>@@
+.?AV<lambda_4424f60dc6272e432e2332fad7aeb9c5>@@
 .?AV<lambda_54acbce8f80b2b8330d7ca8793104353>@@
 .?AV<lambda_550909bf484c0ab2d7ef9670fc9a24b0>@@
 .?AV<lambda_59b9cd8463f3ed1408b8a16cd649c36c>@@
@@ -259,20 +262,26 @@ $4DTdt
 .?AV<lambda_73b6f06f79d9bfbf88825c299bdd20cd>@@
 .?AV<lambda_7c6f6c4459582fbd36d681c896fa24b1>@@
 .?AV<lambda_7ce51b90e7d20ae05c43c897d9b3fe79>@@
+.?AV<lambda_822e3955508f850e3f65f7b791312126>@@
 .?AV<lambda_86d59099bd136058f579e2d0755eafaa>@@
 .?AV<lambda_8f0b5e86cb8c7eaac9b7ce3a7ea3e987>@@
 .?AV<lambda_97e897445855b5c257ab424cdd8c8578>@@
 .?AV<lambda_9d4e8af580c7b24b135a5a7f652af4da>@@
+.?AV<lambda_a39f2cc505b7b9cc297f215ca1aa9b4b>@@
 .?AV<lambda_a4a964ec4ce785b696b1db23877b2efa>@@
 .?AV<lambda_b2db90e26f16d2df5d837253529ec0cb>@@
+.?AV<lambda_b6a49a309ad208974985388b8cfa7310>@@
 .?AV<lambda_b999e20ffa6154705556996545c644f8>@@
+.?AV<lambda_c64c1a9cc02f8aeec11a8ac013daf78e>@@
 .?AV<lambda_cc402e3e286a8766195cab2d89453386>@@
 .?AV<lambda_d1112e822f5ee38cbf54224532a6fefc>@@
 .?AV<lambda_d16db97e62c2efde03fd6ec893e59571>@@
 .?AV<lambda_de316f43b8d0f26b94370bf11e74008f>@@
 .?AV<lambda_e0a7300d03579af9117ce96f7cfc1e03>@@
 .?AV<lambda_ebfb3060989199463f5c1ef7bf995d6c>@@
+.?AV<lambda_ef6977c74465a2876672a374c84289d2>@@
 .?AV<lambda_f49b65d11ef2d167ad4f340ec140166d>@@
+.?AV<lambda_fc516da81c825e807315d1c3a1bd8f7a>@@
 .?AV<lambda_fc984cde4eba83418bd19490e88ae973>@@
 .?AV?$ComponentAdapterBaseNoParent@VIVRVirtualDisplay001@@$1?k_pchVirtualDisplayComponentPrefix@@3PADA$00VCVRVirtualDisplayComponent_001@@@@
 .?AV?$ComponentAdapterBaseWithParent@VIVRVirtualDisplay@vr@@$1?k_pchVirtualDisplayComponentPrefix@@3PADA$01VCVRVirtualDisplayComponent_Latest@@VCVRVirtualDisplayComponent_001@@@@
@@ -290,6 +299,7 @@ $4DTdt
 .?AV?$_Func_impl_no_alloc@P6AXPEBD0I_NPEAXPEA_N@ZXPEBDPEBDI_NPEAXPEA_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_04be740f024804fb868cffe8d6a1b559>@@_NW4EVREye@vr@@MMPEAUDistortionCoordinates_t@3@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_06f7f03917f813d4acaea219b2a15de1>@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_0870fc504d47f5b280eab8c30f8eab23>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0bf5a7df96a4fb61efd027f9ca188239>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0e9c682e6668453b3ee5636a438a502c>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0edd1c727e57e3e264339f5f1157a7be>@@XAEBVValue@Json@@@std@@
@@ -301,6 +311,7 @@ $4DTdt
 .?AV?$_Func_impl_no_alloc@V<lambda_30d0f29d2aa872ae28db230989e45d5d>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_34f2e444be6b87859e7d70c75d276085>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_389c8fe41f46b7f8c4c8989530d782e7>@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_4424f60dc6272e432e2332fad7aeb9c5>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_54acbce8f80b2b8330d7ca8793104353>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_550909bf484c0ab2d7ef9670fc9a24b0>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_59b9cd8463f3ed1408b8a16cd649c36c>@@XAEBVValue@Json@@@std@@
@@ -310,20 +321,26 @@ $4DTdt
 .?AV?$_Func_impl_no_alloc@V<lambda_73b6f06f79d9bfbf88825c299bdd20cd>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_7c6f6c4459582fbd36d681c896fa24b1>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_7ce51b90e7d20ae05c43c897d9b3fe79>@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_822e3955508f850e3f65f7b791312126>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_86d59099bd136058f579e2d0755eafaa>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_8f0b5e86cb8c7eaac9b7ce3a7ea3e987>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_97e897445855b5c257ab424cdd8c8578>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9d4e8af580c7b24b135a5a7f652af4da>@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_a39f2cc505b7b9cc297f215ca1aa9b4b>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_a4a964ec4ce785b696b1db23877b2efa>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b2db90e26f16d2df5d837253529ec0cb>@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_b6a49a309ad208974985388b8cfa7310>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b999e20ffa6154705556996545c644f8>@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_c64c1a9cc02f8aeec11a8ac013daf78e>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_cc402e3e286a8766195cab2d89453386>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d1112e822f5ee38cbf54224532a6fefc>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d16db97e62c2efde03fd6ec893e59571>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_de316f43b8d0f26b94370bf11e74008f>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e0a7300d03579af9117ce96f7cfc1e03>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_ebfb3060989199463f5c1ef7bf995d6c>@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_ef6977c74465a2876672a374c84289d2>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_f49b65d11ef2d167ad4f340ec140166d>@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_fc516da81c825e807315d1c3a1bd8f7a>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_fc984cde4eba83418bd19490e88ae973>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@AEAP8CSystemLayer@vr@@EAAXAEBVValue@Json@@@ZAEAPEAV34@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@AEAP8CVRCompositor@@EAAXAEBVValue@Json@@@ZAEAPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
@@ -333,8 +350,10 @@ $4DTdt
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_0c995926f4757a918812503e8850cebf>@@@std@@U?$default_delete@V?$tuple@V<lambda_0c995926f4757a918812503e8850cebf>@@@std@@@2@@std@@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_190a6bbd3df9ee1d969edd84cc3d229a>@@@std@@U?$default_delete@V?$tuple@V<lambda_190a6bbd3df9ee1d969edd84cc3d229a>@@@std@@@2@@std@@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_aa74002eb39e62de909e471c40dc9804>@@@std@@U?$default_delete@V?$tuple@V<lambda_aa74002eb39e62de909e471c40dc9804>@@@std@@@2@@std@@@std@@
+.?AV?$_Ref_count_obj@V?$vector@UHmdVector2_t@vr@@V?$allocator@UHmdVector2_t@vr@@@std@@@std@@@std@@
 .?AV?$_Ref_count_obj@VCEmpty@sg@@@std@@
-.?AV?$_Ref_count_obj@VCFloorRadiusInteractionState@CSceneGraphRenderer@@@std@@
+.?AV?$_Ref_count_obj@VCFloorDrawPlayspaceInteractionState@CSceneGraphRenderer@@@std@@
+.?AV?$_Ref_count_obj@VCPlayspaceFloorAdjustInteractionState@CSceneGraphRenderer@@@std@@
 .?AV?$_Ref_count_obj@VCSGElasticHeadTransformState@CSceneGraphRenderer@@@std@@
 .?AV?$_Ref_count_obj@VCSGGrabTransformState@CSceneGraphRenderer@@@std@@
 .?AV?$_Ref_count_obj@VCSGPinToViewTransformState@CSceneGraphRenderer@@@std@@
@@ -344,6 +363,7 @@ $4DTdt
 .?AV?$_Ref_count_resource@PEAEU?$default_delete@$$BY0A@E@std@@@std@@
 .?AV?$_Ref_count_resource@PEAVINode@sg@@U?$default_delete@VINode@sg@@@std@@@std@@
 .?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
@@ -374,8 +394,7 @@ $4DTdt
 .?AVCDriverManager@@
 .?AVCElasticHeadTransform@sg@@
 .?AVCEmpty@sg@@
-.?AVCFloorRadiusInteraction@sg@@
-.?AVCFloorRadiusInteractionState@CSceneGraphRenderer@@
+.?AVCFloorDrawPlayspaceInteractionState@CSceneGraphRenderer@@
 .?AVCGpuFenceWatchdog@@
 .?AVCGpuMeasurementRenderer@@
 .?AVCGrabTransform@sg@@
@@ -398,6 +417,11 @@ $4DTdt
 .?AVCPanelAnchor@sg@@
 .?AVCPinToViewTransform@sg@@
 .?AVCPipeListener@@
+.?AVCPlayspaceDots@sg@@
+.?AVCPlayspaceDrawInteraction@sg@@
+.?AVCPlayspaceFloorAdjustInteractionState@CSceneGraphRenderer@@
+.?AVCPlayspaceFloorHeightAdjust@sg@@
+.?AVCPlayspaceOutline@sg@@
 .?AVCPresentThread@LiquidVR@@
 .?AVCRenderModel@sg@@
 .?AVCRenderThread@@
@@ -887,13 +911,13 @@ $4DTdt
 00003333
 0123456789ABCDEF
 0123456789ABCDEFundefined
-0\rPR
+09:26:59
+0\rP2Q
 0x%02x 
 1.2.5
 1.5.26
 1/2/4/8/16-bit only
 123456789
-16:45:12
 1A26b
 1e+9999
 1wsHp
@@ -903,6 +927,7 @@ $4DTdt
 416.16
 52F*
 5I)7
+6@UU
 7^d[L
 7~8A
 8c8f13b1-60eb-4b6a-a433-de86104115ac
@@ -930,11 +955,11 @@ $4DTdt
 ??1_Lockit@std@@QEAA@XZ
 ??1ios_base@std@@UEAA@XZ
 ??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
-??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAN@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@G@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@I@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@M@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAVios_base@1@AEAV21@@Z@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??Bid@locale@std@@QEAA_KXZ
@@ -980,6 +1005,7 @@ $4DTdt
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
 ?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
+?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z
 ?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
 ?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
 ?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
@@ -1126,7 +1152,8 @@ CHECK failed: (count) <= (target_->size()):
 CHECK failed: (count) >= (0): 
 CHECK failed: (last_returned_size_) > (0): 
 CHECK failed: value.size() <= kint32max: 
-CHmdDistort::RunFrame/Volume
+CHmdDistort::RunFrame/GetMasterSoundVolume
+CHmdDistort::RunFrame/SetMasterSoundVolume
 CLaserMouse: Hiding keyboard because user clicked on another overlay. pidCurrentKeyboard=%d, state=%d
 CLaserMouse::ProcessFrame
 CMMNotificationClient::Register
@@ -1427,6 +1454,7 @@ CollisionBoundsGroundPerimeterOn
 CollisionBoundsPlaySpaceOn
 CollisionBoundsStyle
 CollisionBoundsWallHeight
+CommitPlayspaceCircleBoundary error. No forward direction.
 Compositor
 Compositor Time........CPU: %.3fms / GPU: %.3fms\n
 Compositor failed to find DX11 hardware (401)
@@ -1593,6 +1621,8 @@ Error Logging DisplayPort Link Info\n
 Error Updating HMD DisplayFrequency\n
 Error establishing real-time priority of RenderThread
 Error establishing real-time priority of SignalThread
+Error getting center on CommitPlayspaceCircleBoundary
+Error getting stroke perimeter on CommitPlayspaceBoundsDrawing
 Error making window!\n
 Error! EventWriteString Severe: %s\n
 Error! Unable to load %s after allocating memory\n
@@ -1829,6 +1859,7 @@ Failed to init system layer shared state
 Failed to init system layer shared state in CGraphicsDevice\n
 Failed to init systemlayer mailbox (error:%d)\n
 Failed to init tracking shared state!\n
+Failed to initialize GPU profiling
 Failed to initialize NvEncode resources!\n
 Failed to initialize NvEncode subsystem!\n
 Failed to initialize NvOpticalFlow resources!\n
@@ -2031,7 +2062,6 @@ Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
 Hmd Not Found Presence Failed (126)
 HmdDriverFactory
-I?fff?
 IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x\n
 IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u\n
 IAudioCaptureClient::GetBuffer() failed: hr = 0x%08x\n
@@ -2184,6 +2214,7 @@ InitializeCriticalSection
 InitializeCriticalSectionAndSpinCount
 InitializeSListHead
 InitializeSecurityDescriptor
+Initialized GPU profiling
 Initializing NVEncode width: %d, height: %d
 Initializing camera\n
 Initializing timing resources\n
@@ -2319,8 +2350,8 @@ Mailbox %s received message %s, which it didn't have a handler for\n
 Main
 MainThrd
 MapViewOfFile
-May  7 2025
-Mb@?UUU?
+May 13 2025
+Mb@?UUU?fff?
 MeasureGpuMegaPixelsPerSecond(%d): Returning %d MP/sec. Total CPU time %.2f seconds.\n
 MeasureGpuMegaPixelsPerSecond(): Error! Initialize() failed! Skipping GPU measurement.\n
 MessageBoxA
@@ -2464,6 +2495,7 @@ PeekMessageA
 PeekNamedPipe
 Perf graph: %s
 Play Area
+Playspace Mesh
 Post
 Post-clear
 Post-present
@@ -2560,6 +2592,7 @@ Prop_DisplayMCOffset_Float
 Prop_DisplayMCScale_Float
 Prop_DisplayMCType_Int32
 Prop_DisplayMinAnalogGain_Float
+Prop_DisplayMinUIAnalogGain_Float
 Prop_DisplaySupportsAnalogGain_Bool
 Prop_DisplaySupportsMultipleFramerates_Bool
 Prop_DisplaySupportsRuntimeFramerateChange_Bool
@@ -2696,8 +2729,10 @@ Q|S`l
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS
-R\npR
+RSDSv
+R\fp\v`\n02Q
+R\np2Q
+R\rp\f`\v02Q
 RaiseException
 Raw Exaggerated Motion Vectors (Scaled 3.0)
 Raw Motion Vectors
@@ -2863,6 +2898,7 @@ Shared-ConstantBuffer
 SharedResourceManager: detected possible leak with type: %d id: 0x%llx\n
 SharedResourceManager: leak summary %zu items\n
 ShellExecuteA
+ShellExecuteExA
 ShowWindow
 Showing dashboard tutorial overlay\n
 Shutting down motion estimation system due to poor hardware performance!\n
@@ -2903,6 +2939,7 @@ SteamAppId
 SteamGameId
 SteamStreaming
 SteamVR Trace Session
+SteamVRETWProvider.man
 SteamVR_FrameStatsPath
 SteamVR_Namespace
 Stopping playback mirror thread\n
@@ -3948,6 +3985,8 @@ XR_UNKNOWN_SUCCESS_%d
 XXXX PNG chunk not known
 XsBI
 Y?33
+You might experience an increased amount of UAC prompts when GPU Profiling is enabled.\n
+Your OS does not support TdhEnumerateManifestProviderEvents.\n
 Zjz\v
 [%s] Begin Frame Timing: %d
 [%s] End Frame Timing: %d
@@ -4154,6 +4193,7 @@ Zjz\v
 [h1R
 [libprotobuf %s %s:%d] %s\n
 [no zlib message]
+\fp2Q
 \gpuvis.exe
 \mfpmp.exe
 \nbad png sig
@@ -4162,6 +4202,8 @@ Zjz\v
 \t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \vCreating systemlayer textures (w=%d,h=%d)\n
+\vp2Q
+\vrcompositor.exe
 ]CGraphicsDevice::AcquireSync
 ^oEZ_
 _%d.cap
@@ -4255,6 +4297,8 @@ _wfopen_s
 _wfsopen
 _wgetcwd
 _wstat64i32
+`\r0\fP2Q
+`\rP\f02Q
 `anonymous-namespace'::ImportTextureFromSharedHandle
 abort
 acceleration-factor-scale-term
@@ -4316,6 +4360,8 @@ audiosource
 auto-subdivide
 autoCenterPlayArea
 avrt.dll
+axis-color-hsv
+axis-radius
 bSceneTextureIsRoomView %d bShowTrackedCameraRoomView %d\n
 bSharedKeyedMutex and bShareable are mutually exclusive on D3D11. Failed to create texture.
 backbuffer_debug_text_toggle
@@ -4380,37 +4426,37 @@ blue
 brazilian
 buffer error
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\generated_proto_x64\vr_messages.pb.cc
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\drivermanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\openvr_internal.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\remoteperfstats.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrkeyboard.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrsystem.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrsystemlayersharedstate.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrsystemlayersharedstate.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\ipcpipe.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadtools.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\panelmask.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\Retail\win64\2017\vrcompositor.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\framemanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\geometry.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\graphicsdevice.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\lasermouse.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\rendererutils.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\scenegraph.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\scenegraphrenderer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\simpledraw.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\standaloneoverlays.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\systemlayer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\generated_proto_x64\vr_messages.pb.cc
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\drivermanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\openvr_internal.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\remoteperfstats.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrkeyboard.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrsystem.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrsystemlayersharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrsystemlayersharedstate.h
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\ipcpipe.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadtools.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\panelmask.cpp
+c:\buildslave\steamvr_rel_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\Retail\win64\2017\vrcompositor.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\framemanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\geometry.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\lasermouse.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\rendererutils.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\scenegraph.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\scenegraphrenderer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\simpledraw.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\standaloneoverlays.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\systemlayer.cpp
 cached.last.poseIsValid
 callout-transform
 camera
@@ -4426,7 +4472,10 @@ cameraISPSyncDivisor
 cameraSensorFrameRate
 camera_room_view_toggle
 can't merge dc and ac
+center-color-hsv
+center-dot-radius
 center-randomization
+center-selection-radius
 channel
 channel_mode_blue
 channel_mode_cyan
@@ -4440,11 +4489,10 @@ chevron-luma-scale
 chevron-reflection-scale
 child.get()
 children
-circumference-geo
-circumference-mtl
 clear_render_model_cache
 clear_stage
 client
+clip-to-playspace
 close_dashboard
 close_dashboard_action
 collectComments
@@ -4454,8 +4502,12 @@ collision_bounds_ground_perimeter_toggle
 collision_bounds_play_space_toggle
 collision_bounds_style_cycle
 color
+color-hsv
 command
 commands
+commit_playspace_bounds_drawing
+commit_playspace_floorheight
+commit_playspace_radius
 compositor_main
 compositor_personality
 compositordebug
@@ -4543,6 +4595,10 @@ displayMode.refreshRateNumerator > 0
 displaymode.refreshRateDenominator > 0
 distortionMeshResolutionOverride
 doNotFadeToGrid
+dot-color-hsv
+dot-inner-alpha
+dot-outer-alpha
+dot-radius
 down
 drawTrackingReferences
 driver is disabled in settings
@@ -4598,6 +4654,7 @@ english
 error %s when initing driver %s from %s.\n
 es_es
 es_mx
+event
 ewh/?y
 exception thrown in JSON library
 exit
@@ -4629,9 +4686,10 @@ flPushDistance
 flip_universe_transform_toggle
 floor-aa-shader
 floor-color-mult
-floor-radius-interaction
 floorColor
 floorReflection
+floor_detection_result
+fmodf
 fonts/debug.spritefont
 fopen
 fopen_s
@@ -4656,6 +4714,7 @@ ftell
 fu`z
 fwrite
 gazeDepReprojectEnable
+generic-geo
 german
 getDeviceProperty returned empty\n
 getDeviceProperty returned wrong type %d\n
@@ -4686,6 +4745,8 @@ hPU3
 handlers
 haveStartedTutorialForNativeChaperoneDriver
 head-facing-transform
+head-interaction-radius
+head-radius
 header crc mismatch
 height
 hide-laser-when-clicking
@@ -4703,6 +4764,8 @@ hmdwindowbase_input
 hoverPanelShift
 html_color
 hu_hu
+hue-amplitude
+hue-speed
 hungarian
 i11 <= UINT16_MAX
 i91k
@@ -4728,6 +4791,7 @@ in Json::Value::operator[](int index) const: index cannot be negative
 in Json::Value::operator[](int index): index cannot be negative
 in Json::Value::resolveReference(key, end): requires objectValue
 in Json::Value::setComment(): Comments must start with /
+inactive-alpha-scale
 incompatible version
 incorrect data check
 incorrect header check
@@ -4736,7 +4800,6 @@ incorrect png_set_filler call ignored
 inherit-from-parent-panel
 inhibit-bounds-rendering
 inhibitRecenterOnUserInteraction
-inital-guess-alpha
 inner-radius
 inner_radius
 input
@@ -4787,6 +4850,7 @@ keyboard_vrwebui
 keylength >= 2^30
 ko_kr
 koreana
+kt#h
 l6qnk
 lDa>
 laserMouseDebugging
@@ -4944,6 +5008,8 @@ originInfo.trackedDeviceIndex < vr::k_unMaxTrackedDeviceCount
 other_presence
 outer-radius
 outer_radius
+outline-color-hsv
+outline-shadow-alpha
 outofdata
 outofmem
 output buffer limit
@@ -4982,6 +5048,8 @@ pSharedState != nullptr
 pSystemLayerState
 pTexture != nullptr
 pTileFloorLightmap != nullptr
+p\r`\f02Q
+p\r`\f0\vP2Q
 panel
 panel-anchor
 panelMask
@@ -4995,6 +5063,7 @@ parent-overlay-key
 parent-path
 parse
 path
+pause-notifications
 pauseCompositorOnStandby
 pedestal-height
 pedestal-radius
@@ -5004,6 +5073,10 @@ pin-to-view-transform
 pixel_line_double_sim_toggle
 pl_pl
 playAreaColor
+playspace-dots
+playspace-draw-interaction
+playspace-floorheight-adjust
+playspace-outline
 png_write_info was never called before png_write_row
 polish
 portuguese
@@ -5024,7 +5097,6 @@ quad
 quickMouseMode
 quick_reset_room_setup
 radius-range
-radius-source
 rand
 rawCaptureNumberOfFrames
 rawCapturePath
@@ -5055,12 +5127,14 @@ rendermodel
 rendermodel_component_device_index
 rendermodel_component_name
 reparent-to-panel
-reposition-from-head
 request_dashboard_tabs
 request_dashboard_tutorial
 request_handlers
 request_handlers_response
 requires-laser
+reset_playspace_bounds_drawing
+reset_playspace_floorheight
+reset_playspace_radius
 resize-handle
 resourceOnly
 resources
@@ -5069,6 +5143,11 @@ retired_sgids
 returnAddress
 right eye
 right eye overlay
+rings-color-hsv
+rings-half-width
+rings-hue-amplitude
+rings-hue-speed
+rings-radius
 ro_ro
 rolling_reprojection_toggle
 romanian
@@ -5083,6 +5162,7 @@ round
 roundf
 ru&o
 ru_ru
+runas
 runtime
 russian
 sOverlayKey
@@ -5099,6 +5179,7 @@ schinese
 screenshot_all_request
 screenshot_request
 scrollable
+seated_and_standing_position_reset
 seated_position_reset
 seconds
 sendPerfStats
@@ -5116,6 +5197,7 @@ set_notification_image_response
 set_overlay
 set_overlay_from_file
 set_overlay_from_file_response
+set_playspace_mode
 set_present_offset_ms
 set_scene_alpha_target
 set_stage
@@ -5123,6 +5205,7 @@ set_vsync_to_photons_offset
 settings
 setvbuf
 sgid
+shaders/d3d11/distort_bounds_color_ps.fxo
 shaders/d3d11/distort_cs.fxo
 shaders/d3d11/distort_cs_mc.fxo
 shaders/d3d11/distort_geom_aa_circles_ps.fxo
@@ -5216,6 +5299,7 @@ shaders/d3d11/downsample_srgb_ps.fxo
 shaders/d3d11/downsample_vs.fxo
 shaders/d3d11/frame_hallucination_ps.fxo
 shaders/d3d11/frame_hallucination_vs.fxo
+shaders/d3d11/geom_bounds_color_vs.fxo
 shaders/d3d11/geom_curved_uvs_embedded_vs.fxo
 shaders/d3d11/geom_curved_vs.fxo
 shaders/d3d11/geom_drawregion_curved_uvs_embedded_vs.fxo
@@ -5288,6 +5372,7 @@ shaders/d3d11/unlit_ps.fxo
 shaders/d3d11/unlit_sint16_ps.fxo
 shaders/d3d11/unlit_vs.fxo
 shaders_force_reload
+shadow-radius-delta
 shared_memory_block
 short_name
 should-head-align
@@ -5358,6 +5443,7 @@ strncpy
 strncpy_s
 strpbrk
 strstr
+strtod
 strtol
 strtoul
 strtoull
@@ -5384,6 +5470,7 @@ system.window.
 systemLayerHeight
 systemLayerWidth
 system_dashboard_toggle
+systemlayer-msaa-enable-override
 systemlayer.exe
 systemui_dashboard
 tRNS after IDAT
@@ -5455,6 +5542,7 @@ turkish
 type
 uk_ua
 ukrainian
+unSizeInBytes <= pIndexBuffer->AsD3D11()->unSize
 unSizeInBytes <= pVertexBuffer->AsD3D11()->unSize
 uncbVREvent <= sizeof( vr::VREvent_t )
 undocked
@@ -5484,6 +5572,7 @@ uv_max
 uv_min
 vQO+t
 value
+value_source
 valve.steam.bigpicture
 valve.steam.desktop
 valve.steam.desktopgame.
@@ -5501,7 +5590,6 @@ visible
 visible-0dof
 visible-3dof
 visible-6dof
-visible-during-roomview
 visible_time_in_seconds
 vr::CHmdDistort::Present
 vr::CHmdDistort::RunFrame
@@ -5542,6 +5630,7 @@ wcsrchr
 wcsstr
 wcstombs
 web_steam_mailbox
+wevtutil.exe
 width
 win64
 winrtdisplay.dll

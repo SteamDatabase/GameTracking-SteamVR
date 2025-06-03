@@ -19,7 +19,6 @@
 
 			,{ "name": "/settings/steamvr/enableHomeApp",                   "control": "toggle",     	"label": "#Settings_HomeAppCheck", "text": "#Settings_HomeAppDesc" }
 			,{ "name": "/settings/steamvr/startMonitorFromAppLaunch",		"control": "toggle",		"label": "#Settings_StartSteamVROnAppLaunch" }
-			,{ "name": "/settings/perfcheck/saveTimingsOnExit",				"control": "toggle",		"label": "#Advanced_AutoSaveTimingInfoOnExit" }
 
 			,{ "name": "/settings/input/*", "type":  "wildcard" }
 			,{ "name": "/settings/GpuSpeed/*", "type":  "wildcard" }
@@ -228,13 +227,14 @@
 	{
 		"title": "#Settings_SectionTitle_Developer",
 		"controller": "developer_settings",
+		"show_without_hmd": true,
 		"advanced_only": true,
 		"values": [
 			 { "name": "/settings/steamvr/debugInputBinding",				"control": "toggle",		"label": "#Settings_DebugInputBindings",                    "requires_restart": true }
-			,{ "name": "/settings/perfcheck/allowTimingStore",				"control": "toggle",		"label": "#Advanced_AllowSavingOfTimingInfo" }
-			,{ "name": "/settings/perfcheck/perfGraphInHMD",				"control": "toggle",		"label": "#Advanced_PerfGraphInHMD" }
-			,{ "name": "/settings/perfcheck/saveTimingsOnExit",				"control": "toggle",		"label": "#Advanced_AutoSaveTimingInfoOnExit" }
 			,{ "name": "/settings/steamvr/globalActionSetPriority",			"control": "toggle",		"label": "#Advanced_GlobalActionSetPriority" }
+			,{ "name": "/settings/dashboard/arcadeMode",					"control": "toggle",		"label": "#Advanced_ArcadeMode" }
+			,{ "name": "/settings/perfcheck/*", "type":  "wildcard" }
+			,{ "name": "/settings/userinterface/*", "type":  "wildcard" }
 		]
 	},
 

@@ -145,6 +145,7 @@
 , negotiation failed with error 
 , negotiation succeeded but returned NULL getInstanceProcAddr
 , negotiation succeeded but returned invalid interface version
+,nh*q
 -+xX0123456789abcdef0123456789ABCDEF
 -+xX0123456789abcdefABCDEF
 -0123456789
@@ -325,8 +326,13 @@ Json::BuiltStyledStreamWriter::writeValue(Json::Value const&)
 Json::BuiltStyledStreamWriter::writeValue(Json::Value const&) (.cold)
 Json::BuiltStyledStreamWriter::writeWithIndent(std::string const&)
 Json::BuiltStyledStreamWriter::~BuiltStyledStreamWriter()
+Json::CharReader::getStructuredErrors() const
+Json::CharReader::parse(char const*, char const*, Json::Value*, std::string*)
+Json::CharReader::~CharReader()
 Json::CharReaderBuilder::CharReaderBuilder()
 Json::CharReaderBuilder::CharReaderBuilder() (.cold)
+Json::CharReaderBuilder::ecma404Mode(Json::Value*)
+Json::CharReaderBuilder::ecma404Mode(Json::Value*) (.cold)
 Json::CharReaderBuilder::newCharReader() const
 Json::CharReaderBuilder::newCharReader() const (.cold)
 Json::CharReaderBuilder::operator[](std::string const&)
@@ -354,7 +360,9 @@ Json::Features::all()
 Json::Features::strictMode()
 Json::LogicError::LogicError(std::string const&)
 Json::LogicError::~LogicError()
-Json::OurCharReader::parse(char const*, char const*, Json::Value*, std::string*)
+Json::OurCharReader::OurImpl::getStructuredErrors() const
+Json::OurCharReader::OurImpl::parse(char const*, char const*, Json::Value*, std::string*)
+Json::OurCharReader::OurImpl::~OurImpl()
 Json::OurCharReader::~OurCharReader()
 Json::OurFeatures::all()
 Json::OurReader::OurReader(Json::OurFeatures const&)
@@ -403,12 +411,12 @@ Json::OurReader::readObject(Json::OurReader::Token&) (.cold)
 Json::OurReader::readString()
 Json::OurReader::readStringSingleQuote()
 Json::OurReader::readToken(Json::OurReader::Token&)
+Json::OurReader::readTokenSkippingComments(Json::OurReader::Token&)
 Json::OurReader::readValue()
 Json::OurReader::readValue() (.cold)
 Json::OurReader::recoverFromError(Json::OurReader::TokenType)
 Json::OurReader::skipBom(bool)
 Json::OurReader::skipBom(bool) (.part.0)
-Json::OurReader::skipCommentTokens(Json::OurReader::Token&)
 Json::OurReader::skipSpaces()
 Json::Path::Path(std::string const&, Json::PathArgument const&, Json::PathArgument const&, Json::PathArgument const&, Json::PathArgument const&, Json::PathArgument const&)
 Json::Path::Path(std::string const&, Json::PathArgument const&, Json::PathArgument const&, Json::PathArgument const&, Json::PathArgument const&, Json::PathArgument const&) (.cold)
@@ -482,10 +490,10 @@ Json::Reader::readObject(Json::Reader::Token&)
 Json::Reader::readObject(Json::Reader::Token&) (.cold)
 Json::Reader::readString()
 Json::Reader::readToken(Json::Reader::Token&)
+Json::Reader::readTokenSkippingComments(Json::Reader::Token&)
 Json::Reader::readValue()
 Json::Reader::readValue() (.cold)
 Json::Reader::recoverFromError(Json::Reader::TokenType)
-Json::Reader::skipCommentTokens(Json::Reader::Token&)
 Json::Reader::skipSpaces()
 Json::RuntimeError::RuntimeError(std::string const&)
 Json::RuntimeError::~RuntimeError()
@@ -625,6 +633,7 @@ Json::Value::end()
 Json::Value::end() const
 Json::Value::find(char const*, char const*) const
 Json::Value::find(char const*, char const*) const (.cold)
+Json::Value::find(std::string const&) const
 Json::Value::get(char const*, Json::Value const&) const
 Json::Value::get(char const*, char const*, Json::Value const&) const
 Json::Value::get(std::string const&, Json::Value const&) const
@@ -752,6 +761,7 @@ Json::parseFromStream(Json::CharReader::Factory const&, std::istream&, Json::Val
 Json::throwLogicError(std::string const&)
 Json::throwRuntimeError(std::string const&)
 Json::valueToQuotedString(char const*)
+Json::valueToQuotedString(char const*, unsigned long)
 Json::valueToQuotedStringN(char const*, unsigned long, bool)
 Json::valueToQuotedStringN(char const*, unsigned long, bool) (.cold)
 Json::valueToString(bool)
@@ -898,6 +908,7 @@ N10__cxxabiv117__class_type_infoE
 N10__cxxabiv119__foreign_exceptionE
 N10__cxxabiv120__si_class_type_infoE
 N10__cxxabiv121__vmi_class_type_infoE
+N4Json10CharReader4ImplE
 N4Json10CharReader7FactoryE
 N4Json10CharReaderE
 N4Json10FastWriterE
@@ -906,6 +917,7 @@ N4Json12RuntimeErrorE
 N4Json12StreamWriter7FactoryE
 N4Json12StreamWriterE
 N4Json12StyledWriterE
+N4Json13OurCharReader7OurImplE
 N4Json13OurCharReaderE
 N4Json17CharReaderBuilderE
 N4Json19StreamWriterBuilderE
@@ -5149,11 +5161,13 @@ typeinfo for ApiLayerInterface
 typeinfo for Json::BuiltStyledStreamWriter
 typeinfo for Json::CharReader
 typeinfo for Json::CharReader::Factory
+typeinfo for Json::CharReader::Impl
 typeinfo for Json::CharReaderBuilder
 typeinfo for Json::Exception
 typeinfo for Json::FastWriter
 typeinfo for Json::LogicError
 typeinfo for Json::OurCharReader
+typeinfo for Json::OurCharReader::OurImpl
 typeinfo for Json::RuntimeError
 typeinfo for Json::StreamWriter
 typeinfo for Json::StreamWriter::Factory
@@ -5358,11 +5372,13 @@ typeinfo name for ApiLayerInterface
 typeinfo name for Json::BuiltStyledStreamWriter
 typeinfo name for Json::CharReader
 typeinfo name for Json::CharReader::Factory
+typeinfo name for Json::CharReader::Impl
 typeinfo name for Json::CharReaderBuilder
 typeinfo name for Json::Exception
 typeinfo name for Json::FastWriter
 typeinfo name for Json::LogicError
 typeinfo name for Json::OurCharReader
+typeinfo name for Json::OurCharReader::OurImpl
 typeinfo name for Json::RuntimeError
 typeinfo name for Json::StreamWriter
 typeinfo name for Json::StreamWriter::Factory
@@ -5651,7 +5667,7 @@ void std::__facet_shims::__numpunct_fill_cache<wchar_t>(std::integral_constant<b
 void std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo>>::_M_push_back_aux<Json::OurReader::ErrorInfo const&>(Json::OurReader::ErrorInfo const&)
 void std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo>>::_M_push_back_aux<Json::Reader::ErrorInfo const&>(Json::Reader::ErrorInfo const&)
 void std::vector<ExtensionListing, std::allocator<ExtensionListing>>::_M_realloc_insert<ExtensionListing const&>(__gnu_cxx::__normal_iterator<ExtensionListing*, std::vector<ExtensionListing, std::allocator<ExtensionListing>>>, ExtensionListing const&)
-void std::vector<Json::OurReader::StructuredError, std::allocator<Json::OurReader::StructuredError>>::_M_realloc_insert<Json::OurReader::StructuredError const&>(__gnu_cxx::__normal_iterator<Json::OurReader::StructuredError*, std::vector<Json::OurReader::StructuredError, std::allocator<Json::OurReader::StructuredError>>>, Json::OurReader::StructuredError const&)
+void std::vector<Json::CharReader::StructuredError, std::allocator<Json::CharReader::StructuredError>>::_M_realloc_insert<Json::CharReader::StructuredError const&>(__gnu_cxx::__normal_iterator<Json::CharReader::StructuredError*, std::vector<Json::CharReader::StructuredError, std::allocator<Json::CharReader::StructuredError>>>, Json::CharReader::StructuredError const&)
 void std::vector<Json::PathArgument const*, std::allocator<Json::PathArgument const*>>::_M_realloc_insert<Json::PathArgument const*>(__gnu_cxx::__normal_iterator<Json::PathArgument const**, std::vector<Json::PathArgument const*, std::allocator<Json::PathArgument const*>>>, Json::PathArgument const*&&)
 void std::vector<Json::PathArgument, std::allocator<Json::PathArgument>>::_M_realloc_insert<Json::PathArgument const&>(__gnu_cxx::__normal_iterator<Json::PathArgument*, std::vector<Json::PathArgument, std::allocator<Json::PathArgument>>>, Json::PathArgument const&)
 void std::vector<Json::Reader::StructuredError, std::allocator<Json::Reader::StructuredError>>::_M_realloc_insert<Json::Reader::StructuredError const&>(__gnu_cxx::__normal_iterator<Json::Reader::StructuredError*, std::vector<Json::Reader::StructuredError, std::allocator<Json::Reader::StructuredError>>>, Json::Reader::StructuredError const&)
@@ -5680,11 +5696,13 @@ vtable for (anonymous namespace)::io_error_category
 vtable for (anonymous namespace)::system_error_category
 vtable for ApiLayerInterface
 vtable for Json::BuiltStyledStreamWriter
+vtable for Json::CharReader
 vtable for Json::CharReaderBuilder
 vtable for Json::Exception
 vtable for Json::FastWriter
 vtable for Json::LogicError
 vtable for Json::OurCharReader
+vtable for Json::OurCharReader::OurImpl
 vtable for Json::RuntimeError
 vtable for Json::StreamWriter
 vtable for Json::StreamWriter::Factory

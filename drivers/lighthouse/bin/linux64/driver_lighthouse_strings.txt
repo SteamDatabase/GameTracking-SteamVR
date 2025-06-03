@@ -919,6 +919,7 @@ $3br
 15IStatePoseMaker
 15IVRAudioDevices
 15StaticPoseMaker
+16:27:25
 16CPropertyManager
 16CSettingsManager
 16CVkCommandBuffer
@@ -956,7 +957,6 @@ $3br
 22CVRCameraComponent_002
 22IVRDisplayComponent001
 22IVRDisplayComponent002
-23:41:21
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
 23CUsbDeviceScannerThread
@@ -1791,7 +1791,7 @@ CDriverManager::HasLoadableDriver(unsigned int) const
 CDriverManager::InitFromPathRegistry(CPropertyManager*)
 CDriverManager::InitFromPathRegistry(CPropertyManager*) (.cold)
 CDriverManager::InitFromPathRegistry(CPropertyManager*)::'lambda'()::operator()() const::encrypted
-CDriverManager::InitFromPathRegistry(CPropertyManager*)::'lambda1'()::operator()() const::encrypted
+CDriverManager::InitFromPathRegistry(CPropertyManager*)::'lambda0'()::operator()() const::encrypted
 CDriverManager::IsBlockedBySafemode(unsigned int) const
 CDriverManager::IsEnabled(unsigned int) const
 CDriverManager::IsEnabledByDefault(unsigned int) const
@@ -5423,7 +5423,7 @@ MAT4
 MAX10
 MD5(void const*, unsigned int)
 MD5_Base64(unsigned char*)
-MD5_Final(unsigned char*, MD5Context_t*)
+MD5_Final(MD5Result_t*, MD5Context_t*)
 MD5_Hex(unsigned char*)
 MD5_Init(MD5Context_t*)
 MD5_Transform(unsigned int*, unsigned int const*)
@@ -5451,7 +5451,7 @@ Matrix44Aligned::ToQuaternion() const
 Matrix44Aligned::ToTransform() const
 Matrix44Aligned::mIdentity
 Max watchdog reset count
-May  7 2025
+May 13 2025
 Mb ?QFo
 MbP?
 Mbp?
@@ -6084,6 +6084,7 @@ Prop_DisplayMCOffset_Float
 Prop_DisplayMCScale_Float
 Prop_DisplayMCType_Int32
 Prop_DisplayMinAnalogGain_Float
+Prop_DisplayMinUIAnalogGain_Float
 Prop_DisplaySupportsAnalogGain_Bool
 Prop_DisplaySupportsMultipleFramerates_Bool
 Prop_DisplaySupportsRuntimeFramerateChange_Bool
@@ -22068,6 +22069,7 @@ vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda3'()::operator()
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda4'()::operator()() const::encrypted
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda5'()::operator()() const::encrypted
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda6'()::operator()() const::encrypted
+vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda7'()::operator()() const::encrypted
 vortex::ComputePoseDifference(math::PoseT<float> const&, math::PoseT<float> const&, float*, float*)
 vortex::CreateDisambiguator(vortex::Disambiguator_t, vortex::ILighthouseSource::Options_s const&, vortex::lighthouse::ESensorType)
 vortex::CreateDisambiguator_Framer(vortex::ILighthouseSource::Options_s const&, vortex::lighthouse::ESensorType)

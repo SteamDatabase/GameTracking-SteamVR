@@ -528,7 +528,7 @@ $3br
 .L10
 .L100
 .L1000
-.L1002
+.L1001
 .L1003
 .L1004
 .L1005
@@ -548,9 +548,9 @@ $3br
 .L1018
 .L1019
 .L102
-.L1022
-.L1027
-.L1029
+.L1020
+.L1023
+.L1028
 .L103
 .L1030
 .L10306
@@ -603,15 +603,16 @@ $3br
 .L10466
 .L1047
 .L10478
-.L1049
+.L1048
 .L105
-.L1052
+.L1050
 .L1053
-.L1055
+.L1054
 .L1056
 .L1057
-.L1059
+.L1058
 .L106
+.L1060
 .L10625
 .L10627
 .L10628
@@ -623,8 +624,7 @@ $3br
 .L10634
 .L10635
 .L107
-.L1071
-.L1073
+.L1072
 .L1074
 .L1075
 .L1076
@@ -641,8 +641,9 @@ $3br
 .L1086
 .L1087
 .L1088
+.L1089
 .L109
-.L1090
+.L1091
 .L1095
 .L11
 .L110
@@ -975,6 +976,12 @@ $3br
 .L1729
 .L173
 .L1730
+.L1731
+.L1732
+.L1733
+.L1734
+.L1735
+.L1736
 .L17396
 .L17397
 .L17399
@@ -995,10 +1002,6 @@ $3br
 .L1750
 .L1751
 .L1752
-.L1753
-.L1754
-.L1755
-.L1756
 .L176
 .L17608
 .L17609
@@ -1169,18 +1172,18 @@ $3br
 .L20
 .L200
 .L201
+.L2011
+.L2012
+.L2014
+.L2015
+.L2016
+.L2017
+.L2018
+.L2019
 .L202
+.L2020
 .L203
-.L2031
-.L2032
-.L2034
-.L2035
-.L2036
-.L2037
-.L2038
-.L2039
 .L204
-.L2040
 .L205
 .L206
 .L207
@@ -1284,18 +1287,18 @@ $3br
 .L247
 .L248
 .L249
+.L2495
+.L2499
 .L25
 .L250
+.L2501
+.L2502
+.L2503
+.L2504
+.L2505
+.L2506
 .L251
-.L2515
-.L2519
 .L252
-.L2521
-.L2522
-.L2523
-.L2524
-.L2525
-.L2526
 .L253
 .L254
 .L255
@@ -1364,17 +1367,7 @@ $3br
 .L280
 .L2801
 .L2802
-.L2804
-.L2805
-.L2806
-.L2807
-.L2808
-.L2809
 .L281
-.L2810
-.L2811
-.L2812
-.L2813
 .L2816
 .L2818
 .L2819
@@ -1734,14 +1727,14 @@ $3br
 .L4441
 .L4442
 .L4443
+.L4445
 .L4446
-.L4447
+.L4448
 .L4449
 .L445
 .L4450
 .L4451
 .L4452
-.L4453
 .L4456
 .L4458
 .L4459
@@ -2467,6 +2460,7 @@ $3br
 .L9237
 .L9238
 .L924
+.L925
 .L926
 .L927
 .L9270
@@ -2498,10 +2492,10 @@ $3br
 .L938
 .L939
 .L94
-.L941
-.L944
+.L940
+.L942
 .L945
-.L947
+.L946
 .L948
 .L949
 .L9490
@@ -2522,27 +2516,27 @@ $3br
 .L951
 .L9515
 .L952
-.L954
+.L953
 .L9543
 .L9545
 .L9546
 .L9547
 .L9548
 .L9549
+.L955
 .L9576
 .L9577
 .L9579
-.L958
 .L9580
 .L9581
 .L9582
 .L9583
+.L959
 .L9592
 .L9596
 .L9598
 .L9599
 .L96
-.L960
 .L9600
 .L9601
 .L9602
@@ -2559,12 +2553,13 @@ $3br
 .L963
 .L964
 .L9649
+.L965
 .L9651
 .L9652
 .L9653
 .L9654
 .L9655
-.L966
+.L967
 .L97
 .L9718
 .L9719
@@ -2591,7 +2586,6 @@ $3br
 .L9856
 .L99
 .L9931
-.L999
 .PLACEHOLDER_VALUE
 .backup
 .bak
@@ -2795,6 +2789,7 @@ $3br
 15IStatePoseMaker
 15IVRAudioDevices
 15StaticPoseMaker
+16:27:19
 16CPropertyManager
 16CSettingsManager
 16CVrcDecodeTagged
@@ -2826,7 +2821,6 @@ $3br
 22CVRCameraComponent_002
 22IVRDisplayComponent001
 22IVRDisplayComponent002
-23:41:15
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
 23CUsbDeviceScannerThread
@@ -3632,7 +3626,7 @@ CDriverManager::HasLoadableDriver(unsigned int) const
 CDriverManager::InitFromPathRegistry(CPropertyManager*)
 CDriverManager::InitFromPathRegistry(CPropertyManager*) (.cold)
 CDriverManager::InitFromPathRegistry(CPropertyManager*)::'lambda'()::operator()() const::encrypted
-CDriverManager::InitFromPathRegistry(CPropertyManager*)::'lambda1'()::operator()() const::encrypted
+CDriverManager::InitFromPathRegistry(CPropertyManager*)::'lambda0'()::operator()() const::encrypted
 CDriverManager::IsBlockedBySafemode(unsigned int) const
 CDriverManager::IsEnabled(unsigned int) const
 CDriverManager::IsEnabledByDefault(unsigned int) const
@@ -6972,7 +6966,7 @@ MAT4
 MAX10
 MD5(void const*, unsigned int)
 MD5_Base64(unsigned char*)
-MD5_Final(unsigned char*, MD5Context_t*)
+MD5_Final(MD5Result_t*, MD5Context_t*)
 MD5_Hex(unsigned char*)
 MD5_Init(MD5Context_t*)
 MD5_Transform(unsigned int*, unsigned int const*)
@@ -6999,7 +6993,7 @@ Matrix44Aligned::ToQuaternion() const
 Matrix44Aligned::ToTransform() const
 Matrix44Aligned::mIdentity
 Max watchdog reset count
-May  7 2025
+May 13 2025
 Mb ?QFo
 MbP?
 Mbp?
@@ -7608,6 +7602,7 @@ Prop_DisplayMCOffset_Float
 Prop_DisplayMCScale_Float
 Prop_DisplayMCType_Int32
 Prop_DisplayMinAnalogGain_Float
+Prop_DisplayMinUIAnalogGain_Float
 Prop_DisplaySupportsAnalogGain_Bool
 Prop_DisplaySupportsMultipleFramerates_Bool
 Prop_DisplaySupportsRuntimeFramerateChange_Bool
@@ -22490,6 +22485,7 @@ vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda3'()::operator()
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda4'()::operator()() const::encrypted
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda5'()::operator()() const::encrypted
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda6'()::operator()() const::encrypted
+vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda7'()::operator()() const::encrypted
 vortex::ComputePoseDifference(math::PoseT<float> const&, math::PoseT<float> const&, float*, float*)
 vortex::CreateDisambiguator(vortex::Disambiguator_t, vortex::ILighthouseSource::Options_s const&, vortex::lighthouse::ESensorType)
 vortex::CreateDisambiguator_Framer(vortex::ILighthouseSource::Options_s const&, vortex::lighthouse::ESensorType)
