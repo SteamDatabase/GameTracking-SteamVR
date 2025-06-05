@@ -2439,7 +2439,6 @@ $3br
 15CVRSettings_001
 15CVRSettings_002
 15CVRSystemLatest
-16:27:19
 16CHmdSystemLatest
 16CInputFilterBase
 16CPathManagerBase
@@ -2560,6 +2559,7 @@ $3br
 20CVRTrackedDevice_004
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
+21:19:19
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -22698,6 +22698,7 @@ Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) (.cold)
 JsonValueToBoolOrDefault(Json::Value const&, bool)
 July
+Jun  4 2025
 June
 KHR_audio
 KHR_lights_punctual
@@ -22814,7 +22815,6 @@ MaterialUtf8FileReader::~MaterialUtf8FileReader()
 Matrix44Aligned::ToQuaternion() const
 Matrix44Aligned::ToTransform() const
 Matrix44Aligned::mIdentity
-May 13 2025
 Member "action_sets" exists, but is not an array
 MergeJsonValues(Json::Value&, Json::Value&)
 MergeJsonValues(Json::Value&, Json::Value&) (.cold)

@@ -431,7 +431,6 @@ Found a dongle already in the bootloader...\n
 Found a watchman device already in the bootloader...\n
 Found all expected bootloaders\n
 FreeLibrary
-Fs#h
 Fuel Gauge Reset
 General reset
 GetCurrentProcess
@@ -666,6 +665,7 @@ WideCharToMultiByte
 WriteFile
 Wrote image to tempfile %s\n\n
 XsBI
+Y.VH
 Zjz\v
 [h1R
 \FileVersion
@@ -751,7 +751,7 @@ bad cast
 bad conversion
 bootloader
 buffer error
-c:\buildslave\steamvr_rel_win32\build\src\lighthouse_watchman_update\Retail\win32\2017\lighthouse_watchman_update.pdb
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\lighthouse_watchman_update\Retail\win32\2017\lighthouse_watchman_update.pdb
 calloc
 dQy/
 data error

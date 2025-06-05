@@ -477,9 +477,9 @@ backgroundUseDomeProjection
 bad allocation
 bad array new length
 bad conversion
-c:\buildslave\steamvr_rel_win32\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_win32\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_win32\build\src\vrurlhandler\Retail\win32\2017\vrurlhandler.pdb
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\vrurlhandler\Retail\win32\2017\vrurlhandler.pdb
 camera
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime

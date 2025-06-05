@@ -243,7 +243,7 @@ PID_8328
 Parsing of JSON file "%s" failed: %s\n
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS9
+RSDS
 RaiseException
 RegCloseKey
 RegCreateKeyExW
@@ -413,10 +413,9 @@ bad allocation
 bad array new length
 bad conversion
 bin/vrclient_x64.dll
-bs#h
-c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\app_containers.cpp
-c:\buildslave\steamvr_rel_win32\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win32\build\src\removeusbhelper\Retail\win32\2017\removeusbhelper.pdb
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\app_containers.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\removeusbhelper\Retail\win32\2017\removeusbhelper.pdb
 collectComments
 config
 deque<T> too long

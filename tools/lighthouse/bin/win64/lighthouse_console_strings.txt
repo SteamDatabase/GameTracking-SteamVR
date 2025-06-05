@@ -262,7 +262,7 @@ $0option $1;\n
 .?AVCDataEvent@@
 .?AVCDisambiguatorFramer@vortex@@
 .?AVCDisambiguatorSyncOnBeam@vortex@@
-.?AVCDisambiguatorTDM@?A0xdd5c741a@vortex@@
+.?AVCDisambiguatorTDM@?A0xf3883f88@vortex@@
 .?AVCDynamicState@pb@lighthouse@@
 .?AVCHeader@pb@lighthouse@@
 .?AVCHidDevice@vortex@@
@@ -478,6 +478,7 @@ $0option $1;\n
 /yQA
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
 0123456789abcdef
+0@UUUUUU
 0da\t
 0x%X\n
 1.2.5
@@ -1145,7 +1146,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
 RPCRT4.dll
-RSDS
+RSDSI
 Radio Version: %i\n
 RaiseException
 Raw mapped input (%2d):
@@ -1580,11 +1581,11 @@ button\tToggle button data dumping\n
 buttons: h %016llx t %016llx p %016llx\n
 buttons: t %016llx p %016llx\n
 bytes
-c:\buildslave\steamvr_rel_win64\build\src\lighthouse_console\Retaillighthouse_console_public\win64\2017\lighthouse_console.pdb
-c:\buildslave\steamvr_rel_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
-c:\buildslave\steamvr_rel_win64\build\src\vortexlib\distortion.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vortexlib\generated_proto_x64\lighthouse_debug.pb.cc
-c:\buildslave\steamvr_rel_win64\build\src\vortexlib\stereo_setup.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\lighthouse_console\Retaillighthouse_console_public\win64\2017\lighthouse_console.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\distortion.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\generated_proto_x64\lighthouse_debug.pb.cc
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\stereo_setup.cpp
 cal_method
 calloc
 capsensecalibrate

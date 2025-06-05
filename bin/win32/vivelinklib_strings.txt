@@ -154,7 +154,6 @@
 000015251212EFDE1523785FEABCD124
 000084211212EFDE1523785FEABCD124
 1e+9999
-6a-p0V
 8EC90001F3154F609FB8838830DAEA50
 8EC90002F3154F609FB8838830DAEA50
 8EC90003F3154F609FB8838830DAEA50
@@ -446,7 +445,7 @@ RANDOM
 RAW:
 READ -H %4.4X
 RESET
-RSDSb
+RSDS
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -703,7 +702,7 @@ bin_file
 blank
 bootloader
 buffer error
-c:\buildslave\steamvr_rel_win32\build\src\vivelinklib\Retail\win32\2017\vivelinklib.pdb
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\vivelinklib\Retail\win32\2017\vivelinklib.pdb
 calloc
 ceil
 cntrl

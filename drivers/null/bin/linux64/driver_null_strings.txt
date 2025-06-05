@@ -107,6 +107,7 @@
 *NSt13__facet_shims12_GLOBAL__N_115moneypunct_shimIwLb0EEE
 *NSt13__facet_shims12_GLOBAL__N_115moneypunct_shimIwLb1EEE
 *Z13InitDriverLogPN2vr12IVRDriverLogEEUl9ELogLevelPKcPvE_
+,4G0]
 -+xX0123456789abcdef0123456789ABCDEF
 -+xX0123456789abcdefABCDEF
 -0123456789
@@ -1004,6 +1005,7 @@ frame_heapsort
 fread
 free
 fseeko64
+ftZ#
 ftello64
 fwrite
 g_serverDriverNull

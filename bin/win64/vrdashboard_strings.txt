@@ -128,7 +128,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-09:26:59
+14:30:00
 1e+9999
 : exception thrown in JSON library
 <unknown>
@@ -317,6 +317,7 @@ InitializeCriticalSectionAndSpinCount
 InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
+Jun  4 2025
 KERNEL32.dll
 LeaveCriticalSection
 Line %d, Column %d
@@ -329,7 +330,6 @@ MSVCP140.dll
 MainMenu
 MainThrd
 MainWndClass
-May 13 2025
 MessageBoxA
 Minidump comment truncated
 Missing ',' or ']' in array declaration
@@ -576,11 +576,11 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrdashboard\Retail\win64\2017\vrdashboard.pdb
-c:\buildslave\steamvr_rel_win64\build\src\vrdashboard\vrdashboard_main.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdashboard\Retail\win64\2017\vrdashboard.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdashboard\vrdashboard_main.cpp
 collectComments
 config
 cs_cz

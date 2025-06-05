@@ -2643,7 +2643,6 @@ $wtpt
 3ltG
 3oD\f
 3p@lgi
-3s#h
 3sL0
 3wl'
 3x1:0,1,0
@@ -8049,7 +8048,7 @@ ROMAN
 ROSE
 RR Interval Window Number
 RR Window Offset
-RSDS
+RSDS(
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -11025,7 +11024,7 @@ c 92
 c&fs&Y
 c0s(
 c4=P
-c:\buildslave\steamvr_rel_win32\build\src\imagetool\Retail\win32\2017\imagetool.pdb
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\imagetool\Retail\win32\2017\imagetool.pdb
 c:\users\aaronl\imagemagick-windows\cairo\src\cairo-error.c
 c:\users\aaronl\imagemagick-windows\glib\glib\gconvert.c
 c:\users\aaronl\imagemagick-windows\glib\glib\gdir.c

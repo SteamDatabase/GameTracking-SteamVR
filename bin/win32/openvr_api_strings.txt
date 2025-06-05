@@ -279,6 +279,7 @@ $@unknown error
 <8bunz8
 <@En[vP
 =87M
+=CkD
 ?3xj
 ?5Wg4p
 ?5a1
@@ -992,7 +993,7 @@ bad file descriptor
 bad locale name
 bad message
 broken pipe
-c:\buildslave\steamvr_rel_win32\build\src\openvr_api\Retailopenvr_api\win32\2017\openvr_api.pdb
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\openvr_api\Retailopenvr_api\win32\2017\openvr_api.pdb
 c?e2
 ceil
 collectComments
