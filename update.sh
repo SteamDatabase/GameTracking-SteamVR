@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 
 cd "${0%/*}"
 . ../common.sh
@@ -14,13 +15,9 @@ FixUCS2
 
 # Prettify js/css
 rm -r resources/webinterface/dashboard_prettier/
-mkdir resources/webinterface/dashboard_prettier/
-cp -r resources/webinterface/dashboard/**/*.js resources/webinterface/dashboard_prettier/
-cp -r resources/webinterface/dashboard/**/*.css resources/webinterface/dashboard_prettier/
-cp -r resources/webinterface/dashboard/*.js resources/webinterface/dashboard_prettier/
-cp -r resources/webinterface/dashboard/*.css resources/webinterface/dashboard_prettier/
+rsync -av --include="*/" --include="*.js" --include="*.css" --exclude="*" --prune-empty-dirs resources/webinterface/dashboard/ resources/webinterface/dashboard_prettier/
 npm run prettier -- --write resources/webinterface/dashboard_prettier/
 
-CreateCommit "$(cat bin/version.txt | grep -o '[0-9\.]*')" "$1"
+CreateCommit "$(grep -o '[0-9\.]*' bin/version.txt)" "$1"
 
 echo "Done."
