@@ -9,6 +9,8 @@ Protobufs/google/
 *.vpk.manifest.txt
 *.bin
 
+resources/webinterface/dashboard/**/*.js
+resources/webinterface/dashboard/**/*.css
 node_modules/
 package-lock.json
 
